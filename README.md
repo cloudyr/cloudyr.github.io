@@ -7,3 +7,6 @@ The motivation for the project is simple: cloud computing is a critical componen
 This is unfortunate given the growing popularity of R and the fact that AWS (and other cloud providers) often make software development kits available for numerous languages (such as Java, Python, Ruby, etc.). R is currently underserved in the realm of cloud computing and the goal of the cloudyr project is to make cloud computing faster, easier, and more intuitive for R users.
 
 Indeed, the project's motto is simple: *"Make R Cloudier!"*
+
+---
+[![cloudyr project logo](http://i.imgur.com/JHS98Y7.png)](https://github.com/cloudyr)
