@@ -1,0 +1,6 @@
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://cloudyr.github.io
+author: cloudyr project
+name: cloudyr project
+description: R, cloud, cloud computing, aws, amazon, open science
