@@ -1,63 +1,62 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: the cloudyr project
+---
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Cloudyr.GitHub.io : cloudyr project website">
+# the cloudyr project #
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+Welcome to **the cloudyr project**! The goal of this initiative is to make cloud computing with R easier, starting with robust tools for working with cloud computing platforms. The project's inital work is with Amazon Web Services, but tools for Google Cloud Services are also in the works.
 
-    <title>Cloudyr.GitHub.io</title>
-  </head>
+The motivation for the project is simple: cloud computing is a critical component of contemporary software development and data analysis. The reasons for this are numerous (e.g., speed, memory, storage capacity, parallel computing, etc.) and need not be rehashed here. Yet R does not currently have many tools for engaging in cloud computing. There are many tools for extracting data from the cloud (see [the Web Technologies Task View](http://cran.r-project.org/web/views/WebTechnologies.html)), but there are not very many tools for connecting a local R instance to cloud-based services.
 
-  <body>
+This is unfortunate given the growing popularity of R and the fact that cloud providers often make software development kits available for numerous languages (such as Java, Python, Ruby, etc.). As an example, boto provides an incredibly robust framework for developing cloud computing applications in Python. R is currently underserved in by AWS software development kits and there are only a few disjointed third-party packages. Aiming to fill this void, the goal of the cloudyr project is to make cloud computing faster, easier, and more intuitive for R users through a unified cloud computing interface.
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/cloudyr">View on GitHub</a>
+Indeed, the project's motto is simple: *Make R Cloudier!*
 
-          <h1 id="project_title">Cloudyr.GitHub.io</h1>
-          <h2 id="project_tagline">cloudyr project website</h2>
+## Project Packages for AWS ##
 
-        </header>
-    </div>
+The project has developed the following packages so far, with the goal to wrap all AWS APIs in the near future:
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="the-cloudyr-project" class="anchor" href="#the-cloudyr-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>the cloudyr project</h1>
+### Storage ###
 
-<p>Welcome to <strong>the cloudyr project</strong>! The goal of this initiative is to make cloud computing with R easier, starting with robust tools for working with Amazon Web Services.</p>
+ - [aws.s3](http://github.com/cloudyr/aws.s3): Simple Storage Service client
+ - [aws.glacier](http://github.com/cloudyr/aws.glacier): Glacier storage client
 
-<p>The motivation for the project is simple: cloud computing is a critical component of contemporary software development and data analysis. The reasons for this are numerous (e.g., speed, memory, storage capacity, parallel computing, etc.) and need not be rehashed here. Yet R does not currently have many tools for engaging in cloud computing. There are many tools for extracting data from the cloud (see <a href="http://cran.r-project.org/web/views/WebTechnologies.html">the Web Technologies Task View</a>), but there are not very many tools for connecting a local R instance to cloud-based services.</p>
+### Infrastructure ###
 
-<p>This is unfortunate given the growing popularity of R and the fact that AWS (and other cloud providers) often make software development kits available for numerous languages (such as Java, Python, Ruby, etc.). R is currently underserved in the realm of cloud computing and the goal of the cloudyr project is to make cloud computing faster, easier, and more intuitive for R users.</p>
+ - [aws.ses](http://github.com/cloudyr/aws.ses): Simple Email Service client
+ - [aws.sns](http://github.com/cloudyr/aws.sns): Simple Notification Service (multi-platform push notification) client
+ - [aws.sqs](http://github.com/cloudyr/aws.sqs): Simple Queue Service client
 
-<p>Indeed, the project's motto is simple: "Make R Cloudier!"</p>
-      </section>
-    </div>
+### Computing ###
+ 
+ - [aws.ec2](http://github.com/cloudyr/aws.ec2): EC2 client
+ <!--
+ - [aws.container](http://github.com/cloudyr/aws.container): EC2 container client
+ - [aws.vpc](http://github.com/cloudyr/aws.vpc): Virtual Private Cloud client
+ - [aws.emr](http://github.com/cloudyr/aws.emr): Elastic Map Reduce (Hadoop) client
+ - [aws.lambda](http://github.com/cloudyr/aws.lamda): Lamda (event-driven computing) client
+ - [aws.kinesis](http://github.com/cloudyr/aws.kinesis): Kinesis (data stream processing) client
+ - [aws.datapipeline](http://github.com/cloudyr/aws.datapipeline): Data Pipeline (task scheduling) client
+ - [aws.elb](http://github.com/cloudyr/aws.elb): Elastic Load Balancing (EC2 distribution) client
+ - [aws.cf](http://github.com/cloudyr/aws.cf): CloudFormation client
+ --></!-->
+ - [MTurkR](http://github.com/leeper/MTurkR): Amazon Mechanical Turk crowdsourcing client
+ 
+### Administration ###
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+ - [aws.iam](http://github.com/cloudyr/aws.iam): Identity and Access Management client
+ <!--
+ - [aws.config](http://github.com/cloudyr/aws.iam): Config client
+ -->
+ - [aws.cloudtrail](http://github.com/cloudyr/aws.cloudtrail): Cloudtrail (API usage tracking) client
+ - [aws.cloudwatch](http://github.com/cloudyr/aws.cloudwatch): Cloudwatch (AWS usage monitoring) client
+ - [aws.signature](http://github.com/cloudyr/aws.signature): Computes AWS Signature Version 4
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-10964766-3");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+<!--
+### Project Packages for GCS ###
 
-
-  </body>
-</html>
+ - [goog.compute]()
+ - [goog.container]()
+ - [goog.storage]()
+-->
