@@ -15,7 +15,7 @@ Indeed, the project's motto is simple: *Make R Cloudier!*
 
 ## Project Packages for AWS ##
 
-The project has developed the following packages so far, with the goal to wrap all AWS APIs in the near future:
+The project is developing the following packages so far, with the goal to wrap all AWS APIs in the near future:
 
 ### Storage ###
 
