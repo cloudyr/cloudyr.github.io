@@ -31,7 +31,8 @@ The project is developing the following packages so far, with the goal to wrap a
 ### Computing ###
  
  - [aws.ec2](http://github.com/cloudyr/aws.ec2): EC2 client
- <!--
+
+<!--
  - [aws.container](http://github.com/cloudyr/aws.container): EC2 container client
  - [aws.vpc](http://github.com/cloudyr/aws.vpc): Virtual Private Cloud client
  - [aws.emr](http://github.com/cloudyr/aws.emr): Elastic Map Reduce (Hadoop) client
@@ -40,15 +41,18 @@ The project is developing the following packages so far, with the goal to wrap a
  - [aws.datapipeline](http://github.com/cloudyr/aws.datapipeline): Data Pipeline (task scheduling) client
  - [aws.elb](http://github.com/cloudyr/aws.elb): Elastic Load Balancing (EC2 distribution) client
  - [aws.cf](http://github.com/cloudyr/aws.cf): CloudFormation client
- --></!-->
+-->
+
  - [MTurkR](http://github.com/leeper/MTurkR): Amazon Mechanical Turk crowdsourcing client
  
 ### Administration ###
 
  - [aws.iam](http://github.com/cloudyr/aws.iam): Identity and Access Management client
- <!--
- - [aws.config](http://github.com/cloudyr/aws.iam): Config client
- -->
+ 
+<!--
+ - [aws.config](http://github.com/cloudyr/aws.config): Config client
+-->
+
  - [aws.cloudtrail](http://github.com/cloudyr/aws.cloudtrail): Cloudtrail (API usage tracking) client
  - [aws.cloudwatch](http://github.com/cloudyr/aws.cloudwatch): Cloudwatch (AWS usage monitoring) client
  - [aws.signature](http://github.com/cloudyr/aws.signature): Computes AWS Signature Version 4
