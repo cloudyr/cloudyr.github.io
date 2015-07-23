@@ -15,7 +15,30 @@ Indeed, the project's motto is simple: *Make R Cloudier!*
 
 ## Project Packages for AWS ##
 
-The project is developing the following packages so far, with the goal to wrap all AWS APIs in the near future:
+The project is developing the following packages so far, with the goal to wrap all AWS APIs in the near future.
+
+As they are released, these packages will be hosted in a drat repository on this website. This means you can install and upgrade cloudyr packages quite simply directly from R:
+
+```R
+if(!require("drat")) {
+    install.packages("drat")
+    library("drat")
+}
+addRepo("cloudyr")
+install.packages("NameOfPackage")
+```
+
+You can also install packages between releases using devtools:
+
+```R
+if(!require("devtools")) {
+    install.packages("devtools")
+    library("devtools")
+}
+install_github("cloudyr/NameOfPackage")
+```
+
+Here's what we're working on so far:
 
 ### Storage ###
 
