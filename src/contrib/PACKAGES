@@ -1,0 +1,7 @@
+Package: aws.signature
+Version: 0.1
+Imports: digest, utils
+License: GPL (>= 2)
+MD5sum: aa96d4af67063f1e6a85f2bdb9df9b2d
+NeedsCompilation: no
+
