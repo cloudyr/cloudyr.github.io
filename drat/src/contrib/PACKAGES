@@ -14,3 +14,10 @@ License: GPL (>= 2)
 MD5sum: 12d8c1deb8b8293ced6ef38912efb425
 NeedsCompilation: no
 
+Package: MTurkR
+Version: 0.6.7
+Imports: curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: f82edc7b14c244f87d976a0cc676e850
+NeedsCompilation: no
+
