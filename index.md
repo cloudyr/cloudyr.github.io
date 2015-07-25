@@ -17,7 +17,7 @@ Indeed, the project's motto is simple: *Make R Cloudier!*
 
 The project is developing the following packages so far, with the goal to wrap all AWS APIs in the near future.
 
-As they are released, these packages will be hosted in a drat repository on this website. This means you can install and upgrade cloudyr packages quite simply directly from R:
+As they are released, these packages are hosted in [a drat repository](https://github.com/eddelbuettel/drat) on this website (specifically: http://cloudyr.github.io/drat) and versions are updated daily and are periodically released to CRAN. This means you can install and upgrade cloudyr packages quite simply directly from R:
 
 ```R
 if(!require("drat")) {
@@ -27,6 +27,8 @@ if(!require("drat")) {
 addRepo("cloudyr")
 install.packages("NameOfPackage")
 ```
+
+To make this even easier, you can add `drat::addRepo("cloudyr")` to your `.Rprofile` or `Rprofile.site` file, so that the cloudyr repository is available every time you open R.
 
 You can also install packages between releases using devtools:
 
@@ -40,20 +42,20 @@ install_github("cloudyr/NameOfPackage")
 
 Here's what we're working on so far:
 
-### Storage ###
+| Category | Package | Service | Available From drat | On CRAN | 
+|----------|---------|---------|---------------------|---------|
+| Storage  | [aws.s3](http://github.com/cloudyr/aws.s3) | Simple Storage Service | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.s3)](http://cran.rstudio.com/package=aws.s3) |
+| | [aws.glacier](http://github.com/cloudyr/aws.glacier) | Glacier | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.glacier)](http://cran.rstudio.com/package=aws.glacier) |
+| Infrastructure | [aws.ses](http://github.com/cloudyr/aws.ses) | Simple Email Service | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.ses)](http://cran.rstudio.com/package=aws.ses) |
+| | [aws.sns](http://github.com/cloudyr/aws.sns) | Simple Notification Service | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.sns)](http://cran.rstudio.com/package=aws.sns) |
+| | [aws.sqs](http://github.com/cloudyr/aws.sqs) | Simple Queue Service | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.sqs)](http://cran.rstudio.com/package=aws.sqs) |
+| Computing | [aws.ec2](http://github.com/cloudyr/aws.ec2) | EC2 | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.ec2)](http://cran.rstudio.com/package=aws.ec2) |
+| | [MTurkR](http://github.com/leeper/MTurkR) | Amazon Mechanical Turk | No | [![CRAN](http://www.r-pkg.org/badges/version/MTurkR)](http://cran.rstudio.com/package=MTurkR) |
+| Administration | [aws.iam](http://github.com/cloudyr/aws.iam) | Identity and Access Management | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.iam)](http://cran.rstudio.com/package=aws.iam) |
+| | [aws.cloudtrail](http://github.com/cloudyr/aws.cloudtrail) | Cloudtrail | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudtrail)](http://cran.rstudio.com/package=aws.cloudtrail) |
+| | [aws.cloudwatch](http://github.com/cloudyr/aws.cloudwatch) | Cloudwatch | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudwatch)](http://cran.rstudio.com/package=aws.cloudwatch) |
+| | [aws.signature](http://github.com/cloudyr/aws.signature) | Computes AWS Signature Version 4  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.signature)](http://cran.rstudio.com/package=aws.signature) |
 
- - [aws.s3](http://github.com/cloudyr/aws.s3): Simple Storage Service client
- - [aws.glacier](http://github.com/cloudyr/aws.glacier): Glacier storage client
-
-### Infrastructure ###
-
- - [aws.ses](http://github.com/cloudyr/aws.ses): Simple Email Service client
- - [aws.sns](http://github.com/cloudyr/aws.sns): Simple Notification Service (multi-platform push notification) client
- - [aws.sqs](http://github.com/cloudyr/aws.sqs): Simple Queue Service client
-
-### Computing ###
- 
- - [aws.ec2](http://github.com/cloudyr/aws.ec2): EC2 client
 
 <!--
  - [aws.container](http://github.com/cloudyr/aws.container): EC2 container client
@@ -66,20 +68,11 @@ Here's what we're working on so far:
  - [aws.cf](http://github.com/cloudyr/aws.cf): CloudFormation client
 -->
 
- - [MTurkR](http://github.com/leeper/MTurkR): Amazon Mechanical Turk crowdsourcing client
- 
-### Administration ###
-
- - [aws.iam](http://github.com/cloudyr/aws.iam): Identity and Access Management client
- 
 <!--
  - [aws.config](http://github.com/cloudyr/aws.config): Config client
 -->
-
- - [aws.cloudtrail](http://github.com/cloudyr/aws.cloudtrail): Cloudtrail (API usage tracking) client
- - [aws.cloudwatch](http://github.com/cloudyr/aws.cloudwatch): Cloudwatch (AWS usage monitoring) client
- - [aws.signature](http://github.com/cloudyr/aws.signature): Computes AWS Signature Version 4
-
+ 
+ 
 <!--
 ### Project Packages for GCS ###
 
