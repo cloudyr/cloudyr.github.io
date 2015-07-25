@@ -1,9 +1,9 @@
 Package: aws.s3
-Version: 0.1.4
+Version: 0.1.5
 Imports: httr, XML, aws.signature
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: f1fa458cc85f75dcd722498ab1e51e70
+MD5sum: 9d7ec5ed8fe18028efe5ac1d164c2f75
 NeedsCompilation: no
 
 Package: aws.signature
