@@ -1,9 +1,9 @@
 Package: aws.s3
-Version: 0.1.10
+Version: 0.1.11
 Imports: httr, XML, base64enc, digest, aws.signature
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 6b1e35c2738ba205def0ff3ca7a826e4
+MD5sum: ddd62823f6e94ea259358c510327a953
 NeedsCompilation: no
 
 Package: aws.signature
