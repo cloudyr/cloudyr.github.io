@@ -11,7 +11,7 @@ Version: 0.1.3
 Imports: digest
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: afa388b1e07fc82c932b6812155adac2
+MD5sum: 30f15d08879b8adda13a4619fb85558a
 NeedsCompilation: no
 
 Package: MTurkR
