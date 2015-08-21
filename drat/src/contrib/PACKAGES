@@ -3,7 +3,7 @@ Version: 0.1.11
 Imports: httr, XML, base64enc, digest, aws.signature
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 441f3506996153c7c4d4fcb08056374c
+MD5sum: 6308a894947103f3f5e42880ec7b5a70
 NeedsCompilation: no
 
 Package: aws.signature
