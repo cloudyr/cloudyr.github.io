@@ -14,6 +14,14 @@ License: GPL (>= 2)
 MD5sum: 5f9222e616972ee988b64830ff63fce7
 NeedsCompilation: no
 
+Package: circleci
+Version: 0.1.1
+Imports: httr
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 516958c44d14b78ac2aa3ae7d866d72e
+NeedsCompilation: no
+
 Package: MTurkR
 Version: 0.6.9
 Imports: utils, stats, curl, digest, base64enc, XML, tcltk
