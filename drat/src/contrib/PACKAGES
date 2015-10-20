@@ -29,3 +29,11 @@ License: GPL-2
 MD5sum: f33fec03e89bf0ec1a3ed071e138ca8d
 NeedsCompilation: no
 
+Package: travisci
+Version: 0.1.1
+Imports: httr, jsonlite
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: cc86cf5bb6f3bb471df0851af097789a
+NeedsCompilation: no
+
