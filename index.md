@@ -15,7 +15,7 @@ Indeed, the project's motto is simple: *Make R Cloudier!*
 
 The project is developing the following packages so far, with the goal to wrap all AWS APIs in the near future.
 
-As they are released, these packages are hosted in [a drat repository](https://github.com/eddelbuettel/drat) on this website (specifically: http://cloudyr.github.io/drat) and versions are updated daily and are periodically released to CRAN. This means you can install and upgrade cloudyr packages quite simply directly from R:
+As they are released, these packages are hosted in [a drat repository](https://github.com/eddelbuettel/drat) on this website (specifically: [http://cloudyr.github.io/drat](http://cloudyr.github.io/drat)) and versions are updated daily and are periodically released to CRAN. This means you can install and upgrade cloudyr packages quite simply directly from R:
 
 ```R
 if(!require("drat")) {
@@ -48,12 +48,15 @@ Here's what we're working on so far:
 | | [aws.sns](http://github.com/cloudyr/aws.sns) | Simple Notification Service | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.sns)](http://cran.rstudio.com/package=aws.sns) |
 | | [aws.sqs](http://github.com/cloudyr/aws.sqs) | Simple Queue Service | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.sqs)](http://cran.rstudio.com/package=aws.sqs) |
 | Computing | [aws.ec2](http://github.com/cloudyr/aws.ec2) | EC2 | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.ec2)](http://cran.rstudio.com/package=aws.ec2) |
-| | [MTurkR](http://github.com/leeper/MTurkR) | Amazon Mechanical Turk | No | [![CRAN](http://www.r-pkg.org/badges/version/MTurkR)](http://cran.rstudio.com/package=MTurkR) |
 | Administration | [aws.iam](http://github.com/cloudyr/aws.iam) | Identity and Access Management | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.iam)](http://cran.rstudio.com/package=aws.iam) |
 | | [aws.cloudtrail](http://github.com/cloudyr/aws.cloudtrail) | Cloudtrail | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudtrail)](http://cran.rstudio.com/package=aws.cloudtrail) |
 | | [aws.cloudwatch](http://github.com/cloudyr/aws.cloudwatch) | Cloudwatch | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudwatch)](http://cran.rstudio.com/package=aws.cloudwatch) |
 | | [aws.signature](http://github.com/cloudyr/aws.signature) | Computes AWS Signature Version 4  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.signature)](http://cran.rstudio.com/package=aws.signature) |
-
+| Crowdsourcing | [MTurkR](http://github.com/leeper/MTurkR) | Amazon Mechanical Turk | No | [![CRAN](http://www.r-pkg.org/badges/version/MTurkR)](http://cran.rstudio.com/package=MTurkR) |
+| | [crowdflower](http://github.com/cloudyr/crowdflower) | Crowdflower | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](http://cran.rstudio.com/package=crowdflower) |
+| | [microworkers](http://github.com/cloudyr/microworkers) | Microworkers | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](http://cran.rstudio.com/package=microworkers) |
+| Package Development | [travisci](http://github.com/cloudyr/travisci) | Travis-CI API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](http://cran.rstudio.com/package=travisci) |
+|  | [circleci](http://github.com/cloudyr/circleci) | Circle-CI API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](http://cran.rstudio.com/package=circleci) |
 
 <!--
  - [aws.container](http://github.com/cloudyr/aws.container): EC2 container client
