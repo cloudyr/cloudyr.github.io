@@ -3,7 +3,7 @@ layout: default
 title: the cloudyr project
 ---
 
-Welcome to **the cloudyr project**! The goal of this initiative is to make cloud computing with R easier, starting with robust tools for working with cloud computing platforms. The project's inital work is with Amazon Web Services, but tools for Google Cloud Services are also in the works.
+Welcome to **the cloudyr project**! The goal of this initiative is to make cloud computing with R easier, starting with robust tools for working with cloud computing platforms. The project's inital work is with Amazon Web Services, various crowdsourcing platforms, and popular continuous integration services for R package development. Tools for Google Cloud Services and Microsoft Azure are also on the long-term agenda.
 
 The motivation for the project is simple: cloud computing is a critical component of contemporary software development and data analysis. The reasons for this are numerous (e.g., speed, memory, storage capacity, parallel computing, etc.) and need not be rehashed here. Yet R does not currently have many tools for engaging in cloud computing. There are many tools for extracting data from the cloud (see [the Web Technologies Task View](http://cran.r-project.org/web/views/WebTechnologies.html)), but there are not very many tools for connecting a local R instance to cloud-based services.
 
@@ -11,7 +11,7 @@ This is unfortunate given the growing popularity of R and the fact that cloud pr
 
 Indeed, the project's motto is simple: *Make R Cloudier!*
 
-## Project Packages for AWS ##
+## Current cloudyr Packages ##
 
 The project is developing the following packages so far, with the goal to wrap all AWS APIs in the near future.
 
@@ -56,7 +56,10 @@ Here's what we're working on so far:
 | | [crowdflower](http://github.com/cloudyr/crowdflower) | Crowdflower | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](http://cran.rstudio.com/package=crowdflower) |
 | | [microworkers](http://github.com/cloudyr/microworkers) | Microworkers | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](http://cran.rstudio.com/package=microworkers) |
 | Package Development | [travisci](http://github.com/cloudyr/travisci) | Travis-CI API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](http://cran.rstudio.com/package=travisci) |
+|  | [appveyor](http://github.com/cloudyr/appveyor) | Appveyor API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](http://cran.rstudio.com/package=appveyor) |
 |  | [circleci](http://github.com/cloudyr/circleci) | Circle-CI API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](http://cran.rstudio.com/package=circleci) |
+
+Contributions are always welcome. Pull requests via GitHub are the preferred way to contribute code and documentation. Ideas, brainstorming, and general discussion are welcome as issues on project-specific repositories or in [cloudyr's gitter chatroom](https://gitter.im/cloudyr).
 
 <!--
  - [aws.container](http://github.com/cloudyr/aws.container): EC2 container client
