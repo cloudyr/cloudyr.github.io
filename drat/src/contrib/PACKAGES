@@ -34,6 +34,6 @@ Version: 0.1.1
 Imports: httr, jsonlite
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: cc86cf5bb6f3bb471df0851af097789a
+MD5sum: 3c7d01a0b0023a7c7ff4baab6019c7c3
 NeedsCompilation: no
 
