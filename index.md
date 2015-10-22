@@ -42,7 +42,7 @@ Here's what we're working on so far:
 
 | Category | Package | Service | Available From drat | On CRAN | 
 |----------|---------|---------|---------------------|---------|
-| Storage  | [aws.s3](http://github.com/cloudyr/aws.s3) | Simple Storage Service | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.s3)](http://cran.rstudio.com/package=aws.s3) |
+| Storage  | [aws.s3](http://github.com/cloudyr/aws.s3) | Simple Storage Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.s3)](http://cran.rstudio.com/package=aws.s3) |
 | | [aws.glacier](http://github.com/cloudyr/aws.glacier) | Glacier | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.glacier)](http://cran.rstudio.com/package=aws.glacier) |
 | Infrastructure | [aws.ses](http://github.com/cloudyr/aws.ses) | Simple Email Service | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.ses)](http://cran.rstudio.com/package=aws.ses) |
 | | [aws.sns](http://github.com/cloudyr/aws.sns) | Simple Notification Service | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.sns)](http://cran.rstudio.com/package=aws.sns) |
@@ -52,12 +52,12 @@ Here's what we're working on so far:
 | | [aws.cloudtrail](http://github.com/cloudyr/aws.cloudtrail) | Cloudtrail | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudtrail)](http://cran.rstudio.com/package=aws.cloudtrail) |
 | | [aws.cloudwatch](http://github.com/cloudyr/aws.cloudwatch) | Cloudwatch | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudwatch)](http://cran.rstudio.com/package=aws.cloudwatch) |
 | | [aws.signature](http://github.com/cloudyr/aws.signature) | Computes AWS Signature Version 4  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.signature)](http://cran.rstudio.com/package=aws.signature) |
-| Crowdsourcing | [MTurkR](http://github.com/leeper/MTurkR) | Amazon Mechanical Turk | No | [![CRAN](http://www.r-pkg.org/badges/version/MTurkR)](http://cran.rstudio.com/package=MTurkR) |
+| Crowdsourcing | [MTurkR](http://github.com/leeper/MTurkR) | Amazon Mechanical Turk | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkR)](http://cran.rstudio.com/package=MTurkR) |
 | | [crowdflower](http://github.com/cloudyr/crowdflower) | Crowdflower | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](http://cran.rstudio.com/package=crowdflower) |
 | | [microworkers](http://github.com/cloudyr/microworkers) | Microworkers | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](http://cran.rstudio.com/package=microworkers) |
-| Package Development | [travisci](http://github.com/cloudyr/travisci) | Travis-CI API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](http://cran.rstudio.com/package=travisci) |
+| Package Development | [travisci](http://github.com/cloudyr/travisci) | Travis-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](http://cran.rstudio.com/package=travisci) |
 |  | [appveyor](http://github.com/cloudyr/appveyor) | Appveyor API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](http://cran.rstudio.com/package=appveyor) |
-|  | [circleci](http://github.com/cloudyr/circleci) | Circle-CI API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](http://cran.rstudio.com/package=circleci) |
+|  | [circleci](http://github.com/cloudyr/circleci) | Circle-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](http://cran.rstudio.com/package=circleci) |
 
 Contributions are always welcome. Pull requests via GitHub are the preferred way to contribute code and documentation. Ideas, brainstorming, and general discussion are welcome as issues on project-specific repositories or in [cloudyr's gitter chatroom](https://gitter.im/cloudyr).
 
