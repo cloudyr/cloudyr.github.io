@@ -23,10 +23,10 @@ MD5sum: a3189fcb84de088e208b5f2e8233a2f6
 NeedsCompilation: no
 
 Package: MTurkR
-Version: 0.6.10
+Version: 0.6.11
 Imports: utils, stats, curl, digest, base64enc, XML, tcltk
 License: GPL-2
-MD5sum: f33fec03e89bf0ec1a3ed071e138ca8d
+MD5sum: 46448f2db6ee2b562dd3e3a9052ce40a
 NeedsCompilation: no
 
 Package: travisci
