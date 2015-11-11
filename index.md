@@ -53,6 +53,7 @@ Here's what we're working on so far:
 | | [aws.cloudwatch](http://github.com/cloudyr/aws.cloudwatch) | Cloudwatch | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudwatch)](http://cran.rstudio.com/package=aws.cloudwatch) |
 | | [aws.signature](http://github.com/cloudyr/aws.signature) | Computes AWS Signature Version 4  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.signature)](http://cran.rstudio.com/package=aws.signature) |
 | Crowdsourcing | [MTurkR](http://github.com/leeper/MTurkR) | Amazon Mechanical Turk | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkR)](http://cran.rstudio.com/package=MTurkR) |
+| | [MTurkRGUI](http://github.com/leeper/MTurkRGUI) | MTurkR GUI | No | [![CRAN](http://www.r-pkg.org/badges/version/MTurkRGUI)](http://cran.rstudio.com/package=MTurkRGUI) |
 | | [crowdflower](http://github.com/cloudyr/crowdflower) | Crowdflower | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](http://cran.rstudio.com/package=crowdflower) |
 | | [microworkers](http://github.com/cloudyr/microworkers) | Microworkers | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](http://cran.rstudio.com/package=microworkers) |
 | Web Surveys | [Rmonkey](http://github.com/cloudyr/Rmonkey) | Survey Monkey | Yes | [![CRAN](http://www.r-pkg.org/badges/version/Rmonkey)](http://cran.rstudio.com/package=Rmonkey) |
