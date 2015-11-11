@@ -29,6 +29,13 @@ License: GPL-2
 MD5sum: 111cefa595e0a143328d070c7cefa2f7
 NeedsCompilation: no
 
+Package: MTurkRGUI
+Version: 0.1.1
+Imports: MTurkR, tcltk, grDevices, utils, XML, curl
+License: GPL-2
+MD5sum: 9e4879736788188dd0b0bffd6656af81
+NeedsCompilation: no
+
 Package: travisci
 Version: 0.1.2
 Imports: httr, jsonlite
