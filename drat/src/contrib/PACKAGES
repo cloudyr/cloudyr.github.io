@@ -37,10 +37,11 @@ MD5sum: 9e4879736788188dd0b0bffd6656af81
 NeedsCompilation: no
 
 Package: travisci
-Version: 0.1.2
+Version: 0.1.4
 Imports: httr, jsonlite
 Suggests: testthat
+Enhances: devtools
 License: GPL (>= 2)
-MD5sum: 72e1853c8bad8dcface5175dedc2d16c
+MD5sum: cbb58cdeb646563b4bc559116e30a957
 NeedsCompilation: no
 
