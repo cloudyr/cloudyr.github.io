@@ -33,7 +33,7 @@ Package: MTurkRGUI
 Version: 0.1.2
 Imports: MTurkR, tcltk, grDevices, utils, XML, curl
 License: GPL-2
-MD5sum: 75af11421a06aac6bd70e2e462e454a2
+MD5sum: 2823ed27bebd3ab9cc6177592e2a1393
 NeedsCompilation: no
 
 Package: travisci
