@@ -26,7 +26,7 @@ Package: MTurkR
 Version: 0.6.18
 Imports: utils, stats, curl, digest, base64enc, XML
 License: GPL-2
-MD5sum: 2c819711e4f666b6f6fe3963bf84e8da
+MD5sum: a60474442e8a2fdff9017cdd6f0bcbc7
 NeedsCompilation: no
 
 Package: MTurkRGUI
