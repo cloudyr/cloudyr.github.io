@@ -30,10 +30,10 @@ MD5sum: a60474442e8a2fdff9017cdd6f0bcbc7
 NeedsCompilation: no
 
 Package: MTurkRGUI
-Version: 0.1.3
+Version: 0.1.4
 Imports: MTurkR, tcltk, grDevices, utils, XML, curl
 License: GPL-2
-MD5sum: 79eb15cd56424dba9e74926c08b60c99
+MD5sum: 46a1460f4a3e2a7169aeb1944fce5d4d
 NeedsCompilation: no
 
 Package: travisci
