@@ -36,6 +36,13 @@ License: GPL-2
 MD5sum: 46a1460f4a3e2a7169aeb1944fce5d4d
 NeedsCompilation: no
 
+Package: Rmonkey
+Version: 0.2.15
+Imports: httr, jsonlite, curl, plyr
+License: GPL-2
+MD5sum: 48af309c1aa5ba78b21261267a106b5b
+NeedsCompilation: no
+
 Package: travisci
 Version: 0.1.4
 Imports: httr, jsonlite
