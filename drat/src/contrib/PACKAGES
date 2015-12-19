@@ -40,7 +40,7 @@ Package: Rmonkey
 Version: 0.2.16
 Imports: httr, jsonlite, curl, plyr
 License: GPL-2
-MD5sum: e77e2976795882a77c72f042743986db
+MD5sum: 89e524033a73f6524c1ad2d74c234f67
 NeedsCompilation: no
 
 Package: travisci
