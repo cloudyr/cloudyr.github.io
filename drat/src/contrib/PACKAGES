@@ -7,11 +7,11 @@ MD5sum: 0ca66f90e1c9fef0ec421eca5e789d40
 NeedsCompilation: no
 
 Package: aws.signature
-Version: 0.1.4
+Version: 0.2.0
 Imports: digest
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 5f9222e616972ee988b64830ff63fce7
+MD5sum: 8a6ecf9af7e0f322468b7bb90a794494
 NeedsCompilation: no
 
 Package: circleci
