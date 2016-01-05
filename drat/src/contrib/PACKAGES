@@ -40,7 +40,7 @@ Package: Rmonkey
 Version: 0.3.0
 Imports: stats, utils, httr, jsonlite, curl, plyr
 License: GPL-2
-MD5sum: e7ea9fdfe209a54d916dd02717f0a4bf
+MD5sum: fc73b79eec8bd7f38eed9d4a066ccfc7
 NeedsCompilation: no
 
 Package: travisci
