@@ -37,10 +37,10 @@ MD5sum: 665a6e5c6d6b67567dad5291473434b8
 NeedsCompilation: no
 
 Package: Rmonkey
-Version: 0.3.1
+Version: 0.3.2
 Imports: stats, utils, httr, jsonlite, curl, plyr
 License: GPL-2
-MD5sum: bf5599dddecec901dffd019f4830dca2
+MD5sum: 25815903d56a6a6cf9bae77a7a159f97
 NeedsCompilation: no
 
 Package: travisci
