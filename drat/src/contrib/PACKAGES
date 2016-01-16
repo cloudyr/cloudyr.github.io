@@ -12,6 +12,14 @@ License: GPL (>= 2)
 MD5sum: 994efc2ca4d46dc388dbf9baf6b2f560
 NeedsCompilation: no
 
+Package: aws.glacier
+Version: 0.1.1
+Imports: httr, XML, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: b9f2b27fd1ca5db584ae0d63fb7cc875
+NeedsCompilation: no
+
 Package: aws.iam
 Version: 0.1.1
 Imports: httr, XML, jsonlite, aws.signature
