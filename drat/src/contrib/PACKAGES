@@ -5,6 +5,13 @@ License: GPL (>= 2)
 MD5sum: d042a0cb46104afa66457c4dc23d0fb2
 NeedsCompilation: no
 
+Package: aws.cloudwatch
+Version: 0.1.1
+Imports: httr, jsonlite, XML, aws.signature
+License: GPL (>= 2)
+MD5sum: 994efc2ca4d46dc388dbf9baf6b2f560
+NeedsCompilation: no
+
 Package: aws.s3
 Version: 0.1.12
 Imports: httr, XML, base64enc, digest, aws.signature
