@@ -12,6 +12,13 @@ License: GPL (>= 2)
 MD5sum: 994efc2ca4d46dc388dbf9baf6b2f560
 NeedsCompilation: no
 
+Package: aws.iam
+Version: 0.1.1
+Imports: httr, XML, jsonlite, aws.signature
+License: GPL (>= 2)
+MD5sum: bdd42b3310e8d4417200878279ec4067
+NeedsCompilation: no
+
 Package: aws.s3
 Version: 0.1.12
 Imports: httr, XML, base64enc, digest, aws.signature
