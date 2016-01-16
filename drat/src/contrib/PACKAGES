@@ -1,3 +1,10 @@
+Package: aws.cloudtrail
+Version: 0.1.1
+Imports: httr, jsonlite, aws.signature
+License: GPL (>= 2)
+MD5sum: 1cd0d744c2750ac8c482f8c5e99b7959
+NeedsCompilation: no
+
 Package: aws.s3
 Version: 0.1.12
 Imports: httr, XML, base64enc, digest, aws.signature
