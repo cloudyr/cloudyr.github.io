@@ -51,6 +51,14 @@ License: GPL (>= 2)
 MD5sum: 8a6ecf9af7e0f322468b7bb90a794494
 NeedsCompilation: no
 
+Package: aws.sqs
+Version: 0.1.1
+Imports: httr, XML, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 2260f5989876a1d8f9fa6f0eaa9ae416
+NeedsCompilation: no
+
 Package: circleci
 Version: 0.1.2
 Imports: httr
