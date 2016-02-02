@@ -1,4 +1,5 @@
-markdown: rdiscount
+markdown: kramdown
+highlighter: rouge
 permalink: /:year/:month/:title/
 url: http://cloudyr.github.io
 author: the cloudyr project
