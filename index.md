@@ -13,7 +13,7 @@ Indeed, the project's motto is simple: *Make R Cloudier!*
 
 ## Current cloudyr Packages ##
 
-The project is [developing many packages](packages.html), especially those provided by AWS, with a goal to wrap all AWS APIs in the near future.
+The project is [developing many packages](packages/index.html), especially those provided by AWS, with a goal to wrap all AWS APIs in the near future.
 
 As they are released, these packages are hosted in [a drat repository](https://github.com/eddelbuettel/drat) on this website (specifically: [http://cloudyr.github.io/drat](http://cloudyr.github.io/drat)) and versions are updated daily and are periodically released to CRAN. This means you can install and upgrade cloudyr packages quite simply directly from R:
 
@@ -28,4 +28,4 @@ install.packages("NameOfPackage")
 
 To make this even easier, you can add `drat::addRepo("cloudyr")` to your `.Rprofile` or `Rprofile.site` file, so that the cloudyr repository is available every time you open R.
 
-See [the packages page](packages.html) for a complete list of what we've been working on.
+See [the packages page](packages/index.html) for a complete list of what we've been working on.
