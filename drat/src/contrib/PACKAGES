@@ -56,7 +56,7 @@ Version: 0.2.0
 Imports: digest
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 8a6ecf9af7e0f322468b7bb90a794494
+MD5sum: 22a9005bdb810a6d75a9d884ca344567
 NeedsCompilation: no
 
 Package: aws.sqs
