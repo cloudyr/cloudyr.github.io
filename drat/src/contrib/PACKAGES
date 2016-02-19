@@ -35,14 +35,6 @@ License: GPL (>= 2)
 MD5sum: bdd42b3310e8d4417200878279ec4067
 NeedsCompilation: no
 
-Package: awspack
-Version: 0.1.1
-Imports: aws.signature, aws.cloudwatch, aws.cloudtrail, aws.iam,
-        aws.s3, aws.ec2, aws.sns, aws.sqs, aws.ses, aws.glacier
-License: GPL (>= 2)
-MD5sum: 204e555e119316943e564f689b51d3a0
-NeedsCompilation: no
-
 Package: aws.s3
 Version: 0.1.12
 Imports: httr, XML, base64enc, digest, aws.signature
@@ -67,6 +59,14 @@ License: GPL (>= 2)
 MD5sum: 2260f5989876a1d8f9fa6f0eaa9ae416
 NeedsCompilation: no
 
+Package: awspack
+Version: 0.1.1
+Imports: aws.signature, aws.cloudwatch, aws.cloudtrail, aws.iam,
+        aws.s3, aws.ec2, aws.sns, aws.sqs, aws.ses, aws.glacier
+License: GPL (>= 2)
+MD5sum: 204e555e119316943e564f689b51d3a0
+NeedsCompilation: no
+
 Package: circleci
 Version: 0.1.2
 Imports: httr
@@ -79,7 +79,7 @@ Package: MTurkR
 Version: 0.6.23
 Imports: utils, stats, curl, digest, base64enc, XML
 License: GPL-2
-MD5sum: 8968de33ff0afc700bf6feafefd4b28d
+MD5sum: fd21dec2bb16741c7918db647a5a5f52
 NeedsCompilation: no
 
 Package: MTurkRGUI
