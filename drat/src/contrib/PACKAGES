@@ -87,7 +87,7 @@ Package: MTurkRGUI
 Version: 0.1.5
 Imports: MTurkR, tcltk, grDevices, utils, XML, curl
 License: GPL-2
-MD5sum: 472ea76c2a91af196801b562a8883b3c
+MD5sum: fab568aff2db95c7badc4e890517cc99
 NeedsCompilation: no
 
 Package: Rmonkey
