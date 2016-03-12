@@ -80,7 +80,7 @@ Version: 0.7.4
 Imports: utils, stats, curl, digest, base64enc, XML
 Suggests: testthat
 License: GPL-2
-MD5sum: 10669229d245892e285ec967e29ae99c
+MD5sum: 4340d785c9326cd2286d8ee0f2c7f70a
 NeedsCompilation: no
 
 Package: MTurkRGUI
