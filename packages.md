@@ -9,7 +9,7 @@ Here's what we're working on so far:
 
 | Category | Package | Service | Available From drat | On CRAN | 
 |----------|---------|---------|---------------------|---------|
-| Bumdle | [awspack](http://github.com/cloudyr/awspack) | All Amazon Web Services | Yes | [![CRAN](http://www.r-pkg.org/badges/version/awspack)](http://cran.rstudio.com/package=awspack) |
+| Bundle | [awspack](http://github.com/cloudyr/awspack) | All Amazon Web Services | Yes | [![CRAN](http://www.r-pkg.org/badges/version/awspack)](http://cran.rstudio.com/package=awspack) |
 | Storage  | [aws.s3](http://github.com/cloudyr/aws.s3) | Simple Storage Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.s3)](http://cran.rstudio.com/package=aws.s3) |
 | | [aws.glacier](http://github.com/cloudyr/aws.glacier) | Glacier | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.glacier)](http://cran.rstudio.com/package=aws.glacier) |
 | Infrastructure | [aws.ses](http://github.com/cloudyr/aws.ses) | Simple Email Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.ses)](http://cran.rstudio.com/package=aws.ses) |
