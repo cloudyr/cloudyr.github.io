@@ -71,15 +71,14 @@ install.packages("NameOfPackage")
 To make this even easier, you can add `drat::addRepo("cloudyr")` to your `.Rprofile` or `Rprofile.site` file, so that the cloudyr repository is available every time you open R.
 
 
-### Installation using devtools ###
+### Installation using devtools or ghit ###
 
-You can also install packages using `devtools::install_github()`. Note, however, that all stable versions of packages are automatically added to the cloudyr drat, so you can always retrieve a stable version using the above workflow. To obtain a potentially unstable version, use:
+You can also install packages using `devtools::install_github()` or `ghit::install_github()` (which provides a lighter weight installer). Note, however, that all stable versions of packages are automatically added to the cloudyr drat, so you can always retrieve a stable version using the above workflow. To obtain a potentially unstable version, use:
 
 ```R
-if(!require("devtools")) {
-    install.packages("devtools")
-    library("devtools")
-}
-install_github("cloudyr/NameOfPackage")
+ghit::install_github("cloudyr/NameOfPackage")
+
+# or
+devtools::install_github("cloudyr/NameOfPackage")
 ```
 
