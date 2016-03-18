@@ -29,7 +29,7 @@ Here's what we're working on so far:
 |  | [appveyor](http://github.com/cloudyr/appveyor) | Appveyor API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](http://cran.rstudio.com/package=appveyor) |
 |  | [circleci](http://github.com/cloudyr/circleci) | Circle-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](http://cran.rstudio.com/package=circleci) |
 
-Contributions are always welcome. See [the cloudyr style guide](styleguide.html) for guidance on package development, structure, and coding style. Pull requests via GitHub are the preferred way to contribute code and documentation. Ideas, brainstorming, and general discussion are welcome as issues on project-specific repositories or in [cloudyr's gitter chatroom](https://gitter.im/cloudyr).
+Contributions are always welcome. See [the cloudyr style guide](../styleguide/index.html) for guidance on package development, structure, and coding style. Pull requests via GitHub are the preferred way to contribute code and documentation. Ideas, brainstorming, and general discussion are welcome as issues on project-specific repositories or in [cloudyr's gitter chatroom](https://gitter.im/cloudyr).
 
 <!--
  - [aws.container](http://github.com/cloudyr/aws.container): EC2 container client
