@@ -1,8 +1,9 @@
 Package: aws.cloudtrail
-Version: 0.1.1
+Version: 0.1.3
 Imports: httr, jsonlite, aws.signature
+Suggests: testthat
 License: GPL (>= 2)
-MD5sum: d042a0cb46104afa66457c4dc23d0fb2
+MD5sum: 99d7c2913460a8f3b957fe89984264ea
 NeedsCompilation: no
 
 Package: aws.cloudwatch
