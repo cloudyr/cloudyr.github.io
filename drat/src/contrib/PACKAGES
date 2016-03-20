@@ -99,10 +99,10 @@ MD5sum: cb50430147992f80d2637d5cadd2c34b
 NeedsCompilation: no
 
 Package: Rmonkey
-Version: 0.3.2
+Version: 0.3.3
 Imports: stats, utils, httr, jsonlite, curl, plyr
 License: GPL-2
-MD5sum: 25815903d56a6a6cf9bae77a7a159f97
+MD5sum: 9b5842366b8d1b8c5391c9668c3ef2e7
 NeedsCompilation: no
 
 Package: travisci
