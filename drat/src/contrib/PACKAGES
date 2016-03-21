@@ -102,7 +102,7 @@ Package: Rmonkey
 Version: 0.3.3
 Imports: stats, utils, httr, jsonlite, curl, plyr
 License: GPL-2
-MD5sum: 9b5842366b8d1b8c5391c9668c3ef2e7
+MD5sum: 6200a0743181ff028623f2f222cbdbf2
 NeedsCompilation: no
 
 Package: travisci
