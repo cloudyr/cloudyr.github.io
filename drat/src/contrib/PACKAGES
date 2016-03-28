@@ -14,11 +14,11 @@ MD5sum: 994efc2ca4d46dc388dbf9baf6b2f560
 NeedsCompilation: no
 
 Package: aws.ec2
-Version: 0.1.6
+Version: 0.1.8
 Imports: aws.signature, httr, xml2, base64enc
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: e350fa43a8fc1a5f6e7c291bc33095b4
+MD5sum: e2a5c68fe4c74d43dc058b56efb1e193
 NeedsCompilation: no
 
 Package: aws.glacier
