@@ -18,11 +18,8 @@ The project is [developing many packages](packages/index.html), especially those
 As they are released, these packages are hosted in [a drat repository](https://github.com/eddelbuettel/drat) on this website (specifically: [http://cloudyr.github.io/drat](http://cloudyr.github.io/drat)) and versions are updated daily and are periodically released to CRAN. This means you can install and upgrade cloudyr packages quite simply directly from R:
 
 ```R
-if(!require("drat")) {
-    install.packages("drat")
-    library("drat")
-}
-addRepo("cloudyr")
+if(!require("drat")) install.packages("drat")
+drat::addRepo("cloudyr")
 install.packages("NameOfPackage")
 ```
 
