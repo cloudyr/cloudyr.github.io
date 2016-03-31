@@ -13,6 +13,14 @@ License: GPL (>= 2)
 MD5sum: 994efc2ca4d46dc388dbf9baf6b2f560
 NeedsCompilation: no
 
+Package: aws.code
+Version: 0.1.2
+Imports: aws.signature, httr, xml2
+Suggests: git2r, testthat
+License: GPL (>= 2)
+MD5sum: 381176560762dbd0237cc5387df3258e
+NeedsCompilation: no
+
 Package: aws.ec2
 Version: 0.1.8
 Imports: aws.signature, httr, xml2, base64enc
