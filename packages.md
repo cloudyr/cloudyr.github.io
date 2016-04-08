@@ -25,7 +25,8 @@ Here's what we're working on so far:
 | | [crowdflower](http://github.com/cloudyr/crowdflower) | Crowdflower | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](http://cran.rstudio.com/package=crowdflower) |
 | | [microworkers](http://github.com/cloudyr/microworkers) | Microworkers | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](http://cran.rstudio.com/package=microworkers) |
 | Web Surveys | [Rmonkey](http://github.com/cloudyr/Rmonkey) | Survey Monkey | Yes | [![CRAN](http://www.r-pkg.org/badges/version/Rmonkey)](http://cran.rstudio.com/package=Rmonkey) |
-| Package Development | [travisci](http://github.com/cloudyr/travisci) | Travis-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](http://cran.rstudio.com/package=travisci) |
+| Software Development | [aws.code](http://github.com/cloudyr/aws.code) | AWS CodeCommit  | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.code)](http://cran.rstudio.com/package=aws.code) |
+|  | [travisci](http://github.com/cloudyr/travisci) | Travis-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](http://cran.rstudio.com/package=travisci) |
 |  | [appveyor](http://github.com/cloudyr/appveyor) | Appveyor API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](http://cran.rstudio.com/package=appveyor) |
 |  | [circleci](http://github.com/cloudyr/circleci) | Circle-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](http://cran.rstudio.com/package=circleci) |
 
