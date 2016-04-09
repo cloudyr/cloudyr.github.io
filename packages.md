@@ -16,6 +16,7 @@ Here's what we're working on so far:
 | | [aws.sns](http://github.com/cloudyr/aws.sns) | Simple Notification Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sns)](http://cran.rstudio.com/package=aws.sns) |
 | | [aws.sqs](http://github.com/cloudyr/aws.sqs) | Simple Queue Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sqs)](http://cran.rstudio.com/package=aws.sqs) |
 | Computing | [aws.ec2](http://github.com/cloudyr/aws.ec2) | EC2 | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.ec2)](http://cran.rstudio.com/package=aws.ec2) |
+| | [aws.lambda](http://github.com/cloudyr/aws.lambda) | Lambda | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.lambda)](http://cran.rstudio.com/package=aws.lambda) |
 | Administration | [aws.iam](http://github.com/cloudyr/aws.iam) | Identity and Access Management | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.iam)](http://cran.rstudio.com/package=aws.iam) |
 | | [aws.cloudtrail](http://github.com/cloudyr/aws.cloudtrail) | Cloudtrail | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudtrail)](http://cran.rstudio.com/package=aws.cloudtrail) |
 | | [aws.cloudwatch](http://github.com/cloudyr/aws.cloudwatch) | Cloudwatch | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudwatch)](http://cran.rstudio.com/package=aws.cloudwatch) |
@@ -29,21 +30,17 @@ Here's what we're working on so far:
 |  | [travisci](http://github.com/cloudyr/travisci) | Travis-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](http://cran.rstudio.com/package=travisci) |
 |  | [appveyor](http://github.com/cloudyr/appveyor) | Appveyor API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](http://cran.rstudio.com/package=appveyor) |
 |  | [circleci](http://github.com/cloudyr/circleci) | Circle-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](http://cran.rstudio.com/package=circleci) |
+|  | [ghit](http://github.com/cloudyr/ghit) | GitHub Package Installer  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/ghit)](http://cran.rstudio.com/package=ghit) |
 
 Contributions are always welcome. See [the cloudyr style guide](../styleguide/index.html) for guidance on package development, structure, and coding style. Pull requests via GitHub are the preferred way to contribute code and documentation. Ideas, brainstorming, and general discussion are welcome as issues on project-specific repositories or in [cloudyr's gitter chatroom](https://gitter.im/cloudyr).
 
 <!--
  - [aws.container](http://github.com/cloudyr/aws.container): EC2 container client
- - [aws.vpc](http://github.com/cloudyr/aws.vpc): Virtual Private Cloud client
  - [aws.emr](http://github.com/cloudyr/aws.emr): Elastic Map Reduce (Hadoop) client
- - [aws.lambda](http://github.com/cloudyr/aws.lamda): Lamda (event-driven computing) client
  - [aws.kinesis](http://github.com/cloudyr/aws.kinesis): Kinesis (data stream processing) client
  - [aws.datapipeline](http://github.com/cloudyr/aws.datapipeline): Data Pipeline (task scheduling) client
  - [aws.elb](http://github.com/cloudyr/aws.elb): Elastic Load Balancing (EC2 distribution) client
  - [aws.cf](http://github.com/cloudyr/aws.cf): CloudFormation client
--->
-
-<!--
  - [aws.config](http://github.com/cloudyr/aws.config): Config client
 -->
  
