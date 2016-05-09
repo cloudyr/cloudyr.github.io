@@ -45,11 +45,11 @@ MD5sum: bdd42b3310e8d4417200878279ec4067
 NeedsCompilation: no
 
 Package: aws.s3
-Version: 0.1.24
+Version: 0.1.25
 Imports: httr, xml2, base64enc, digest, curl, aws.signature
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 36e7b1da88341de13de66d5747bd868d
+MD5sum: 91f2d367de5ba1c236392215717a77fd
 NeedsCompilation: no
 
 Package: aws.signature
