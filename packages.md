@@ -16,7 +16,7 @@ Here's what we're working on so far:
 | | [aws.sns](http://github.com/cloudyr/aws.sns) | Simple Notification Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sns)](http://cran.rstudio.com/package=aws.sns) |
 | | [aws.sqs](http://github.com/cloudyr/aws.sqs) | Simple Queue Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sqs)](http://cran.rstudio.com/package=aws.sqs) |
 | Computing | [aws.ec2](http://github.com/cloudyr/aws.ec2) | EC2 | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.ec2)](http://cran.rstudio.com/package=aws.ec2) |
-| | [aws.lambda](http://github.com/cloudyr/aws.lambda) | Lambda | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.lambda)](http://cran.rstudio.com/package=aws.lambda) |
+| Information | [aws.alexa](http://github.com/cloudyr/aws.alexa) | Alexa | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.alexa)](http://cran.rstudio.com/package=aws.alexa) |
 | Administration | [aws.iam](http://github.com/cloudyr/aws.iam) | Identity and Access Management | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.iam)](http://cran.rstudio.com/package=aws.iam) |
 | | [aws.cloudtrail](http://github.com/cloudyr/aws.cloudtrail) | Cloudtrail | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudtrail)](http://cran.rstudio.com/package=aws.cloudtrail) |
 | | [aws.cloudwatch](http://github.com/cloudyr/aws.cloudwatch) | Cloudwatch | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudwatch)](http://cran.rstudio.com/package=aws.cloudwatch) |
@@ -26,21 +26,24 @@ Here's what we're working on so far:
 | | [crowdflower](http://github.com/cloudyr/crowdflower) | Crowdflower | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](http://cran.rstudio.com/package=crowdflower) |
 | | [microworkers](http://github.com/cloudyr/microworkers) | Microworkers | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](http://cran.rstudio.com/package=microworkers) |
 | Web Surveys | [Rmonkey](http://github.com/cloudyr/Rmonkey) | Survey Monkey | Yes | [![CRAN](http://www.r-pkg.org/badges/version/Rmonkey)](http://cran.rstudio.com/package=Rmonkey) |
-| Software Development | [aws.code](http://github.com/cloudyr/aws.code) | AWS CodeCommit  | No | [![CRAN](http://www.r-pkg.org/badges/version/aws.code)](http://cran.rstudio.com/package=aws.code) |
-|  | [travisci](http://github.com/cloudyr/travisci) | Travis-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](http://cran.rstudio.com/package=travisci) |
+| Package Development | [travisci](http://github.com/cloudyr/travisci) | Travis-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](http://cran.rstudio.com/package=travisci) |
 |  | [appveyor](http://github.com/cloudyr/appveyor) | Appveyor API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](http://cran.rstudio.com/package=appveyor) |
 |  | [circleci](http://github.com/cloudyr/circleci) | Circle-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](http://cran.rstudio.com/package=circleci) |
-|  | [ghit](http://github.com/cloudyr/ghit) | GitHub Package Installer  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/ghit)](http://cran.rstudio.com/package=ghit) |
 
 Contributions are always welcome. See [the cloudyr style guide](../styleguide/index.html) for guidance on package development, structure, and coding style. Pull requests via GitHub are the preferred way to contribute code and documentation. Ideas, brainstorming, and general discussion are welcome as issues on project-specific repositories or in [cloudyr's gitter chatroom](https://gitter.im/cloudyr).
 
 <!--
  - [aws.container](http://github.com/cloudyr/aws.container): EC2 container client
+ - [aws.vpc](http://github.com/cloudyr/aws.vpc): Virtual Private Cloud client
  - [aws.emr](http://github.com/cloudyr/aws.emr): Elastic Map Reduce (Hadoop) client
+ - [aws.lambda](http://github.com/cloudyr/aws.lamda): Lamda (event-driven computing) client
  - [aws.kinesis](http://github.com/cloudyr/aws.kinesis): Kinesis (data stream processing) client
  - [aws.datapipeline](http://github.com/cloudyr/aws.datapipeline): Data Pipeline (task scheduling) client
  - [aws.elb](http://github.com/cloudyr/aws.elb): Elastic Load Balancing (EC2 distribution) client
  - [aws.cf](http://github.com/cloudyr/aws.cf): CloudFormation client
+-->
+
+<!--
  - [aws.config](http://github.com/cloudyr/aws.config): Config client
 -->
  
@@ -69,14 +72,15 @@ install.packages("NameOfPackage")
 To make this even easier, you can add `drat::addRepo("cloudyr")` to your `.Rprofile` or `Rprofile.site` file, so that the cloudyr repository is available every time you open R.
 
 
-### Installation using devtools or ghit ###
+### Installation using devtools ###
 
-You can also install packages using `devtools::install_github()` or `ghit::install_github()` (which provides a lighter weight installer). Note, however, that all stable versions of packages are automatically added to the cloudyr drat, so you can always retrieve a stable version using the above workflow. To obtain a potentially unstable version, use:
+You can also install packages using `devtools::install_github()`. Note, however, that all stable versions of packages are automatically added to the cloudyr drat, so you can always retrieve a stable version using the above workflow. To obtain a potentially unstable version, use:
 
 ```R
-ghit::install_github("cloudyr/NameOfPackage")
-
-# or
-devtools::install_github("cloudyr/NameOfPackage")
+if(!require("devtools")) {
+    install.packages("devtools")
+    library("devtools")
+}
+install_github("cloudyr/NameOfPackage")
 ```
 
