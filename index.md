@@ -26,3 +26,8 @@ install.packages("NameOfPackage")
 To make this even easier, you can add `drat::addRepo("cloudyr")` to your `.Rprofile` or `Rprofile.site` file, so that the cloudyr repository is available every time you open R.
 
 See [the packages page](packages/index.html) for a complete list of what we've been working on.
+
+## Recent News ##
+
+<a class="twitter-timeline" href="https://twitter.com/cloudyRproject" data-widget-id="735114108811550721">Tweets by @cloudyRproject</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
