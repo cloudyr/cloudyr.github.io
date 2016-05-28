@@ -113,6 +113,13 @@ License: GPL-2
 MD5sum: 6200a0743181ff028623f2f222cbdbf2
 NeedsCompilation: no
 
+Package: rscribd
+Version: 0.1.2
+Imports: tools, utils, httr, XML, digest
+License: MIT + file LICENSE
+MD5sum: cb604fa3977e1b0fcb2adbf769041302
+NeedsCompilation: no
+
 Package: travisci
 Version: 0.1.4
 Imports: httr, jsonlite
