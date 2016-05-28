@@ -96,7 +96,7 @@ Version: 1.0.4
 Imports: tools, graphics, grDevices, httr, png, jpeg
 Suggests: testthat
 License: GPL-3
-MD5sum: 2c96c2ddef5a3fdecdad36d1a5a8af66
+MD5sum: 2f5ba82adfd3aba20dd6ac871692d375
 NeedsCompilation: no
 
 Package: MTurkR
