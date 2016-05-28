@@ -9,26 +9,27 @@ Here's what we're working on so far:
 
 | Category | Package | Service | Available From drat | On CRAN | 
 |----------|---------|---------|---------------------|---------|
-| Bundle | [awspack](http://github.com/cloudyr/awspack) | All Amazon Web Services | Yes | [![CRAN](http://www.r-pkg.org/badges/version/awspack)](http://cran.rstudio.com/package=awspack) |
-| Storage  | [aws.s3](http://github.com/cloudyr/aws.s3) | Simple Storage Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.s3)](http://cran.rstudio.com/package=aws.s3) |
-| | [aws.glacier](http://github.com/cloudyr/aws.glacier) | Glacier | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.glacier)](http://cran.rstudio.com/package=aws.glacier) |
-| Infrastructure | [aws.ses](http://github.com/cloudyr/aws.ses) | Simple Email Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.ses)](http://cran.rstudio.com/package=aws.ses) |
-| | [aws.sns](http://github.com/cloudyr/aws.sns) | Simple Notification Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sns)](http://cran.rstudio.com/package=aws.sns) |
-| | [aws.sqs](http://github.com/cloudyr/aws.sqs) | Simple Queue Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sqs)](http://cran.rstudio.com/package=aws.sqs) |
-| Computing | [aws.ec2](http://github.com/cloudyr/aws.ec2) | EC2 | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.ec2)](http://cran.rstudio.com/package=aws.ec2) |
-| Information | [aws.alexa](http://github.com/cloudyr/aws.alexa) | Alexa | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.alexa)](http://cran.rstudio.com/package=aws.alexa) |
-| Administration | [aws.iam](http://github.com/cloudyr/aws.iam) | Identity and Access Management | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.iam)](http://cran.rstudio.com/package=aws.iam) |
-| | [aws.cloudtrail](http://github.com/cloudyr/aws.cloudtrail) | Cloudtrail | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudtrail)](http://cran.rstudio.com/package=aws.cloudtrail) |
-| | [aws.cloudwatch](http://github.com/cloudyr/aws.cloudwatch) | Cloudwatch | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudwatch)](http://cran.rstudio.com/package=aws.cloudwatch) |
-| | [aws.signature](http://github.com/cloudyr/aws.signature) | Computes AWS Signature Version 4  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.signature)](http://cran.rstudio.com/package=aws.signature) |
-| Crowdsourcing | [MTurkR](http://github.com/leeper/MTurkR) | Amazon Mechanical Turk | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkR)](http://cran.rstudio.com/package=MTurkR) |
-| | [MTurkRGUI](http://github.com/leeper/MTurkRGUI) | MTurkR GUI | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkRGUI)](http://cran.rstudio.com/package=MTurkRGUI) |
-| | [crowdflower](http://github.com/cloudyr/crowdflower) | Crowdflower | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](http://cran.rstudio.com/package=crowdflower) |
-| | [microworkers](http://github.com/cloudyr/microworkers) | Microworkers | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](http://cran.rstudio.com/package=microworkers) |
-| Web Surveys | [Rmonkey](http://github.com/cloudyr/Rmonkey) | Survey Monkey | Yes | [![CRAN](http://www.r-pkg.org/badges/version/Rmonkey)](http://cran.rstudio.com/package=Rmonkey) |
-| Package Development | [travisci](http://github.com/cloudyr/travisci) | Travis-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](http://cran.rstudio.com/package=travisci) |
-|  | [appveyor](http://github.com/cloudyr/appveyor) | Appveyor API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](http://cran.rstudio.com/package=appveyor) |
-|  | [circleci](http://github.com/cloudyr/circleci) | Circle-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](http://cran.rstudio.com/package=circleci) |
+| Bundle | [awspack](https://github.com/cloudyr/awspack) | All Amazon Web Services | Yes | [![CRAN](http://www.r-pkg.org/badges/version/awspack)](https://cloud.r-project.org/package=awspack) |
+| Storage  | [aws.s3](https://github.com/cloudyr/aws.s3) | Simple Storage Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.s3)](https://cloud.r-project.org/package=aws.s3) |
+| | [aws.glacier](https://github.com/cloudyr/aws.glacier) | Glacier | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.glacier)](https://cloud.r-project.org/package=aws.glacier) |
+| | [imguR](https://github.com/cloudyr/aws.glacier) | [imgur](http://imgur.com/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/imguR)](https://cloud.r-project.org/package=imguR) |
+| Infrastructure | [aws.ses](https://github.com/cloudyr/aws.ses) | Simple Email Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.ses)](https://cloud.r-project.org/package=aws.ses) |
+| | [aws.sns](https://github.com/cloudyr/aws.sns) | Simple Notification Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sns)](https://cloud.r-project.org/package=aws.sns) |
+| | [aws.sqs](https://github.com/cloudyr/aws.sqs) | Simple Queue Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sqs)](https://cloud.r-project.org/package=aws.sqs) |
+| Computing | [aws.ec2](https://github.com/cloudyr/aws.ec2) | EC2 | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.ec2)](https://cloud.r-project.org/package=aws.ec2) |
+| Information | [aws.alexa](https://github.com/cloudyr/aws.alexa) | Alexa | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.alexa)](https://cloud.r-project.org/package=aws.alexa) |
+| Administration | [aws.iam](https://github.com/cloudyr/aws.iam) | Identity and Access Management | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.iam)](https://cloud.r-project.org/package=aws.iam) |
+| | [aws.cloudtrail](https://github.com/cloudyr/aws.cloudtrail) | Cloudtrail | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudtrail)](https://cloud.r-project.org/package=aws.cloudtrail) |
+| | [aws.cloudwatch](https://github.com/cloudyr/aws.cloudwatch) | Cloudwatch | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudwatch)](https://cloud.r-project.org/package=aws.cloudwatch) |
+| | [aws.signature](https://github.com/cloudyr/aws.signature) | Computes AWS Signature Version 4  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.signature)](https://cloud.r-project.org/package=aws.signature) |
+| Crowdsourcing | [MTurkR](https://github.com/leeper/MTurkR) | Amazon Mechanical Turk | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkR)](https://cloud.r-project.org/package=MTurkR) |
+| | [MTurkRGUI](https://github.com/leeper/MTurkRGUI) | MTurkR GUI | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkRGUI)](https://cloud.r-project.org/package=MTurkRGUI) |
+| | [crowdflower](https://github.com/cloudyr/crowdflower) | Crowdflower | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](https://cloud.r-project.org/package=crowdflower) |
+| | [microworkers](https://github.com/cloudyr/microworkers) | Microworkers | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](https://cloud.r-project.org/package=microworkers) |
+| Web Surveys | [Rmonkey](https://github.com/cloudyr/Rmonkey) | Survey Monkey | Yes | [![CRAN](http://www.r-pkg.org/badges/version/Rmonkey)](https://cloud.r-project.org/package=Rmonkey) |
+| Package Development | [travisci](https://github.com/cloudyr/travisci) | Travis-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](https://cloud.r-project.org/package=travisci) |
+|  | [appveyor](https://github.com/cloudyr/appveyor) | Appveyor API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](https://cloud.r-project.org/package=appveyor) |
+|  | [circleci](https://github.com/cloudyr/circleci) | Circle-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](https://cloud.r-project.org/package=circleci) |
 
 Contributions are always welcome. See [the cloudyr style guide](../styleguide/index.html) for guidance on package development, structure, and coding style. Pull requests via GitHub are the preferred way to contribute code and documentation. Ideas, brainstorming, and general discussion are welcome as issues on project-specific repositories or in [cloudyr's gitter chatroom](https://gitter.im/cloudyr).
 
