@@ -30,11 +30,11 @@ MD5sum: e2a5c68fe4c74d43dc058b56efb1e193
 NeedsCompilation: no
 
 Package: aws.glacier
-Version: 0.1.1
+Version: 0.1.5
 Imports: httr, XML, jsonlite, aws.signature
-Suggests: testthat
+Suggests: testthat, aws.sns
 License: GPL (>= 2)
-MD5sum: b9f2b27fd1ca5db584ae0d63fb7cc875
+MD5sum: d025cb141a38c3c3214dd43fe0f1b7a4
 NeedsCompilation: no
 
 Package: aws.iam
