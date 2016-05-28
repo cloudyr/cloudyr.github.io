@@ -7,10 +7,11 @@ MD5sum: 99d7c2913460a8f3b957fe89984264ea
 NeedsCompilation: no
 
 Package: aws.cloudwatch
-Version: 0.1.1
+Version: 0.1.4
 Imports: httr, jsonlite, XML, aws.signature
+Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 994efc2ca4d46dc388dbf9baf6b2f560
+MD5sum: 185d5d71687d83355ce744f29cafd096
 NeedsCompilation: no
 
 Package: aws.code
