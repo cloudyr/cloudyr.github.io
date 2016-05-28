@@ -12,7 +12,8 @@ Here's what we're working on so far:
 | Bundle | [awspack](https://github.com/cloudyr/awspack) | All Amazon Web Services | Yes | [![CRAN](http://www.r-pkg.org/badges/version/awspack)](https://cloud.r-project.org/package=awspack) |
 | Storage  | [aws.s3](https://github.com/cloudyr/aws.s3) | Simple Storage Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.s3)](https://cloud.r-project.org/package=aws.s3) |
 | | [aws.glacier](https://github.com/cloudyr/aws.glacier) | Glacier | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.glacier)](https://cloud.r-project.org/package=aws.glacier) |
-| | [imguR](https://github.com/cloudyr/aws.glacier) | [imgur](http://imgur.com/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/imguR)](https://cloud.r-project.org/package=imguR) |
+| | [imguR](https://github.com/cloudyr/imguR) | [imgur](http://imgur.com/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/imguR)](https://cloud.r-project.org/package=imguR) |
+| | [rcribd](https://github.com/cloudyr/rcribd) | [scribd](https://www.scribd.com/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/rscribd)](https://cloud.r-project.org/package=rscribd) |
 | Infrastructure | [aws.ses](https://github.com/cloudyr/aws.ses) | Simple Email Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.ses)](https://cloud.r-project.org/package=aws.ses) |
 | | [aws.sns](https://github.com/cloudyr/aws.sns) | Simple Notification Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sns)](https://cloud.r-project.org/package=aws.sns) |
 | | [aws.sqs](https://github.com/cloudyr/aws.sqs) | Simple Queue Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sqs)](https://cloud.r-project.org/package=aws.sqs) |
