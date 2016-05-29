@@ -5,7 +5,7 @@ title: the cloudyr project styleguide
 
 **the cloudyr project** uses a standardized style package structure and programming style to streamline development, facilitate any future package maintenance, and ease contributions from new users. This document describes the essential features of a cloudyr package.
 
-## Package Structure ##
+## package structure ##
 
 cloudyr packages should follow the guidelines describe in [*Writing R Extensions*](cran.r-project.org/doc/manuals/r-devel/R-exts.html) and adopt a standard package structure:
 
@@ -59,12 +59,18 @@ citHeader("To cite package 'aws.signature' in publications use:")
                 vers, ".", sep=""))
 ```
 
-### Documentation ###
+### documentation ###
 
-All package documentation should be generated dynamically with roxygen2 (via `devtools::document()`). The `NAMESPACE` file is generated automatically, as well.
+All package documentation should be generated dynamically with roxygen2 (via `devtools::document()`). The `NAMESPACE` file is generated automatically, as well. Some key features of high quality documentation include:
+
+ 1. Packages should have a package-level documentation page (i.e., accessible via the package name, such as `? aws.s3`, from the R console).
+ 2. Cross-references between help files should be used generously. This includes cross-references to other packages' functions (using the `\code{\link[pkgname]{function}}` markup).
+ 3. Related functions should be documented together by using the `#' @rdname` tag, where appropriate.
+ 4. Documentation should use `#' @details`, `#' @references`, and `#' @examples` as much as needed to fully convey relevant details of code. Verbosity is virtue!
+ 5. Vignettes should be used as needed, but are not required. Thematic documentation pages can also be included in addition to function-specific documentation pages (see `? regex` for an example of this).
 
 
-### Code ###
+### code ###
 
 Code should be written cleanly, using roxygen2 inline documentation, comments where appropriate, and in a manner consistent with the [Google R Style Guide](https://google.github.io/styleguide/Rguide.xml) and [Hadley's guide](http://adv-r.had.co.nz/Style.html). A few key points:
 
@@ -101,17 +107,16 @@ drat.sh
 ```
 
 
-### Continuous Integration ###
+### continuous integration ###
 
 All cloudyr packages are tested automatically on the [Travis-CI Continuous Integration service](travis-ci.org). A reasonable `.travis.yml` file would look like the following:
 
 ```
 language: r
 sudo: required
-r_github_packages:
-- cloudyr/aws.signature
-- jimhester/covr
-- eddelbuettel/drat
+r_packages:
+- covr
+- drat
 after_success:
 - Rscript -e 'library(covr);codecov()'
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash drat.sh
@@ -120,9 +125,9 @@ env:
   - secure: jw8SjbwUlKz/zPczyqcvnm0r9jbUvNb4hplUn3bxlD2SniNkitqODk2/jmlfunrpmHJRS4GDx6X6omYTNwvNsyE51dK6XJE8nZuaeCPvGLl3xxgRL6dis2JGwy2itRm0C/P6UEAUSmuTbtR15N1JC7Y7ot0IRpfRZc0tOkuS8L0=
 ```
 
-This indicates the use of native R support, which requires sudo permissions. `r_github_packages` should be used to install working versions of packages.
+This indicates the use of native R support, which requires sudo permissions. `r_github_packages` should be used to install working versions of packages where appropriate.
 
-Packages should have **testthat** tests and should push code coverage results to [the cloudyr codecov.io page](https://codecov.io/github/cloudyr) using the **covr** package.
+Packages should have (**testthat**) tests and should push code coverage results to [the cloudyr codecov.io page](https://codecov.io/github/cloudyr) using the **covr** package.
 
 The **travisci** package should be used, where needed, to automatically trigger builds of dependent cloudyr packages using:
 
@@ -136,7 +141,7 @@ This requires an encrypted `TRAVIS_CI_TOKEN` environment variable.
 
 ### drat ###
 
-All packages, conditional on passing CI tests, are automatically posted to the cloudyr drat repository, so that they can be installed using `install.packages()` in addition to `devtools::install_github()`. The `drat.sh` file achieves this:
+All packages, conditional on passing CI tests, are automatically posted to the cloudyr drat repository, so that they can be installed using `install.packages()` in addition to `install_github()` (from ghit or devtools). The `drat.sh` file achieves this:
 
 ```bash
 #!/bin/bash
@@ -239,11 +244,11 @@ The `README` should contain the cloudyr project footer with a link to the cloudy
 ```
 
 
-## Programming Style ##
+## programming style ##
 
 A few rules about programming style:
 
  1. Commits are cheap and should be used frequently.
  2. Commit messages should reference issue numbers and close issues explicitly (e.g., `fix headers (closes #1)`) where appropriate.
- 3. Pull requests on GitHub should be merged on the command line, not using the web interface, if possible.
+ 3. Pull requests on GitHub should be merged on the command line, not using the web interface, if possible, or via the web interface *without* a merge commit.
 
