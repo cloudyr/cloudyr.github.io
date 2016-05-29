@@ -3,9 +3,9 @@ layout: default
 title: the cloudyr project
 ---
 
-## Current cloudyr Packages ##
+## current cloudyr packages ##
 
-Here's what we're working on so far:
+Here's what we're working on so far. Most of the packages are available in [our drat repository](../drat).
 
 | Category | Package | Service | Available From drat | On CRAN | 
 |----------|---------|---------|---------------------|---------|
@@ -32,7 +32,7 @@ Here's what we're working on so far:
 |  | [appveyor](https://github.com/cloudyr/appveyor) | Appveyor API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](https://cloud.r-project.org/package=appveyor) |
 |  | [circleci](https://github.com/cloudyr/circleci) | Circle-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](https://cloud.r-project.org/package=circleci) |
 
-Contributions are always welcome. See [the cloudyr style guide](../styleguide/index.html) for guidance on package development, structure, and coding style. Pull requests via GitHub are the preferred way to contribute code and documentation. Ideas, brainstorming, and general discussion are welcome as issues on project-specific repositories or in [cloudyr's gitter chatroom](https://gitter.im/cloudyr).
+Contributions are always welcome. See [the cloudyr style guide](../styleguide) for guidance on package development, structure, and coding style. Pull requests via GitHub are the preferred way to contribute code and documentation. Ideas, brainstorming, and general discussion are welcome as issues on project-specific repositories or in [cloudyr's gitter chatroom](https://gitter.im/cloudyr). If you would like to contribute a new package, have a look at [the contributing page](../contributing).
 
 <!--
  - [aws.container](http://github.com/cloudyr/aws.container): EC2 container client
