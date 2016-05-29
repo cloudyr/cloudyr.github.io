@@ -16,7 +16,7 @@ The cloudyr project aims to provide cloud computing functionality for R. To achi
   
 Some areas that are generally off-topic for the cloudyr project include those that only *retrieve* open data, such as scientific data sources or government data. These types of packages would be more appropriate for [rOpenSci](https://ropensci.org/) or [rOpenGov](http://ropengov.github.io/), respectively. Similarly, packages for managing cloud services (e.g., social media accounts) are probably outside the scope of cloudyr. Finally, packages implementing purely local procedures (e.g., statistical algorithms, etc.) without an obvious cloud-based connection are probably not a good fit for cloudyr.
 
-### contributing to the cloudyr project ##
+## contributing to the cloudyr project ##
 
 Contributions to the cloudyr project are welcome from everyone anywhere in the world. Contributions can be made to existing packages and in the form of new packages that fit within the scope defined above.
 
