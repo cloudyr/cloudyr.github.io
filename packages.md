@@ -27,7 +27,7 @@ Here's what we're working on so far. Most of the packages are available in [our 
 | | [MTurkRGUI](https://github.com/leeper/MTurkRGUI) | MTurkR GUI | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkRGUI)](https://cloud.r-project.org/package=MTurkRGUI) |
 | | [crowdflower](https://github.com/cloudyr/crowdflower) | Crowdflower | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](https://cloud.r-project.org/package=crowdflower) |
 | | [microworkers](https://github.com/cloudyr/microworkers) | Microworkers | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](https://cloud.r-project.org/package=microworkers) |
-| Web Surveys | [limer](https://github.com/cloudyr/limer) | [LimeSurvey](https://www.limesurvey.org/) | No | [![CRAN](http://www.r-pkg.org/badges/version/limer)](https://cloud.r-project.org/package=limer) |
+| Web Surveys | [limer](https://github.com/cloudyr/limer) | [LimeSurvey](https://www.limesurvey.org/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/limer)](https://cloud.r-project.org/package=limer) |
 |  | [Rmonkey](https://github.com/cloudyr/Rmonkey) | [Survey Monkey](https://www.surveymonkey.com/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/Rmonkey)](https://cloud.r-project.org/package=Rmonkey) |
 | Package Development | [travisci](https://github.com/cloudyr/travisci) | Travis-CI API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](https://cloud.r-project.org/package=travisci) |
 |  | [appveyor](https://github.com/cloudyr/appveyor) | Appveyor API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](https://cloud.r-project.org/package=appveyor) |
