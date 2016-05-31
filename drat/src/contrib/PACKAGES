@@ -103,8 +103,9 @@ NeedsCompilation: no
 Package: limer
 Version: 0.1
 Imports: base64enc, httr, jsonlite
+Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 922427a1c8860696b70882fe140fc8e2
+MD5sum: a6538a38f16b903039fd0b73ea28fca0
 NeedsCompilation: no
 
 Package: MTurkR
