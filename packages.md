@@ -18,6 +18,7 @@ Here's what we're working on so far. Most of the packages are available in [our 
 | | [aws.sns](https://github.com/cloudyr/aws.sns) | Simple Notification Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sns)](https://cloud.r-project.org/package=aws.sns) |
 | | [aws.sqs](https://github.com/cloudyr/aws.sqs) | Simple Queue Service | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.sqs)](https://cloud.r-project.org/package=aws.sqs) |
 | Computing | [aws.ec2](https://github.com/cloudyr/aws.ec2) | EC2 | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.ec2)](https://cloud.r-project.org/package=aws.ec2) |
+| | [rmote](https://github.com/cloudyr/rmote) | Serve Graphics over HTTP a from Remote Server | Yes | [![CRAN](http://www.r-pkg.org/badges/version/rmote)](https://cloud.r-project.org/package=rmote) |
 | Information | [aws.alexa](https://github.com/cloudyr/aws.alexa) | Alexa | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.alexa)](https://cloud.r-project.org/package=aws.alexa) |
 | Administration | [aws.iam](https://github.com/cloudyr/aws.iam) | Identity and Access Management | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.iam)](https://cloud.r-project.org/package=aws.iam) |
 | | [aws.cloudtrail](https://github.com/cloudyr/aws.cloudtrail) | Cloudtrail | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudtrail)](https://cloud.r-project.org/package=aws.cloudtrail) |
