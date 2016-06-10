@@ -130,6 +130,16 @@ License: GPL-2
 MD5sum: 6200a0743181ff028623f2f222cbdbf2
 NeedsCompilation: no
 
+Package: rmote
+Version: 0.3.4
+Depends: R (>= 3.1)
+Imports: tools, htmltools, digest, servr (>= 0.3.1), lattice, ggplot2,
+        htmlwidgets, webshot, png
+Suggests: Cairo, testthat, roxygen2
+License: MIT + file LICENSE
+MD5sum: 9b787ec55fd2bfb2986fa4230881bc95
+NeedsCompilation: no
+
 Package: rscribd
 Version: 0.1.2
 Imports: tools, utils, httr, XML, digest
