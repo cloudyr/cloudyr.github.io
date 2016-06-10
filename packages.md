@@ -23,6 +23,7 @@ Here's what we're working on so far. Most of the packages are available in [our 
 | | [aws.cloudtrail](https://github.com/cloudyr/aws.cloudtrail) | Cloudtrail | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudtrail)](https://cloud.r-project.org/package=aws.cloudtrail) |
 | | [aws.cloudwatch](https://github.com/cloudyr/aws.cloudwatch) | Cloudwatch | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudwatch)](https://cloud.r-project.org/package=aws.cloudwatch) |
 | | [aws.signature](https://github.com/cloudyr/aws.signature) | Computes AWS Signature Version 4  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.signature)](https://cloud.r-project.org/package=aws.signature) |
+| Machine Learning as a Service | [RoogleVision](https://github.com/cloudyr/RoogleVision) | [Google Vision](https://cloud.google.com/vision/) | No | [![CRAN](http://www.r-pkg.org/badges/version/RoogleVision)](https://cloud.r-project.org/package=RoogleVision) |
 | Crowdsourcing | [MTurkR](https://github.com/cloudyr/MTurkR) | Amazon Mechanical Turk | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkR)](https://cloud.r-project.org/package=MTurkR) |
 | | [MTurkRGUI](https://github.com/cloudyr/MTurkRGUI) | MTurkR GUI | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkRGUI)](https://cloud.r-project.org/package=MTurkRGUI) |
 | | [crowdflower](https://github.com/cloudyr/crowdflower) | Crowdflower | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](https://cloud.r-project.org/package=crowdflower) |
