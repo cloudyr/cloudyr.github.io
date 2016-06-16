@@ -16,7 +16,9 @@ Indeed, the project's motto is simple: *make R cloudier!*
 The project is [developing many packages](packages/index.html). As they are released, these packages are hosted in [a drat repository](https://github.com/eddelbuettel/drat) on this website (specifically: [http://cloudyr.github.io/drat](http://cloudyr.github.io/drat)) and versions are updated daily and are periodically released to CRAN. This means you can install and upgrade cloudyr packages quite simply directly from R:
 
 ```R
-if(!require("drat")) install.packages("drat")
+if (!require("drat")) {
+    install.packages("drat")
+}
 drat::addRepo("cloudyr", "http://cloudyr.github.io/drat")
 install.packages("NameOfPackage")
 ```
@@ -31,5 +33,9 @@ To contribute your own project to the cloudyr project sutie, see [the contributi
 
 You can follow the cloudyr project's work on [GitHub](https://github.com/cloudyr) and on [Twitter](https://github.com/cloudyRproject).
 
-<a class="twitter-timeline" href="https://twitter.com/cloudyRproject" data-widget-id="735114108811550721">Tweets by @cloudyRproject</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div style="display:table;">
+ <div style="display:table-cell;">
+  <a class="twitter-timeline" href="https://twitter.com/cloudyRproject" data-widget-id="735114108811550721">Tweets by @cloudyRproject</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ </div>
+</div>
