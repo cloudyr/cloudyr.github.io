@@ -137,7 +137,7 @@ Imports: tools, htmltools, digest, servr (>= 0.3.1), lattice, ggplot2,
         htmlwidgets, webshot, png
 Suggests: Cairo, testthat, roxygen2
 License: MIT + file LICENSE
-MD5sum: 9b787ec55fd2bfb2986fa4230881bc95
+MD5sum: 4cf8abc33214f2214da558818f9c5265
 NeedsCompilation: no
 
 Package: rscribd
