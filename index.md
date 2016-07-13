@@ -31,7 +31,7 @@ To contribute your own project to the cloudyr project sutie, see [the contributi
 
 ## recent news ##
 
-You can follow the cloudyr project's work on [GitHub](https://github.com/cloudyr) and on [Twitter](https://github.com/cloudyRproject).
+You can follow the cloudyr project's work on [GitHub](https://github.com/cloudyr) and on [Twitter](https://twitter.com/cloudyRproject).
 
 <div style="display:table;">
  <div style="display:table-cell;">
