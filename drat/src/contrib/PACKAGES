@@ -92,6 +92,14 @@ License: GPL (>= 2)
 MD5sum: a3189fcb84de088e208b5f2e8233a2f6
 NeedsCompilation: no
 
+Package: ghit
+Version: 0.2.10
+Imports: utils, tools, git2r
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: bf53ee7c98a6e801ff082f4d5b200624
+NeedsCompilation: no
+
 Package: imguR
 Version: 1.0.4
 Imports: tools, graphics, grDevices, httr, png, jpeg
