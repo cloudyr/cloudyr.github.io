@@ -11,6 +11,7 @@ Here's what we're working on so far. Most of the packages are available in [our 
 |----------|---------|---------|---------------------|---------|
 | Bundle | [awspack](https://github.com/cloudyr/awspack) | All Amazon Web Services | Yes | [![CRAN](http://www.r-pkg.org/badges/version/awspack)](https://cloud.r-project.org/package=awspack) |
 | Storage  | [aws.s3](https://github.com/cloudyr/aws.s3) | [Amazon Simple Storage Service](http://aws.amazon.com/s3/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.s3)](https://cloud.r-project.org/package=aws.s3) |
+| | [aws.efs](https://github.com/cloudyr/aws.efs) | [Amazon Elastic File System](http://aws.amazon.com/efs/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.efs)](https://cloud.r-project.org/package=aws.efs) |
 | | [aws.glacier](https://github.com/cloudyr/aws.glacier) | [Amazon Glacier](http://aws.amazon.com/glacier/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.glacier)](https://cloud.r-project.org/package=aws.glacier) |
 | | [googleCloudStorageR](https://github.com/cloudyr/googleCloudStorageR) | [Google Cloud Storage](https://cloud.google.com/storage/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/googleCloudStorageR)](https://cloud.r-project.org/package=googleCloudStorageR) |
 | | [imguR](https://github.com/cloudyr/imguR) | [imgur](http://imgur.com/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/imguR)](https://cloud.r-project.org/package=imguR) |
