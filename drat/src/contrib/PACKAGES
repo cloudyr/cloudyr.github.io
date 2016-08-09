@@ -67,7 +67,7 @@ Version: 0.2.4
 Imports: digest, base64enc
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 2de09040a946888bb2fb942b915fb9f5
+MD5sum: 0807d912d5eb50176a858a52b453e0e1
 NeedsCompilation: no
 
 Package: aws.sns
