@@ -130,7 +130,7 @@ Version: 0.7.11
 Imports: utils, stats, curl, digest, base64enc, XML
 Suggests: testthat
 License: GPL-2
-MD5sum: 3ee6d19688b6a79fad5cf76a06f7ae30
+MD5sum: a87122d019883155f270c8783d3d573c
 NeedsCompilation: no
 
 Package: MTurkRGUI
