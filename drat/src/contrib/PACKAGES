@@ -27,7 +27,7 @@ Version: 0.1.8
 Imports: aws.signature, httr, xml2, base64enc
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 8e5a10bbabda021a4ab166835e12eb7f
+MD5sum: 612f0cbb96a374f439029c534ad2fe8a
 NeedsCompilation: no
 
 Package: aws.efs
