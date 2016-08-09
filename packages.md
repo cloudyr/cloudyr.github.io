@@ -5,7 +5,7 @@ title: the cloudyr project
 
 ## current cloudyr packages ##
 
-Here's what we're working on so far. Most of the packages are available in [our drat repository](../drat).
+Here's what we're working on so far. Most of the packages are available in [our drat repository](../drat). The [Travis CI status page](https://travis-ci.org/cloudyr) can be used to check the build status of development versions (on GitHub).
 
 | Category | Package | Service | Available From drat | On CRAN | 
 |----------|---------|---------|---------------------|---------|
