@@ -56,10 +56,10 @@ MD5sum: 2b6d4831358caa4562bb6e803d78446d
 NeedsCompilation: no
 
 Package: aws.iam
-Version: 0.1.1
+Version: 0.1.2
 Imports: httr, XML, jsonlite, aws.signature
 License: GPL (>= 2)
-MD5sum: bdd42b3310e8d4417200878279ec4067
+MD5sum: 38a96e9c9a06d23e27150314daddd243
 NeedsCompilation: no
 
 Package: aws.s3
