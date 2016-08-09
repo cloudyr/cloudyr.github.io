@@ -71,6 +71,14 @@ License: GPL (>= 2)
 MD5sum: 058652bdb1e039744182ee6d839a8f4f
 NeedsCompilation: no
 
+Package: aws.ses
+Version: 0.1.3
+Imports: httr, xml2, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 3b35eb8f43ab26d3971efffff0850db0
+NeedsCompilation: no
+
 Package: aws.signature
 Version: 0.2.5
 Imports: digest, base64enc
