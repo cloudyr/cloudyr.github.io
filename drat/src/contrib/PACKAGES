@@ -43,7 +43,7 @@ Version: 0.1.5
 Imports: httr, XML, jsonlite, aws.signature
 Suggests: testthat, aws.sns
 License: GPL (>= 2)
-MD5sum: 3933f293f900a1caa6d850ae38551aa4
+MD5sum: 2b6d4831358caa4562bb6e803d78446d
 NeedsCompilation: no
 
 Package: aws.iam
