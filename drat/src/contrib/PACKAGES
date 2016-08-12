@@ -63,12 +63,12 @@ MD5sum: 38a96e9c9a06d23e27150314daddd243
 NeedsCompilation: no
 
 Package: aws.s3
-Version: 0.1.27
-Imports: tools, httr, xml2 (>= 1.0.0), base64enc, digest, curl,
+Version: 0.1.28
+Imports: tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
         aws.signature
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 058652bdb1e039744182ee6d839a8f4f
+MD5sum: 011f9b1b274b0990a7a6138e6aa9f830
 NeedsCompilation: no
 
 Package: aws.ses
@@ -190,4 +190,14 @@ Enhances: devtools
 License: GPL (>= 2)
 MD5sum: cbb58cdeb646563b4bc559116e30a957
 NeedsCompilation: no
+
+Package: xml2
+Version: 1.0.0.9000
+Depends: R (>= 3.1.0)
+Imports: Rcpp
+LinkingTo: Rcpp (>= 0.11.4.6), BH
+Suggests: testthat, curl, covr, knitr, rmarkdown, magrittr, httr
+License: GPL (>= 2)
+MD5sum: 84e90b7e8bf47ceb9440471c132b1c99
+NeedsCompilation: yes
 
