@@ -120,11 +120,11 @@ MD5sum: 3f670b619ce470171546e767374010dd
 NeedsCompilation: no
 
 Package: ghit
-Version: 0.2.10
+Version: 0.2.11
 Imports: utils, tools, git2r
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 2d2b5ad9ad1c52a4141adf86b8fd38fa
+MD5sum: 6722dfb4065909acdad67a386010b9a9
 NeedsCompilation: no
 
 Package: imguR
