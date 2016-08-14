@@ -124,7 +124,7 @@ Version: 0.2.11
 Imports: utils, tools, git2r
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 6722dfb4065909acdad67a386010b9a9
+MD5sum: baee63afa30586cf0046400e80e2ff20
 NeedsCompilation: no
 
 Package: imguR
