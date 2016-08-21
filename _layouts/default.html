@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="twitter:card" content="{% if page.twittercardtype == nil or page.twittercardtype == "" %}summary{% else %}{{ page.cardtype }}{% endif %}" />
+    <meta name="twitter:site" content="@cloudyRproject" />
+    <meta name="twitter:creator" content="@cloudyRproject" />
+    <meta property="twitter:image" content="{% if page.twitterimage == nil or page.twitterimage == "" %}https://cloudyr.github.io/images/cloudy_logo.png{% else %}{{ page.twitterimage }}{% endif %}" />
+    <meta property="twitter:image:alt" content="{% if page.twitterimagealt == nil or page.twitterimagealt == "" %}the cloudyr project logo{% else %}{{ page.twitterimagealt }}{% endif %}" />
+    <meta property="og:url" content="http://cloudyr.github.io/{{ page.url }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{% if page.description == nil or page.description == "" %}{{ page.title }}{% else %}{{ page.description }}{% endif %}" />
+    <meta property="og:image" content="https://cloudyr.github.io/images/cloudy_logo.png" />
     <meta name="description" content="the cloudyr project">
-
     <link rel="stylesheet" type="text/css" media="screen" href="/css/stylesheet.css">
-
     <title>the cloudyr project</title>
   </head>
-
   <body>
     <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NP9KJ2"
@@ -26,10 +31,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div id="header_wrap" class="outer">
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/cloudyr">GitHub Project Page</a>
-
           <h1 id="project_title"><a href="http://cloudyr.github.io">the cloudyr project</a></h1>
           <h2 id="project_tagline">make R cloudier!</h2>
-
         </header>
     </div>
 
