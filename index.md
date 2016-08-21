@@ -1,6 +1,7 @@
 ---
 layout: default
 title: the cloudyr project
+description: The goal of this initiative is to make cloud computing with R easier, starting with robust tools for working with cloud computing platforms. The project's inital work is with Amazon Web Services, various crowdsourcing platforms, and popular continuous integration services for R package development.
 ---
 
 Welcome to **the cloudyr project**! The goal of this initiative is to make cloud computing with R easier, starting with robust tools for working with cloud computing platforms. The project's inital work is with Amazon Web Services, various crowdsourcing platforms, and popular continuous integration services for R package development. Tools for Google Cloud Services and Microsoft Azure are also on the long-term agenda.
