@@ -1,6 +1,7 @@
 ---
 layout: default
 title: the cloudyr project
+description: The cloudyr project aims to provide cloud computing functionality for R. To achieve this, the primary goal is to create new, easy-to-use packages in the following areas...
 ---
 
 ## what the cloudyr project does ##
