@@ -1,6 +1,7 @@
 ---
 layout: default
 title: the cloudyr project styleguide
+description: the cloudyr project uses a standardized style package structure and programming style to streamline development, facilitate any future package maintenance, and ease contributions from new users. This document describes the essential features of a cloudyr package.
 ---
 
 **the cloudyr project** uses a standardized style package structure and programming style to streamline development, facilitate any future package maintenance, and ease contributions from new users. This document describes the essential features of a cloudyr package. A [template package](https://github.com/cloudyr/pkgtemplate) is available, which provides a skeleton that complies with this guide.
