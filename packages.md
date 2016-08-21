@@ -1,6 +1,7 @@
 ---
 layout: default
 title: the cloudyr project
+description: Here's the list of R packages that we are currently working on.
 ---
 
 ## current cloudyr packages ##
