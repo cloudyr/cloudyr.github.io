@@ -127,6 +127,16 @@ License: MIT + file LICENSE
 MD5sum: e7b39d20fc858e27c250268370405ce6
 NeedsCompilation: no
 
+Package: googleCloudStorageR
+Version: 0.1.0.9000
+Depends: R (>= 3.2.0)
+Imports: googleAuthR, testthat(>= 1.0.2), httr (>= 1.2.1), jsonlite (>=
+        1.0), readr (>= 0.2.2)
+Suggests: knitr, covr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: e6468c3d3c3525a8ab2620a083fa76c8
+NeedsCompilation: no
+
 Package: imguR
 Version: 1.0.4
 Imports: tools, graphics, grDevices, httr, png, jpeg
