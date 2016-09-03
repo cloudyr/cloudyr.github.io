@@ -172,7 +172,7 @@ Package: Rmonkey
 Version: 0.3.3
 Imports: stats, utils, httr, jsonlite, curl, plyr
 License: GPL-2
-MD5sum: 6200a0743181ff028623f2f222cbdbf2
+MD5sum: 0905e2bff5115c130ceb59768511281d
 NeedsCompilation: no
 
 Package: rmote
