@@ -32,11 +32,11 @@ MD5sum: 21f96057252ae5270d2eae51bbb0408d
 NeedsCompilation: no
 
 Package: aws.ec2
-Version: 0.1.8
-Imports: aws.signature, httr, xml2, base64enc
+Version: 0.1.9
+Imports: aws.signature, httr, xml2, base64enc, utils
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 88906a58688cf811d026106a14dc7d2d
+MD5sum: 382d839d43c2d47069bccb0e0116830f
 NeedsCompilation: no
 
 Package: aws.efs
