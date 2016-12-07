@@ -62,6 +62,13 @@ License: GPL (>= 2)
 MD5sum: 38a96e9c9a06d23e27150314daddd243
 NeedsCompilation: no
 
+Package: aws.polly
+Version: 0.1.2
+Imports: httr, jsonlite, aws.signature (>= 0.2.6), tuneR
+License: GPL (>= 2)
+MD5sum: 9df91d08f4ca4033b63e1f39e2d0d7d7
+NeedsCompilation: no
+
 Package: aws.s3
 Version: 0.1.32
 Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
