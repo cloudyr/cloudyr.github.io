@@ -12,7 +12,7 @@ Simply, the goal of the cloudyr project is to make cloud computing faster, easie
 
 Indeed, the project's motto is simple: *make R cloudier!*
 
-## current cloudyr packages ##
+## current cloudyr packages
 
 The project is [developing many packages](packages/index.html). As they are released, these packages are hosted in [a drat repository](https://github.com/eddelbuettel/drat) on this website (specifically: [http://cloudyr.github.io/drat](http://cloudyr.github.io/drat)) and versions are updated daily and are periodically released to CRAN. This means you can install and upgrade cloudyr packages quite simply directly from R:
 
@@ -28,9 +28,9 @@ To make this even easier, you can add `drat::addRepo("cloudyr", "http://cloudyr.
 
 See [the packages page](packages/index.html) for a complete list of what we've been working on.
 
-To contribute your own project to the cloudyr project sutie, see [the contributing page](contributing/).
+To contribute your own project to the cloudyr project suite, see [the contributing page](contributing/).
 
-## recent news ##
+## recent news
 
 You can follow the cloudyr project's work on [GitHub](https://github.com/cloudyr) and on [Twitter](https://twitter.com/cloudyRproject).
 
