@@ -102,11 +102,11 @@ MD5sum: 6215f1ffd8d06a235b28b07bf5b13ca0
 NeedsCompilation: no
 
 Package: aws.sqs
-Version: 0.1.7
-Imports: httr, XML, jsonlite, aws.signature
+Version: 0.1.8
+Imports: httr, xml2, jsonlite, aws.signature (>= 0.2.6)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: c3010fbb80b771e72610c246dbc2cbf1
+MD5sum: c0658c39c49a0213878beed010fee060
 NeedsCompilation: no
 
 Package: awspack
