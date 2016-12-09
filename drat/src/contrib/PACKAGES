@@ -106,7 +106,7 @@ Version: 0.1.8
 Imports: httr, xml2, jsonlite, aws.signature (>= 0.2.6)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: c0658c39c49a0213878beed010fee060
+MD5sum: 43189f493caaa23a7404f941501a5ab6
 NeedsCompilation: no
 
 Package: awspack
