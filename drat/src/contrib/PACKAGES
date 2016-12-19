@@ -43,7 +43,7 @@ Package: aws.ec2metadata
 Version: 0.1.1
 Imports: curl, jsonlite
 License: GPL (>= 2)
-MD5sum: 32d87261dcbba5b51c5201cd5a141609
+MD5sum: a53c6dac34ff34e772e37168d9ae6b0a
 NeedsCompilation: no
 
 Package: aws.efs
@@ -67,14 +67,6 @@ Version: 0.1.2
 Imports: httr, XML, jsonlite, aws.signature
 License: GPL (>= 2)
 MD5sum: 38a96e9c9a06d23e27150314daddd243
-NeedsCompilation: no
-
-Package: awspack
-Version: 0.1.1
-Imports: aws.signature, aws.cloudwatch, aws.cloudtrail, aws.iam,
-        aws.s3, aws.ec2, aws.sns, aws.sqs, aws.ses, aws.glacier
-License: GPL (>= 2)
-MD5sum: 204e555e119316943e564f689b51d3a0
 NeedsCompilation: no
 
 Package: aws.polly
@@ -122,6 +114,14 @@ Imports: httr, xml2, jsonlite, aws.signature (>= 0.2.6)
 Suggests: testthat
 License: GPL (>= 2)
 MD5sum: 43189f493caaa23a7404f941501a5ab6
+NeedsCompilation: no
+
+Package: awspack
+Version: 0.1.1
+Imports: aws.signature, aws.cloudwatch, aws.cloudtrail, aws.iam,
+        aws.s3, aws.ec2, aws.sns, aws.sqs, aws.ses, aws.glacier
+License: GPL (>= 2)
+MD5sum: 204e555e119316943e564f689b51d3a0
 NeedsCompilation: no
 
 Package: circleci
