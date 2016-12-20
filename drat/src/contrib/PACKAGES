@@ -88,9 +88,9 @@ NeedsCompilation: no
 Package: aws.ses
 Version: 0.1.4
 Imports: httr, jsonlite, aws.signature (>= 0.2.6)
-Suggests: aws.sns, testthat
+Suggests: aws.sns
 License: GPL (>= 2)
-MD5sum: 2c7fe16bbe38ecd9c7decbd76316d6f4
+MD5sum: f40681d75ed581edcc3b434af9eccc4b
 NeedsCompilation: no
 
 Package: aws.signature
