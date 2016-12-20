@@ -63,10 +63,10 @@ MD5sum: 2b6d4831358caa4562bb6e803d78446d
 NeedsCompilation: no
 
 Package: aws.iam
-Version: 0.1.2
-Imports: httr, XML, jsonlite, aws.signature
+Version: 0.1.5
+Imports: utils, httr, xml2, jsonlite, aws.signature (>= 0.2.6)
 License: GPL (>= 2)
-MD5sum: 38a96e9c9a06d23e27150314daddd243
+MD5sum: dc6e5623015300e1c4f4819ca48de390
 NeedsCompilation: no
 
 Package: aws.polly
