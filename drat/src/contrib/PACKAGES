@@ -86,11 +86,11 @@ MD5sum: 3fc7c48d3b403fd26b1545c61a9bbc4a
 NeedsCompilation: no
 
 Package: aws.ses
-Version: 0.1.3
-Imports: httr, xml2, jsonlite, aws.signature
-Suggests: testthat
+Version: 0.1.4
+Imports: httr, jsonlite, aws.signature (>= 0.2.6)
+Suggests: aws.sns, testthat
 License: GPL (>= 2)
-MD5sum: 3b35eb8f43ab26d3971efffff0850db0
+MD5sum: 2c7fe16bbe38ecd9c7decbd76316d6f4
 NeedsCompilation: no
 
 Package: aws.signature
