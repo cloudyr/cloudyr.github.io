@@ -77,12 +77,12 @@ MD5sum: f888f52c2055c1fbcc7c1545616a14b5
 NeedsCompilation: no
 
 Package: aws.s3
-Version: 0.1.32
+Version: 0.1.33
 Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
         aws.signature (>= 0.2.6)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 0413c2f06ddfb658f5acab69aa01d1e4
+MD5sum: 69f95e02e2a084889b43d5c1a342283f
 NeedsCompilation: no
 
 Package: aws.ses
