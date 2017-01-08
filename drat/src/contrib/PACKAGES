@@ -138,7 +138,7 @@ Version: 0.2.13
 Imports: utils, tools, git2r (>= 0.12.1)
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 9b1a71b5a143bea455d77e9dc59f626d
+MD5sum: 1682df516f931695b283f51d3cb12297
 NeedsCompilation: no
 
 Package: googleCloudStorageR
