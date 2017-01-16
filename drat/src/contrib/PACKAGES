@@ -8,11 +8,11 @@ MD5sum: 4c5f047acedeff783e502fa74bc42ecc
 NeedsCompilation: no
 
 Package: aws.cloudtrail
-Version: 0.1.3
-Imports: httr, jsonlite, aws.signature
+Version: 0.1.4
+Imports: httr, jsonlite, aws.s3 (>= 0.1.34), aws.signature (>= 0.2.6)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 6f1b38a80a2d153abdcda24cd01b978f
+MD5sum: a9446bdcb6c00032c4e7d8a6dcb81628
 NeedsCompilation: no
 
 Package: aws.cloudwatch
@@ -39,6 +39,13 @@ License: GPL (>= 2)
 MD5sum: 314a44f07021ca135079a1c3ea50527b
 NeedsCompilation: no
 
+Package: aws.ec2metadata
+Version: 0.1.1
+Imports: curl, jsonlite
+License: GPL (>= 2)
+MD5sum: c42d54b344bacd71c7860869008b0c78
+NeedsCompilation: no
+
 Package: aws.efs
 Version: 0.1.1
 Imports: utils, httr, aws.signature
@@ -56,10 +63,10 @@ MD5sum: 2b6d4831358caa4562bb6e803d78446d
 NeedsCompilation: no
 
 Package: aws.iam
-Version: 0.1.2
-Imports: httr, XML, jsonlite, aws.signature
+Version: 0.1.5
+Imports: utils, httr, xml2, jsonlite, aws.signature (>= 0.2.6)
 License: GPL (>= 2)
-MD5sum: 38a96e9c9a06d23e27150314daddd243
+MD5sum: dc6e5623015300e1c4f4819ca48de390
 NeedsCompilation: no
 
 Package: aws.polly
@@ -70,20 +77,20 @@ MD5sum: f888f52c2055c1fbcc7c1545616a14b5
 NeedsCompilation: no
 
 Package: aws.s3
-Version: 0.1.32
+Version: 0.1.36
 Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
         aws.signature (>= 0.2.6)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: 3fc7c48d3b403fd26b1545c61a9bbc4a
+MD5sum: 3fe46dd2c3ac569e7d4258c8fa8c71aa
 NeedsCompilation: no
 
 Package: aws.ses
-Version: 0.1.3
-Imports: httr, xml2, jsonlite, aws.signature
-Suggests: testthat
+Version: 0.1.4
+Imports: httr, jsonlite, aws.signature (>= 0.2.6)
+Suggests: aws.sns
 License: GPL (>= 2)
-MD5sum: 3b35eb8f43ab26d3971efffff0850db0
+MD5sum: f40681d75ed581edcc3b434af9eccc4b
 NeedsCompilation: no
 
 Package: aws.signature
@@ -127,11 +134,11 @@ MD5sum: 3f670b619ce470171546e767374010dd
 NeedsCompilation: no
 
 Package: ghit
-Version: 0.2.12
+Version: 0.2.13
 Imports: utils, tools, git2r (>= 0.12.1)
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: c30e799ad34491a4c400d17b5160288f
+MD5sum: 1682df516f931695b283f51d3cb12297
 NeedsCompilation: no
 
 Package: googleCloudStorageR
@@ -141,7 +148,7 @@ Imports: googleAuthR (>= 0.4.0), testthat(>= 1.0.2), httr (>= 1.2.1),
         jsonlite (>= 1.0), readr (>= 0.2.2)
 Suggests: knitr, covr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 2b6e1b1589d4a52bbec1686e2e33b6c7
+MD5sum: 6443c73f01ba93671cd17f72e9e6dd7a
 NeedsCompilation: no
 
 Package: imguR
@@ -165,7 +172,7 @@ Version: 0.7.11
 Imports: utils, stats, curl, digest, base64enc, XML
 Suggests: testthat
 License: GPL-2
-MD5sum: a87122d019883155f270c8783d3d573c
+MD5sum: 7449aa161e591fd892b9da6aba349e57
 NeedsCompilation: no
 
 Package: MTurkRGUI
