@@ -134,11 +134,11 @@ MD5sum: 3f670b619ce470171546e767374010dd
 NeedsCompilation: no
 
 Package: ghit
-Version: 0.2.13
+Version: 0.2.15
 Imports: utils, tools, git2r (>= 0.12.1)
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 2a731d3a7a5ae0b8825a3fb769f27eb1
+MD5sum: 110fd7e69563d220faad9b9cadcde4e2
 NeedsCompilation: no
 
 Package: googleCloudStorageR
