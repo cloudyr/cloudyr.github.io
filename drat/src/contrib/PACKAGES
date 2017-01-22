@@ -168,11 +168,11 @@ MD5sum: a6538a38f16b903039fd0b73ea28fca0
 NeedsCompilation: no
 
 Package: MTurkR
-Version: 0.7.11
+Version: 0.8.0
 Imports: utils, stats, curl, digest, base64enc, XML
 Suggests: testthat
 License: GPL-2
-MD5sum: 7449aa161e591fd892b9da6aba349e57
+MD5sum: 0c72ef2d10dacbff61d0bf354ca0890e
 NeedsCompilation: no
 
 Package: MTurkRGUI
