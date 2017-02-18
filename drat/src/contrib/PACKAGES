@@ -148,7 +148,7 @@ Imports: googleAuthR (>= 0.4.0), testthat(>= 1.0.2), httr (>= 1.2.1),
         jsonlite (>= 1.0), readr (>= 0.2.2)
 Suggests: knitr, covr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 2edd9606efc49443e9353ab8870e4499
+MD5sum: a8694c912dc1a47e24f7884cb8cd2c9f
 NeedsCompilation: no
 
 Package: imguR
