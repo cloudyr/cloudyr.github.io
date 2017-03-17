@@ -164,7 +164,7 @@ Version: 0.1
 Imports: base64enc, httr, jsonlite
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 94b89dcdccd17a6733072a5875adb138
+MD5sum: c68db1049ff2fe9c3f4b0a0463653467
 NeedsCompilation: no
 
 Package: MTurkR
