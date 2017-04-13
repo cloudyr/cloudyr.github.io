@@ -69,6 +69,14 @@ License: GPL (>= 2)
 MD5sum: dc6e5623015300e1c4f4819ca48de390
 NeedsCompilation: no
 
+Package: aws.lambda
+Version: 0.1.2
+Imports: utils, httr, jsonlite, aws.signature (>= 0.2.6), base64enc
+Suggests: testthat, aws.s3, aws.iam
+License: GPL (>= 2)
+MD5sum: 707706ef2044fbfc7146ed8a608e1a16
+NeedsCompilation: no
+
 Package: aws.polly
 Version: 0.1.2
 Imports: httr, jsonlite, aws.signature (>= 0.2.6), tuneR
