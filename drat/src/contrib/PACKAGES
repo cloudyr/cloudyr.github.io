@@ -180,7 +180,7 @@ Version: 0.8.1
 Imports: utils, stats, curl, digest, base64enc, XML
 Suggests: testthat
 License: GPL-2
-MD5sum: 98e81bf746ea9f0ccaf769865fbc2f70
+MD5sum: eff1334a298c23be936a9635f4f38553
 NeedsCompilation: no
 
 Package: MTurkRGUI
