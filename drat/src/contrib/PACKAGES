@@ -175,6 +175,13 @@ License: MIT + file LICENSE
 MD5sum: 980cb6f4ab1d7d3a43d028a7844dc3e1
 NeedsCompilation: no
 
+Package: microworkers
+Version: 0.1.1
+Imports: httr, jsonlite
+License: GPL-2
+MD5sum: 0929e1dad52f1421a264390143230489
+NeedsCompilation: no
+
 Package: MTurkR
 Version: 0.8.1
 Imports: utils, stats, curl, digest, base64enc, XML
