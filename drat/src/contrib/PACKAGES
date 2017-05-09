@@ -4,7 +4,7 @@ Imports: httr
 Suggests: testthat
 Enhances: devtools
 License: GPL (>= 2)
-MD5sum: 4c5f047acedeff783e502fa74bc42ecc
+MD5sum: 5ac2cd3a40ae23ecbec79b39db5768b0
 NeedsCompilation: no
 
 Package: aws.cloudtrail
