@@ -204,7 +204,7 @@ Imports: tools, htmltools, digest, servr (>= 0.3.1), lattice, ggplot2,
         htmlwidgets, webshot, png
 Suggests: Cairo, testthat, roxygen2
 License: MIT + file LICENSE
-MD5sum: 4cf8abc33214f2214da558818f9c5265
+MD5sum: a1b5bd981dad1bfcf005863fb7aae152
 NeedsCompilation: no
 
 Package: rscribd
