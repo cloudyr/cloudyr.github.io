@@ -126,10 +126,10 @@ NeedsCompilation: no
 
 Package: awspack
 Version: 0.1.1
-Imports: aws.signature, aws.cloudwatch, aws.cloudtrail, aws.iam,
-        aws.s3, aws.ec2, aws.sns, aws.sqs, aws.ses, aws.glacier
+Imports: aws.signature, aws.ec2metadata, aws.s3, aws.sns, aws.sqs,
+        aws.ses, aws.polly, aws.alexa
 License: GPL (>= 2)
-MD5sum: 204e555e119316943e564f689b51d3a0
+MD5sum: be92e5e79e8c1bc6e79083d032b35e77
 NeedsCompilation: no
 
 Package: bigQueryR
