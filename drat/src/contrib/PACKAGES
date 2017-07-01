@@ -125,11 +125,11 @@ MD5sum: 1e657e46be0710b7b327ed0fd3e3fdeb
 NeedsCompilation: no
 
 Package: awspack
-Version: 0.1.1
+Version: 0.1.2
 Imports: aws.signature, aws.ec2metadata, aws.s3, aws.sns, aws.sqs,
         aws.ses, aws.polly, aws.alexa
 License: GPL (>= 2)
-MD5sum: 0de426b89cfd9ce29e06ad79dfb7220e
+MD5sum: 9ff924a51ffb998e01ee0ada21418a85
 NeedsCompilation: no
 
 Package: bigQueryR
