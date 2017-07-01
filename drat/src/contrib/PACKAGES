@@ -129,7 +129,7 @@ Version: 0.1.2
 Imports: aws.signature, aws.ec2metadata, aws.s3, aws.sns, aws.sqs,
         aws.ses, aws.polly, aws.alexa
 License: GPL (>= 2)
-MD5sum: 9ff924a51ffb998e01ee0ada21418a85
+MD5sum: ea9203989ae8290216e74cb9a32435ff
 NeedsCompilation: no
 
 Package: bigQueryR
