@@ -70,11 +70,11 @@ MD5sum: 7c88cf22f936aecd9695128b7f504b74
 NeedsCompilation: no
 
 Package: aws.lambda
-Version: 0.1.5
+Version: 0.1.6
 Imports: utils, httr, jsonlite, aws.signature (>= 0.3.4), base64enc
 Suggests: testthat, aws.s3, aws.iam
 License: GPL (>= 2)
-MD5sum: 2719f8221ab1a273a85186f1438a5886
+MD5sum: 0c9f148aad713e39419aecec7a0d36f1
 NeedsCompilation: no
 
 Package: aws.polly
