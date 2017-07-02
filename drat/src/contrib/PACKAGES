@@ -51,7 +51,7 @@ Version: 0.1.2
 Imports: utils, httr, aws.signature (>= 0.3.4)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 09ffb9e3d4ef1de8b305a44f7cfa265d
+MD5sum: d5b6bc6ba8f4e4cd362b132dda54ca7d
 NeedsCompilation: no
 
 Package: aws.glacier
