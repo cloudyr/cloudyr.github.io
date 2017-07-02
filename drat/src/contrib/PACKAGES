@@ -36,7 +36,7 @@ Version: 0.1.9
 Imports: aws.signature, httr, xml2, base64enc, utils
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 5d5144d97cce44d8604f67f52696ce77
+MD5sum: e30f49f50eb297ed6d8a247eb5f9dfc4
 NeedsCompilation: no
 
 Package: aws.ec2metadata
