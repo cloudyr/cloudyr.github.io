@@ -47,11 +47,11 @@ MD5sum: b03e8176bee0c116e8a88c51a96e6135
 NeedsCompilation: no
 
 Package: aws.efs
-Version: 0.1.1
-Imports: utils, httr, aws.signature
+Version: 0.1.2
+Imports: utils, httr, aws.signature (>= 0.3.4)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 2dc5f7e9148476b5a0e086cae8d7032f
+MD5sum: c8c3ca824d3a61d79af925e4c8194566
 NeedsCompilation: no
 
 Package: aws.glacier
