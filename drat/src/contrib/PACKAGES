@@ -81,7 +81,7 @@ Package: aws.polly
 Version: 0.1.3
 Imports: httr, jsonlite, aws.signature (>= 0.3.4), tuneR
 License: GPL (>= 2)
-MD5sum: 24ec05da9c2aabe2f9ef1d77302cc8fc
+MD5sum: f4dd0cbd8a6dbe25b921ac531ad18512
 NeedsCompilation: no
 
 Package: aws.s3
