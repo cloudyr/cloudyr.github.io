@@ -78,10 +78,10 @@ MD5sum: 0c9f148aad713e39419aecec7a0d36f1
 NeedsCompilation: no
 
 Package: aws.polly
-Version: 0.1.2
-Imports: httr, jsonlite, aws.signature (>= 0.2.6), tuneR
+Version: 0.1.3
+Imports: httr, jsonlite, aws.signature (>= 0.3.4), tuneR
 License: GPL (>= 2)
-MD5sum: f888f52c2055c1fbcc7c1545616a14b5
+MD5sum: a5759a0567d9aff06c94c6d951f6d29f
 NeedsCompilation: no
 
 Package: aws.s3
