@@ -12,7 +12,7 @@ Version: 0.1.4
 Imports: httr, jsonlite, aws.s3 (>= 0.1.34), aws.signature (>= 0.2.6)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 8c672f34ba632a7ae69d62c8df60dd1e
+MD5sum: 55be66bb7624c29b077fb5da4d8f2d6f
 NeedsCompilation: no
 
 Package: aws.cloudwatch
