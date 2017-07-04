@@ -8,12 +8,12 @@ MD5sum: 5ac2cd3a40ae23ecbec79b39db5768b0
 NeedsCompilation: no
 
 Package: aws.cloudtrail
-Version: 0.1.5
+Version: 0.1.6
 Imports: utils, httr, jsonlite, aws.s3 (>= 0.1.34), aws.signature (>=
         0.3.4)
 Suggests: testthat, aws.sns
 License: GPL (>= 2)
-MD5sum: a1f01164bb3bec80aa519e3c77cb319c
+MD5sum: 143321259364c3fdf1f5ec31344077f6
 NeedsCompilation: no
 
 Package: aws.cloudwatch
