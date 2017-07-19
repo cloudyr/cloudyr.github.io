@@ -41,10 +41,10 @@ MD5sum: 844c34e9baf45ff76cd4246da7a3dfa4
 NeedsCompilation: no
 
 Package: aws.ec2metadata
-Version: 0.1.2
+Version: 0.1.3
 Imports: curl, jsonlite
 License: GPL (>= 2)
-MD5sum: f06b0b4cc7ec5c4075969dbbaac24703
+MD5sum: 705302cc738593b306a48fca6e13311e
 NeedsCompilation: no
 
 Package: aws.efs
