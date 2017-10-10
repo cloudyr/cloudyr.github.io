@@ -230,7 +230,7 @@ Package: rscribd
 Version: 0.1.2
 Imports: tools, utils, httr, XML, digest
 License: MIT + file LICENSE
-MD5sum: e8f9e3c5c8326df52658828d2f703d71
+MD5sum: 732469685c03fc437c3a263dae11e717
 NeedsCompilation: no
 
 Package: travisci
