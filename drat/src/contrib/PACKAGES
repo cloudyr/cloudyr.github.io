@@ -199,7 +199,7 @@ Version: 0.8.1
 Imports: utils, stats, curl, digest, base64enc, XML
 Suggests: testthat
 License: GPL-2
-MD5sum: 4dd14b469ade5e07992c24101cedd443
+MD5sum: a26998f0d0c5d007bfd06e14e336ef32
 NeedsCompilation: no
 
 Package: MTurkRGUI
