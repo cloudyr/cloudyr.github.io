@@ -75,7 +75,7 @@ Version: 0.1.6
 Imports: utils, httr, jsonlite, aws.signature (>= 0.3.4), base64enc
 Suggests: testthat, aws.s3, aws.iam
 License: GPL (>= 2)
-MD5sum: 143dcbc3269a1af58450a93fd8387502
+MD5sum: d0f309d54a701b622564caab45f3c4a6
 NeedsCompilation: no
 
 Package: aws.polly
