@@ -95,11 +95,11 @@ MD5sum: 34ecd5758ef3ac9994be7b724d017868
 NeedsCompilation: no
 
 Package: aws.ses
-Version: 0.1.4
-Imports: httr, jsonlite, aws.signature (>= 0.2.6)
+Version: 0.1.5
+Imports: httr, jsonlite, aws.signature (>= 0.3.4)
 Suggests: aws.sns
 License: GPL (>= 2)
-MD5sum: fd3e5d5603482669188bd4217ae72f75
+MD5sum: af50468da52db5cb21d8eac5dc6207af
 NeedsCompilation: no
 
 Package: aws.signature
