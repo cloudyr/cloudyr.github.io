@@ -158,7 +158,7 @@ Version: 0.2.18
 Imports: utils, tools, git2r (>= 0.12.1)
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: c482bf1d513e10492a5ebfcffbd49da8
+MD5sum: 2ea55145f9ba09874be5b050ac24777d
 NeedsCompilation: no
 
 Package: googleCloudStorageR
@@ -251,3 +251,4 @@ Suggests: testthat, curl, covr, knitr, rmarkdown, magrittr, httr
 License: GPL (>= 2)
 MD5sum: 84e90b7e8bf47ceb9440471c132b1c99
 NeedsCompilation: yes
+
