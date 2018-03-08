@@ -114,7 +114,7 @@ Package: aws.sns
 Version: 0.1.7
 Imports: stats, httr, xml2, jsonlite, aws.signature (>= 0.3.4)
 License: GPL (>= 2)
-MD5sum: 46f8056cb45306a961a6dfa8a56b033f
+MD5sum: e6203e39261074ddb8744c8589d1d998
 NeedsCompilation: no
 
 Package: aws.sqs
