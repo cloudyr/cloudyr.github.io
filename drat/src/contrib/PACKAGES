@@ -131,7 +131,7 @@ Imports: aws.signature, aws.ec2metadata, aws.alexa, aws.cloudtrail,
         aws.efs, aws.iam, aws.lambda, aws.polly, aws.s3, aws.ses,
         aws.sns, aws.sqs
 License: GPL (>= 2)
-MD5sum: fe13aacca1f7c4c5f2349cf746f0da9b
+MD5sum: 439ea33707cba2a3e188ea5c82d829be
 NeedsCompilation: no
 
 Package: bigQueryR
