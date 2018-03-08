@@ -29,7 +29,7 @@ Version: 0.1.2
 Imports: aws.signature, httr, xml2
 Suggests: git2r, testthat
 License: GPL (>= 2)
-MD5sum: d153e7d10a29ec7c83d6accd5040b89a
+MD5sum: 9441f5386ddccb68549029ad02c122f4
 NeedsCompilation: no
 
 Package: aws.ec2
