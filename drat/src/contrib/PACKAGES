@@ -37,7 +37,7 @@ Version: 0.1.11
 Imports: utils, aws.signature (>= 0.3.4), httr, xml2, base64enc
 Suggests: testthat, aws.ec2metadata, aws.efs
 License: GPL (>= 2)
-MD5sum: bbb0d84a8d8a26a9b6035b9e0372bce4
+MD5sum: b700829a15b0001192047beb5aecfb79
 NeedsCompilation: no
 
 Package: aws.ec2metadata
