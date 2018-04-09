@@ -4,7 +4,7 @@ title: the cloudyr project
 description: Here's the list of R packages that we are currently working on.
 ---
 
-## current cloudyr packages ##
+## current cloudyr packages
 
 Here's what we're working on so far. Most of the packages are available in [our drat repository](../drat). The [Travis CI status page](https://travis-ci.org/cloudyr) can be used to check the build status of development versions (on GitHub).
 
@@ -34,13 +34,14 @@ Here's what we're working on so far. Most of the packages are available in [our 
 | | [aws.cloudwatch](https://github.com/cloudyr/aws.cloudwatch) | [Amazon Cloudwatch](https://aws.amazon.com/cloudwatch/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.cloudwatch)](https://cloud.r-project.org/package=aws.cloudwatch) |
 | | [aws.signature](https://github.com/cloudyr/aws.signature) | AWS API Request Signatures  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.signature)](https://cloud.r-project.org/package=aws.signature) |
 | Machine Learning as a Service | [RoogleVision](https://github.com/cloudyr/RoogleVision) | [Google Vision](https://cloud.google.com/vision/) | No | [![CRAN](http://www.r-pkg.org/badges/version/RoogleVision)](https://cloud.r-project.org/package=RoogleVision) |
-| Speech Synthesis/Text-to-Speech | [aws.polly](https://github.com/cloudyr/aws.polly) | [AWS Polly](https://aws.amazon.com/polly/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.polly)](https://cloud.r-project.org/package=aws.polly) |
+| | [aws.polly](https://github.com/cloudyr/aws.polly) | [AWS Polly](https://aws.amazon.com/polly/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.polly)](https://cloud.r-project.org/package=aws.polly) |
+| | [aws.transcribe](https://github.com/cloudyr/aws.transcribe) | [AWS Polly](https://aws.amazon.com/transcribe/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.transcribe)](https://cloud.r-project.org/package=aws.transcribe) |
+| | [aws.translate](https://github.com/cloudyr/aws.translate) | [AWS Polly](https://aws.amazon.com/translate/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.translate)](https://cloud.r-project.org/package=aws.translate) |
 | Crowdsourcing | [MTurkR](https://github.com/cloudyr/MTurkR) | [Amazon Mechanical Turk](https://www.mturk.com/mturk/welcome) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkR)](https://cloud.r-project.org/package=MTurkR) |
 | | [MTurkRGUI](https://github.com/cloudyr/MTurkRGUI) | GUI for MTurkR | Yes | [![CRAN](http://www.r-pkg.org/badges/version/MTurkRGUI)](https://cloud.r-project.org/package=MTurkRGUI) |
 | | [crowdflower](https://github.com/cloudyr/crowdflower) | [Crowdflower](https://www.crowdflower.com/) | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](https://cloud.r-project.org/package=crowdflower) |
 | | [microworkers](https://github.com/cloudyr/microworkers) | [Microworkers](https://microworkers.com/) | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](https://cloud.r-project.org/package=microworkers) |
 | Web Surveys | [limer](https://github.com/cloudyr/limer) | [LimeSurvey](https://www.limesurvey.org/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/limer)](https://cloud.r-project.org/package=limer) |
-|  | [Rmonkey](https://github.com/cloudyr/Rmonkey) | [Survey Monkey](https://www.surveymonkey.com/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/Rmonkey)](https://cloud.r-project.org/package=Rmonkey) |
 | Package Development | [travisci](https://github.com/cloudyr/travisci) | [Travis-CI](https://travis-ci.org/) API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/travisci)](https://cloud.r-project.org/package=travisci) |
 |  | [appveyor](https://github.com/cloudyr/appveyor) | [Appveyor](https://www.appveyor.com/) API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](https://cloud.r-project.org/package=appveyor) |
 |  | [circleci](https://github.com/cloudyr/circleci) | [Circle-CI](https://circleci.com/) API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](https://cloud.r-project.org/package=circleci) |
@@ -61,7 +62,7 @@ Contributions are always welcome. See [the cloudyr style guide](../styleguide) f
 -->
  
  
-## Installation Instructions ##
+## Installation Instructions
 
 As they are released, all packages are hosted in [a drat repository](https://github.com/eddelbuettel/drat) on this website (specifically: [http://cloudyr.github.io/drat](http://cloudyr.github.io/drat)) and versions are updated daily and are periodically released to CRAN. This means you can install and upgrade cloudyr packages quite simply directly from R:
 
@@ -77,15 +78,14 @@ install.packages("NameOfPackage")
 To make this even easier, you can add `drat::addRepo("cloudyr")` to your `.Rprofile` or `Rprofile.site` file, so that the cloudyr repository is available every time you open R.
 
 
-### Installation using devtools ###
+### Installation using devtools
 
-You can also install packages using `ghit::install_github()` or `devtools::install_github()`. Note, however, that all stable versions of packages are automatically added to the cloudyr drat, so you can always retrieve a stable version using the above workflow. To obtain a potentially unstable version, use:
+You can also install packages using `remotes::install_github()` or `devtools::install_github()`. Note, however, that all stable versions of packages are automatically added to the cloudyr drat, so you can always retrieve a stable version using the above workflow. To obtain a potentially unstable version, use:
 
 ```R
-if (!require("devtools")) {
-    install.packages("devtools")
-    library("devtools")
+if (!require("remotes")) {
+    install.packages("remotes")
 }
-install_github("cloudyr/NameOfPackage")
+remotes::install_github("cloudyr/NameOfPackage")
 ```
 
