@@ -103,11 +103,11 @@ MD5sum: 684a6d08dc38620eb24b97de2e1fe734
 NeedsCompilation: no
 
 Package: aws.signature
-Version: 0.4.0
+Version: 0.4.1
 Imports: digest, base64enc
 Suggests: testthat, aws.ec2metadata (>= 0.1.3)
 License: GPL (>= 2)
-MD5sum: d950d547157795c8614b214adcf29dc0
+MD5sum: 559e450595b2da34dd6326644cf4ccd0
 NeedsCompilation: no
 
 Package: aws.sns
