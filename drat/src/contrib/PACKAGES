@@ -91,7 +91,7 @@ Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
         aws.signature (>= 0.3.7)
 Suggests: testthat, datasets
 License: GPL (>= 2)
-MD5sum: a29ee508ad5a07641d583124fc3193ea
+MD5sum: 1374d8e83ce0016793e516acc96b8eb8
 NeedsCompilation: no
 
 Package: aws.ses
