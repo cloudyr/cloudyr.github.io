@@ -138,7 +138,7 @@ Version: 0.1.10
 Imports: httr, xml2, jsonlite, aws.signature (>= 0.3.4)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 2ee72b743c83d1954b5b4f4c94ae1472
+MD5sum: 66803ab6e0d65b4be39199cde70facd2
 NeedsCompilation: no
 
 Package: aws.transcribe
