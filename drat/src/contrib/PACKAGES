@@ -78,6 +78,14 @@ License: GPL (>= 2)
 MD5sum: 61fff017efecdb5a331c8b8b02f8b983
 NeedsCompilation: no
 
+Package: aws.kms
+Version: 0.1.1
+Imports: httr, jsonlite, base64enc, aws.signature (>= 0.3.4)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: eee429dc53e9dd183797c41c299dd25c
+NeedsCompilation: no
+
 Package: aws.lambda
 Version: 0.1.6
 Imports: utils, httr, jsonlite, aws.signature (>= 0.3.4), base64enc
