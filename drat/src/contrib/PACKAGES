@@ -107,7 +107,7 @@ Version: 0.4.2
 Imports: digest, base64enc
 Suggests: testthat, aws.ec2metadata (>= 0.1.3)
 License: GPL (>= 2)
-MD5sum: add53e8fafb345db7a76196c7c16f6f7
+MD5sum: 2ae85c6244042ce9cd59bc6483afc7f2
 NeedsCompilation: no
 
 Package: aws.sns
