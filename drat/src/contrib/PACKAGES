@@ -32,6 +32,14 @@ License: GPL (>= 2)
 MD5sum: 970d22d2e4b9b25876d8dfc8dacbfab9
 NeedsCompilation: no
 
+Package: aws.comprehend
+Version: 0.1.2
+Imports: httr, jsonlite, aws.signature (>= 0.3.4)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 290ab76f6542028817b9cf297dcab596
+NeedsCompilation: no
+
 Package: aws.ec2
 Version: 0.1.11
 Imports: utils, aws.signature (>= 0.3.4), httr, xml2, base64enc
