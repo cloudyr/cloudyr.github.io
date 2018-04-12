@@ -75,7 +75,7 @@ Package: aws.iam
 Version: 0.1.7
 Imports: utils, httr, xml2, jsonlite, aws.signature (>= 0.3.4)
 License: GPL (>= 2)
-MD5sum: 6e7bc1323b2d7030b1569348fa8019a2
+MD5sum: 61fff017efecdb5a331c8b8b02f8b983
 NeedsCompilation: no
 
 Package: aws.lambda
