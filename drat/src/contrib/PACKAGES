@@ -83,7 +83,7 @@ Version: 0.1.1
 Imports: httr, jsonlite, base64enc, aws.signature (>= 0.3.4)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: eee429dc53e9dd183797c41c299dd25c
+MD5sum: fec7ca83d446fb36a19e89e8f0d5cef8
 NeedsCompilation: no
 
 Package: aws.lambda
