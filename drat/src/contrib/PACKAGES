@@ -18,10 +18,10 @@ NeedsCompilation: no
 
 Package: aws.cloudwatch
 Version: 0.1.4
-Imports: httr, jsonlite, XML, aws.signature
+Imports: httr, jsonlite, xml2, aws.signature (>= 0.3.4)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: de21c4fc7f8fb97d7382af395c22fd0e
+MD5sum: c54e48fa8ebce150f02a5380758bfcdd
 NeedsCompilation: no
 
 Package: aws.code
