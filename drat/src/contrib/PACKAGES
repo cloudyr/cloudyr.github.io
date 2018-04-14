@@ -146,7 +146,7 @@ Version: 0.1.2
 Imports: tools, httr, jsonlite, aws.signature (>= 0.3.4)
 Suggests: testthat, aws.s3
 License: GPL (>= 2)
-MD5sum: cb5a1c6fb834693095c9ae426670ffcc
+MD5sum: aafa4e5a126ce243777b64002fc72d4a
 NeedsCompilation: no
 
 Package: aws.translate
