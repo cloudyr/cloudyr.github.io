@@ -79,11 +79,11 @@ MD5sum: 8cf31e3c607b8c36942dc9d3d8a8885c
 NeedsCompilation: no
 
 Package: aws.kms
-Version: 0.1.1
-Imports: httr, jsonlite, base64enc, aws.signature (>= 0.3.4)
+Version: 0.1.2
+Imports: httr, jsonlite, base64enc, aws.signature (>= 0.4.0)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: fec7ca83d446fb36a19e89e8f0d5cef8
+MD5sum: 336d9264cec3170a545fb0095e75f03c
 NeedsCompilation: no
 
 Package: aws.lambda
