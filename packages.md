@@ -51,19 +51,6 @@ Here's what we're working on so far. Most of the packages are available in [our 
 
 Contributions are always welcome. See [the cloudyr style guide](../styleguide) for guidance on package development, structure, and coding style. Pull requests via GitHub are the preferred way to contribute code and documentation. Ideas, brainstorming, and general discussion are welcome as issues on project-specific repositories or in [cloudyr's gitter chatroom](https://gitter.im/cloudyr). If you would like to contribute a new package, have a look at [the contributing page](../contributing).
 
-<!--
- - [aws.container](http://github.com/cloudyr/aws.container): EC2 container client
- - [aws.vpc](http://github.com/cloudyr/aws.vpc): Virtual Private Cloud client
- - [aws.emr](http://github.com/cloudyr/aws.emr): Elastic Map Reduce (Hadoop) client
- - [aws.lambda](http://github.com/cloudyr/aws.lamda): Lamda (event-driven computing) client
- - [aws.kinesis](http://github.com/cloudyr/aws.kinesis): Kinesis (data stream processing) client
- - [aws.datapipeline](http://github.com/cloudyr/aws.datapipeline): Data Pipeline (task scheduling) client
- - [aws.elb](http://github.com/cloudyr/aws.elb): Elastic Load Balancing (EC2 distribution) client
- - [aws.cf](http://github.com/cloudyr/aws.cf): CloudFormation client
- - [aws.config](http://github.com/cloudyr/aws.config): Config client
--->
- 
- 
 ## Installation Instructions
 
 As they are released, all packages are hosted in [a drat repository](https://github.com/eddelbuettel/drat) on this website (specifically: [http://cloudyr.github.io/drat](http://cloudyr.github.io/drat)) and versions are updated daily and are periodically released to CRAN. This means you can install and upgrade cloudyr packages quite simply directly from R:
