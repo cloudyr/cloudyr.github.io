@@ -207,7 +207,7 @@ Version: 1.0.4
 Imports: tools, graphics, grDevices, httr, png, jpeg
 Suggests: testthat
 License: GPL-3
-MD5sum: 31317fe3558a2c69b72ab39726911b66
+MD5sum: c9bbe1f9a8aff95657f6a91c12ff08f8
 NeedsCompilation: no
 
 Package: limer
