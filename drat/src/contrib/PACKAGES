@@ -215,7 +215,7 @@ Version: 0.1
 Imports: base64enc, httr, jsonlite
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 980cb6f4ab1d7d3a43d028a7844dc3e1
+MD5sum: 3d42eca2014ddb664ad8f82c47133de9
 NeedsCompilation: no
 
 Package: microworkers
