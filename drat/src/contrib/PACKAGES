@@ -166,14 +166,14 @@ MD5sum: 5abb58c617b4769aaa1e44ca6f09ca82
 NeedsCompilation: no
 
 Package: bigQueryR
-Version: 0.4.0
+Version: 0.4.0.9000
 Depends: R (>= 3.2)
 Imports: googleAuthR (>= 0.6.2), googleCloudStorageR (>= 0.2.0),
         jsonlite (>= 1.0), httr (>= 1.2.1), assertthat
 Suggests: shiny (>= 0.12.1), knitr, rmarkdown, testthat, data.table,
         purrr
 License: MIT + file LICENSE
-MD5sum: 567a825f5c541afa4d62adaad247bf3b
+MD5sum: 7590e8d33c460650e0ceedd5805cae06
 NeedsCompilation: no
 
 Package: circleci
