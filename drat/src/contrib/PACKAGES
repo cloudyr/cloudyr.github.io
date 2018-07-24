@@ -41,11 +41,11 @@ MD5sum: 90975b7d3380f6149821547ffd3dbf62
 NeedsCompilation: no
 
 Package: aws.ec2
-Version: 0.1.14
+Version: 0.1.15
 Imports: utils, aws.signature (>= 0.4.0), httr, xml2, base64enc
 Suggests: testthat, aws.ec2metadata
 License: GPL (>= 2)
-MD5sum: 74ba226f84545965a9f92d49d87378a4
+MD5sum: 9f3a38020f18fe0cb6ea28c8934848f3
 NeedsCompilation: no
 
 Package: aws.ec2metadata
