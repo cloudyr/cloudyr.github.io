@@ -52,7 +52,7 @@ Package: aws.ec2metadata
 Version: 0.1.5
 Imports: curl, jsonlite
 License: GPL (>= 2)
-MD5sum: d8a894e94b8e1685567b2d9749135a41
+MD5sum: 8a8ba1f761f5c841aaa3bde449792332
 NeedsCompilation: no
 
 Package: aws.efs
