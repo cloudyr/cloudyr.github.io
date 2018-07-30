@@ -44,8 +44,7 @@ Here's what we're working on so far. Most of the packages are available in [our 
 | | [crowdflower](https://github.com/cloudyr/crowdflower) | [Crowdflower](https://www.crowdflower.com/) | No | [![CRAN](http://www.r-pkg.org/badges/version/crowdflower)](https://cloud.r-project.org/package=crowdflower) |
 | | [microworkers](https://github.com/cloudyr/microworkers) | [Microworkers](https://microworkers.com/) | No | [![CRAN](http://www.r-pkg.org/badges/version/microworkers)](https://cloud.r-project.org/package=microworkers) |
 | Web Surveys | [limer](https://github.com/cloudyr/limer) | [LimeSurvey](https://www.limesurvey.org/) | Yes | [![CRAN](http://www.r-pkg.org/badges/version/limer)](https://cloud.r-project.org/package=limer) |
-| Package Development | [travis](https://github.com/ropenscilabs/travis) | [Travis-CI](https://travis-ci.org/) API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/travis)](https://cloud.r-project.org/package=travis) |
-|  | [appveyor](https://github.com/cloudyr/appveyor) | [Appveyor](https://www.appveyor.com/) API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](https://cloud.r-project.org/package=appveyor) |
+| Package Development | [appveyor](https://github.com/cloudyr/appveyor) | [Appveyor](https://www.appveyor.com/) API Client  | No | [![CRAN](http://www.r-pkg.org/badges/version/appveyor)](https://cloud.r-project.org/package=appveyor) |
 |  | [circleci](https://github.com/cloudyr/circleci) | [Circle-CI](https://circleci.com/) API Client  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/circleci)](https://cloud.r-project.org/package=circleci) |
 |  | [aws.code](https://github.com/cloudyr/aws.code) | [Amazon CodeCommit](https://aws.amazon.com/codecommit/)  | Yes | [![CRAN](http://www.r-pkg.org/badges/version/aws.code)](https://cloud.r-project.org/package=aws.code) |
 
