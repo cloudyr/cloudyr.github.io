@@ -115,7 +115,7 @@ Version: 0.1.5
 Imports: httr, jsonlite, aws.signature (>= 0.3.4)
 Suggests: aws.sns
 License: GPL (>= 2)
-MD5sum: ef66863be070842d192f1c3114f98470
+MD5sum: aac18ea4762ef46896018ecfb102daab
 NeedsCompilation: no
 
 Package: aws.signature
