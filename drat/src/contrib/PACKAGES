@@ -168,12 +168,12 @@ NeedsCompilation: no
 Package: bigQueryR
 Version: 0.4.0.9000
 Depends: R (>= 3.2)
-Imports: googleAuthR (>= 0.6.2), googleCloudStorageR (>= 0.2.0),
+Imports: googleAuthR (>= 0.7.0), googleCloudStorageR (>= 0.2.0),
         jsonlite (>= 1.0), httr (>= 1.2.1), assertthat
 Suggests: shiny (>= 0.12.1), knitr, rmarkdown, testthat, data.table,
         purrr
 License: MIT + file LICENSE
-MD5sum: 49f792cf984221552d7e809bf72f271f
+MD5sum: f8988db983a68b5ba7fbd893a64d8851
 NeedsCompilation: no
 
 Package: circleci
