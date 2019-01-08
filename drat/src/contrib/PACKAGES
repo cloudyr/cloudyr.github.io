@@ -9,7 +9,8 @@ NeedsCompilation: no
 
 Package: aws.cloudtrail
 Version: 0.1.6
-Imports: utils, httr, jsonlite, aws.s3 (>= 0.1.34), aws.signature (>= 0.3.4)
+Imports: utils, httr, jsonlite, aws.s3 (>= 0.1.34), aws.signature (>=
+        0.3.4)
 Suggests: testthat, aws.sns
 License: GPL (>= 2)
 MD5sum: 6a73bfb875b69f879db95b32e8f19ccf
@@ -102,7 +103,8 @@ NeedsCompilation: no
 
 Package: aws.s3
 Version: 0.3.20
-Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest, aws.signature (>= 0.3.7)
+Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
 Suggests: testthat, datasets
 License: GPL (>= 2)
 MD5sum: 2580451f0506c1ed42264d4773a024fe
@@ -156,8 +158,9 @@ NeedsCompilation: no
 
 Package: awspack
 Version: 0.1.7
-Imports: aws.signature, aws.ec2metadata, aws.alexa, aws.cloudtrail, aws.efs, aws.iam, aws.lambda, aws.polly, aws.s3,
-             aws.ses, aws.sns, aws.sqs
+Imports: aws.signature, aws.ec2metadata, aws.alexa, aws.cloudtrail,
+        aws.efs, aws.iam, aws.lambda, aws.polly, aws.s3, aws.ses,
+        aws.sns, aws.sqs
 License: GPL (>= 2)
 MD5sum: 5abb58c617b4769aaa1e44ca6f09ca82
 NeedsCompilation: no
@@ -201,8 +204,10 @@ NeedsCompilation: no
 Package: bigQueryR
 Version: 0.4.0.9000
 Depends: R (>= 3.2)
-Imports: googleAuthR (>= 0.7.0), googleCloudStorageR (>= 0.2.0), jsonlite (>= 1.0), httr (>= 1.2.1), assertthat
-Suggests: shiny (>= 0.12.1), knitr, rmarkdown, testthat, data.table, purrr
+Imports: googleAuthR (>= 0.7.0), googleCloudStorageR (>= 0.2.0),
+        jsonlite (>= 1.0), httr (>= 1.2.1), assertthat
+Suggests: shiny (>= 0.12.1), knitr, rmarkdown, testthat, data.table,
+        purrr
 License: MIT + file LICENSE
 MD5sum: c23ef7ad72b0af167f55fa2030219ee6
 NeedsCompilation: no
@@ -227,10 +232,11 @@ NeedsCompilation: no
 Package: googleCloudStorageR
 Version: 0.4.0.9000
 Depends: R (>= 3.2.0)
-Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 0.6.2), httr (>= 1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip
+Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 0.6.2), httr (>=
+        1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip
 Suggests: covr, googleComputeEngineR, knitr, readr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: dc9502cbc9fc7b5aa458c3c5d2a4161d
+MD5sum: 2401fde5075f01ba12d76d9ee00d7d68
 NeedsCompilation: no
 
 Package: imguR
@@ -281,7 +287,8 @@ NeedsCompilation: no
 Package: rmote
 Version: 0.3.4
 Depends: R (>= 3.1)
-Imports: tools, htmltools, digest, servr (>= 0.3.1), lattice, ggplot2, htmlwidgets, webshot, png
+Imports: tools, htmltools, digest, servr (>= 0.3.1), lattice, ggplot2,
+        htmlwidgets, webshot, png
 Suggests: Cairo, testthat, roxygen2
 License: MIT + file LICENSE
 MD5sum: a1b5bd981dad1bfcf005863fb7aae152
