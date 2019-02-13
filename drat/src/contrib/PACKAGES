@@ -165,31 +165,51 @@ License: GPL (>= 2)
 MD5sum: 5abb58c617b4769aaa1e44ca6f09ca82
 NeedsCompilation: no
 
-Package: AzureContainers
+Package: AzureAuth
 Version: 1.0.0
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, R6, rappdirs
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 84e1df77f04fe7de6912302c1a07eb89
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.0.1
 Depends: R (>= 3.3)
 Imports: AzureRMR, openssl, httr, R6
 Suggests: knitr, testthat
 License: MIT + file LICENSE
-MD5sum: c0623971be8673d5ec1ce2f633ff605d
+MD5sum: 4bd9f72f48a65d135618e55c1de95fb0
+NeedsCompilation: no
+
+Package: AzureKusto
+Version: 0.0.1
+Depends: R (>= 3.3)
+Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
+        AzureAuth, AzureRMR (>= 1.0.0.9000), dplyr, tidyselect (>=
+        0.2.4), DBI
+Suggests: bit64, knitr, testthat, AzureStor (>= 1.0.0.9000)
+License: MIT + file LICENSE
+MD5sum: 83918de344faa1bdc67bce6679c85651
 NeedsCompilation: no
 
 Package: AzureRMR
-Version: 1.0.0.9000
+Version: 2.0.0
 Depends: R (>= 3.3)
-Imports: utils, httr (>= 1.3), jsonlite, R6, rappdirs
+Imports: AzureAuth, utils, httr (>= 1.3), openssl, jsonlite, R6
 Suggests: knitr, testthat, httpuv
 License: MIT + file LICENSE
-MD5sum: f0e919601af87bee7b7ee3700b84d432
+MD5sum: 94f68a37f5062fd89133021205a8c2c4
 NeedsCompilation: no
 
 Package: AzureStor
-Version: 1.0.0.9000
+Version: 2.0.0
 Depends: R (>= 3.3),
-Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR
+Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR
 Suggests: knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 1a0d5cd69da5a1f6e3489efcb1fe0e01
+MD5sum: 119a8139b4fbe6aa1447bee9ac65bd54
 NeedsCompilation: no
 
 Package: AzureVM
