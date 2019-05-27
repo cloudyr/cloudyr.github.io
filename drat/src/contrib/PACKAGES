@@ -239,7 +239,7 @@ Depends: R (>= 3.3),
 Imports: R6, AzureRMR
 Suggests: knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 8b44b3eb5dc18a6e3bd0b17b04cc38d9
+MD5sum: 65b73de25cd9aa5f7205e50220e72c0e
 NeedsCompilation: no
 
 Package: bigQueryR
