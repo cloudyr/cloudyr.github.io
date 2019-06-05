@@ -190,7 +190,7 @@ Depends: R (>= 3.3)
 Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, openssl, R6
 Suggests: AzureRMR, knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 8ece3c2c53e9506cf81911d90b3b5745
+MD5sum: 0de000bca6ba79527832f94b144d6669
 NeedsCompilation: no
 
 Package: AzureKeyVault
