@@ -239,7 +239,7 @@ Depends: R (>= 3.3),
 Imports: R6, AzureRMR (>= 2.1.2), jsonlite
 Suggests: knitr, testthat, AzureKeyVault
 License: MIT + file LICENSE
-MD5sum: 1c4c8e6d3fc1c2414d0c348d58c556d5
+MD5sum: 3a63eac851e57fc87e2b72c36bf45eab
 NeedsCompilation: no
 
 Package: bigQueryR
