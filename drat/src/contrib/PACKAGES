@@ -234,12 +234,12 @@ MD5sum: c866fde3939ba51e42f930a1d997b6da
 NeedsCompilation: no
 
 Package: AzureVM
-Version: 1.0.1
+Version: 2.0.0
 Depends: R (>= 3.3),
-Imports: R6, AzureRMR
-Suggests: knitr, testthat
+Imports: R6, AzureRMR (>= 2.1.2), jsonlite
+Suggests: knitr, testthat, AzureKeyVault
 License: MIT + file LICENSE
-MD5sum: 65b73de25cd9aa5f7205e50220e72c0e
+MD5sum: 335b6e10406c231aa31a4cdd22506b0d
 NeedsCompilation: no
 
 Package: bigQueryR
