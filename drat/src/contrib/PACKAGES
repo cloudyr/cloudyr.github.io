@@ -236,10 +236,10 @@ NeedsCompilation: no
 Package: AzureVM
 Version: 2.0.0
 Depends: R (>= 3.3),
-Imports: R6, AzureRMR (>= 2.1.2), jsonlite
+Imports: R6, AzureRMR (>= 2.1.2), jsonlite, parallel
 Suggests: knitr, testthat, AzureKeyVault
 License: MIT + file LICENSE
-MD5sum: 3a63eac851e57fc87e2b72c36bf45eab
+MD5sum: 5702a826f9b6b9eb24c49032e829b951
 NeedsCompilation: no
 
 Package: bigQueryR
