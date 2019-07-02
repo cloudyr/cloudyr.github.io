@@ -273,11 +273,11 @@ NeedsCompilation: no
 Package: googleCloudStorageR
 Version: 0.4.0.9000
 Depends: R (>= 3.2.0)
-Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 0.7.0), httr (>=
+Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 0.8.0), httr (>=
         1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip
 Suggests: covr, googleComputeEngineR, knitr, readr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: aabcdbb902f8596b6153231cc2e3e913
+MD5sum: 7efc9bbadb462e447d4b7143f08b2a25
 NeedsCompilation: no
 
 Package: imguR
