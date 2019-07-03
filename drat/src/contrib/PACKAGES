@@ -221,7 +221,7 @@ Depends: R (>= 3.3)
 Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, R6, uuid
 Suggests: AzureGraph, knitr, testthat, httpuv
 License: MIT + file LICENSE
-MD5sum: 23ee4d3e17e4b81addb6af1a58bb3fa0
+MD5sum: b6c373f4f6831d6e45ab4659150415e2
 NeedsCompilation: no
 
 Package: AzureStor
