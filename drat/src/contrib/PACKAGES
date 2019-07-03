@@ -181,7 +181,7 @@ Imports: utils, AzureAuth, AzureRMR (>= 2.0.0), AzureGraph, openssl,
         httr, R6
 Suggests: knitr, testthat
 License: MIT + file LICENSE
-MD5sum: a7dc9ecc6d4d1d6d6fbd05031a5fc5b6
+MD5sum: 01ea78c3b9b0059fb29a2791a87ee99c
 NeedsCompilation: no
 
 Package: AzureGraph
