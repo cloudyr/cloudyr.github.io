@@ -179,9 +179,9 @@ Version: 1.1.0
 Depends: R (>= 3.3)
 Imports: utils, AzureAuth, AzureRMR (>= 2.0.0), AzureGraph, openssl,
         httr, R6
-Suggests: knitr, testthat
+Suggests: knitr, testthat, uuid
 License: MIT + file LICENSE
-MD5sum: c837662d50d22688e568bf5e608fc026
+MD5sum: 025083cba81d74659149df275568ee77
 NeedsCompilation: no
 
 Package: AzureGraph
