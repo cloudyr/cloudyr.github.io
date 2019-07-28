@@ -272,13 +272,13 @@ MD5sum: c667c3d446f749ad1536850e46f41599
 NeedsCompilation: no
 
 Package: googleCloudStorageR
-Version: 0.5.0
+Version: 0.5.0.9000
 Depends: R (>= 3.2.0)
 Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 0.8.1), httr (>=
         1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip
 Suggests: covr, googleComputeEngineR, knitr, readr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 811c2ce7fdcfd39f2b153c72cc526f1f
+MD5sum: d53bbd041b9df81b88c9c9f9a6e6e3e9
 NeedsCompilation: no
 
 Package: imguR
