@@ -276,9 +276,10 @@ Version: 0.5.0.9000
 Depends: R (>= 3.2.0)
 Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 0.8.1), httr (>=
         1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip
-Suggests: covr, googleComputeEngineR, knitr, readr, rmarkdown, testthat
+Suggests: covr, fs, gargle, googleComputeEngineR, knitr, readr, rlang,
+        rmarkdown, sodium, testthat
 License: MIT + file LICENSE
-MD5sum: fa73e0490516251c9ff7d8f2148befab
+MD5sum: 199365f75138f546b837e428e362dc60
 NeedsCompilation: no
 
 Package: imguR
