@@ -278,7 +278,7 @@ Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 0.8.1), httr (>=
         1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip
 Suggests: covr, googleComputeEngineR, knitr, readr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 3f3ed213e598b42465eb2df9892bb75b
+MD5sum: 4613ab3d012cae64915aac285e4943b0
 NeedsCompilation: no
 
 Package: imguR
