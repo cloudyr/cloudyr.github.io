@@ -240,7 +240,7 @@ Depends: R (>= 3.3)
 Imports: R6, AzureRMR (>= 2.1.2), jsonlite, parallel
 Suggests: knitr, testthat, AzureKeyVault
 License: MIT + file LICENSE
-MD5sum: 17a395f60398709118a046fe9061c626
+MD5sum: 18f184f846805d704a069f1b6f2f03ff
 NeedsCompilation: no
 
 Package: bigQueryR
