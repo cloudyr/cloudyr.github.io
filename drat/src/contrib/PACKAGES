@@ -249,7 +249,7 @@ Depends: R (>= 3.3)
 Imports: openssl, httr (>= 1.3)
 Suggests: knitr, testthat, AzureAuth, AzureVM
 License: MIT + file LICENSE
-MD5sum: 7e32463f808737673d1436474a07adb6
+MD5sum: 1dbc47313d3b564818b3431e0aa7e6c0
 NeedsCompilation: no
 
 Package: bigQueryR
