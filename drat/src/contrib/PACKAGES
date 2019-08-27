@@ -235,12 +235,12 @@ MD5sum: a2fab382e4d1f7c95133a2dda139b79b
 NeedsCompilation: no
 
 Package: AzureVM
-Version: 2.0.0.9000
+Version: 2.0.1
 Depends: R (>= 3.3)
 Imports: R6, AzureRMR (>= 2.1.2), jsonlite, parallel
 Suggests: knitr, testthat, AzureKeyVault, AzureVMmetadata
 License: MIT + file LICENSE
-MD5sum: e8e258ac98fb125524e0744f96490c6e
+MD5sum: fca7f624097ded06344649a89a12a72e
 NeedsCompilation: no
 
 Package: AzureVMmetadata
