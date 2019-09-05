@@ -171,7 +171,7 @@ Depends: R (>= 3.3)
 Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
 Suggests: knitr, testthat, httpuv, shiny, AzureRMR, AzureGraph
 License: MIT + file LICENSE
-MD5sum: d54d8e51bf421e172101a897e4d8f5c1
+MD5sum: 8833ca3cace7b86eab9a00cf5387e311
 NeedsCompilation: no
 
 Package: AzureContainers
