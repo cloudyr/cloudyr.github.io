@@ -231,7 +231,7 @@ Depends: R (>= 3.3),
 Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR
 Suggests: knitr, jsonlite, testthat
 License: MIT + file LICENSE
-MD5sum: c91212bfc0bc49a7be7047a0cd78dd1f
+MD5sum: 5711783833acf2c2f5de44312fe261c8
 NeedsCompilation: no
 
 Package: AzureVM
