@@ -226,12 +226,12 @@ MD5sum: b09c63b26b34028d811e67caeacb6b79
 NeedsCompilation: no
 
 Package: AzureStor
-Version: 2.1.0
+Version: 2.1.1
 Depends: R (>= 3.3),
 Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR
 Suggests: knitr, jsonlite, testthat
 License: MIT + file LICENSE
-MD5sum: 8718752396bf203a6fdd32cdc52c08bc
+MD5sum: c91212bfc0bc49a7be7047a0cd78dd1f
 NeedsCompilation: no
 
 Package: AzureVM
