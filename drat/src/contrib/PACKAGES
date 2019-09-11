@@ -166,12 +166,12 @@ MD5sum: 5abb58c617b4769aaa1e44ca6f09ca82
 NeedsCompilation: no
 
 Package: AzureAuth
-Version: 1.2.1
+Version: 1.2.2
 Depends: R (>= 3.3)
 Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
 Suggests: knitr, testthat, httpuv, shiny, AzureRMR, AzureGraph
 License: MIT + file LICENSE
-MD5sum: a72900606b8b877d6963f5feb1925516
+MD5sum: f9228fa691cb9169d5e415a096fc90ff
 NeedsCompilation: no
 
 Package: AzureContainers
