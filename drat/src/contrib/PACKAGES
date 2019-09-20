@@ -201,7 +201,7 @@ Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
         AzureGraph, AzureAuth (>= 1.0.1)
 Suggests: AzureStor, knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 649b2ba4cfc558ad6057ba8bfc290761
+MD5sum: ffaed78ec378bf4aa7339e3ec224ace2
 NeedsCompilation: no
 
 Package: AzureKusto
