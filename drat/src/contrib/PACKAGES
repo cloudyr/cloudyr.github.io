@@ -179,7 +179,7 @@ Version: 0.0.1
 Depends: R (>= 3.3)
 Imports: AzureAuth, AzureRMR, jsonlite, httr (>= 1.3)
 License: MIT + file LICENSE
-MD5sum: 1be22509040a0bf242d9472169960153
+MD5sum: 669f8caa693f07d0d8436854cf122971
 NeedsCompilation: no
 
 Package: AzureContainers
