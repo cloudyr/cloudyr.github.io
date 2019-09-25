@@ -177,10 +177,10 @@ NeedsCompilation: no
 Package: AzureCognitive
 Version: 0.1.0
 Depends: R (>= 3.3)
-Imports: AzureAuth, AzureRMR, jsonlite, httr (>= 1.3),
+Imports: AzureAuth (>= 1.2.0), AzureRMR, jsonlite, httr (>= 1.3),
 Suggests: knitr, testthat
 License: MIT + file LICENSE
-MD5sum: bf3167c821a6b077740ce16b90222a8e
+MD5sum: dfa5bca17a115813704b351c65569efd
 NeedsCompilation: no
 
 Package: AzureContainers
