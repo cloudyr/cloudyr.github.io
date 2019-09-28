@@ -222,7 +222,7 @@ Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
 Suggests: bit64, knitr, testthat, tidyr, AzureGraph, AzureStor (>=
         2.0.0), rmarkdown
 License: MIT + file LICENSE
-MD5sum: a66e5d390abb04c2a07158ec8e545278
+MD5sum: b0409d945c6e970242ff546b4cf584e5
 NeedsCompilation: no
 
 Package: AzureRMR
