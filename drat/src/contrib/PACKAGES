@@ -180,7 +180,7 @@ Depends: R (>= 3.3)
 Imports: AzureAuth (>= 1.2.0), AzureRMR, jsonlite, httr (>= 1.3),
 Suggests: knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 8ede0b342333c51902d29fab76b3b635
+MD5sum: e8985263b0bf0e46abd42aec416ee08f
 NeedsCompilation: no
 
 Package: AzureContainers
