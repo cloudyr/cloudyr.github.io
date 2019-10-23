@@ -241,7 +241,7 @@ Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR (>=
         2.2.1)
 Suggests: knitr, jsonlite, testthat
 License: MIT + file LICENSE
-MD5sum: 6ea48bcbd5175b4c0ce98b4def00ecc4
+MD5sum: 8b37cefe2815bad24112529aa570720c
 NeedsCompilation: no
 
 Package: AzureVision
