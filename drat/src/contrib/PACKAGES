@@ -237,11 +237,10 @@ NeedsCompilation: no
 Package: AzureStor
 Version: 2.1.1.9000
 Depends: R (>= 3.3),
-Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR (>=
-        2.2.1)
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.2.1)
 Suggests: knitr, jsonlite, testthat
 License: MIT + file LICENSE
-MD5sum: 91fe88815b69aa980326384d0574ad3f
+MD5sum: edb9f93e7d389d41ced1b45117923309
 NeedsCompilation: no
 
 Package: AzureVision
