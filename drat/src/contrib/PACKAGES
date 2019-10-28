@@ -193,13 +193,13 @@ MD5sum: c4e1fd86784afa576c179e7b40cf881d
 NeedsCompilation: no
 
 Package: AzureGraph
-Version: 1.0.5
+Version: 1.0.5.9000
 Depends: R (>= 3.3)
 Imports: AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, openssl,
         R6
 Suggests: AzureRMR, knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 7b5a5499f69c35bedfaef0999ccf554b
+MD5sum: ca7d370a05e9e580c33ed5a9fe77a58c
 NeedsCompilation: no
 
 Package: AzureKeyVault
