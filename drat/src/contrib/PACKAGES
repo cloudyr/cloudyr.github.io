@@ -240,7 +240,7 @@ Depends: R (>= 3.3),
 Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
 Suggests: knitr, jsonlite, testthat
 License: MIT + file LICENSE
-MD5sum: 3c6cbc2ff2765f390d924a6bcdfb5117
+MD5sum: 37d7a744ec304f3668587d2d222cd950
 NeedsCompilation: no
 
 Package: AzureVision
