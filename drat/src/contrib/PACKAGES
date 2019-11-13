@@ -279,7 +279,7 @@ Imports: googleAuthR (>= 1.1.1), googleCloudStorageR (>= 0.2.0),
 Suggests: shiny (>= 0.12.1), knitr, rmarkdown, testthat, data.table,
         purrr
 License: MIT + file LICENSE
-MD5sum: 651a96233bf9373042d1a9373144da15
+MD5sum: ef8a1d681fc56acc868a8cf235bdc4f1
 NeedsCompilation: no
 
 Package: circleci
