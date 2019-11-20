@@ -187,10 +187,10 @@ Package: AzureContainers
 Version: 1.1.2.9000
 Depends: R (>= 3.3)
 Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
-        httr, R6
+        httr, R6, processx
 Suggests: knitr, testthat, uuid
 License: MIT + file LICENSE
-MD5sum: 13652f6371ce9a5f0c6a40735ec372be
+MD5sum: 9204edc320f26b354ab3187af0c3143b
 NeedsCompilation: no
 
 Package: AzureGraph
