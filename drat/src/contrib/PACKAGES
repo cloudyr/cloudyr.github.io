@@ -184,13 +184,13 @@ MD5sum: e49d9a8bb501416b15386e506a1483b4
 NeedsCompilation: no
 
 Package: AzureContainers
-Version: 1.1.2.9000
+Version: 1.2.0
 Depends: R (>= 3.3)
 Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
         httr, R6, processx
 Suggests: knitr, testthat, uuid
 License: MIT + file LICENSE
-MD5sum: 7a2a231b8061fdb7117f4dc140372b99
+MD5sum: 107aade4ddd33c0fa811306060ad049e
 NeedsCompilation: no
 
 Package: AzureGraph
