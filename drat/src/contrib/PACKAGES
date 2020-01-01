@@ -204,13 +204,13 @@ MD5sum: fd30ee0d99ce2307d7f5c687e42a840c
 NeedsCompilation: no
 
 Package: AzureKeyVault
-Version: 1.0.2
+Version: 1.0.2.9000
 Depends: R (>= 3.3),
 Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
         AzureGraph, AzureAuth (>= 1.0.1)
 Suggests: AzureStor, knitr, testthat
 License: MIT + file LICENSE
-MD5sum: f7c0a60ff051b02104326a8e51a71c12
+MD5sum: c09bfcdd7df0d9f7d17178b4c454f39d
 NeedsCompilation: no
 
 Package: AzureKusto
