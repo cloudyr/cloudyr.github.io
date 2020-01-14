@@ -239,9 +239,9 @@ Package: AzureStor
 Version: 3.0.1.9000
 Depends: R (>= 3.3),
 Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
-Suggests: knitr, jsonlite, testthat
+Suggests: knitr, jsonlite, testthat, processx
 License: MIT + file LICENSE
-MD5sum: d6d86fd7aeb165e2866a509197aacace
+MD5sum: 8112f0c989bf09067747ae72ad0d2f0a
 NeedsCompilation: no
 
 Package: AzureVision
