@@ -33,11 +33,11 @@ MD5sum: c074527d7e1d6bfe2f0a81ff9497fd96
 NeedsCompilation: no
 
 Package: aws.comprehend
-Version: 0.1.2
+Version: 0.1.2.9000
 Imports: httr, jsonlite, aws.signature (>= 0.3.4)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: ceaa377e593a249fdc60f95f26e7cec2
+MD5sum: 97ed3d8961a7e27cc178a7f7c7439758
 NeedsCompilation: no
 
 Package: aws.ec2
