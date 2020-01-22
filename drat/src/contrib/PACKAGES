@@ -232,7 +232,7 @@ Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
         httr (>= 1.3), jsonlite, R6, uuid
 Suggests: knitr, testthat, httpuv, AzureStor
 License: MIT + file LICENSE
-MD5sum: b58474131e79baf415dd2a64d7f3bfb2
+MD5sum: 7919d5a65d1ba275f7baf09c66cc77c4
 NeedsCompilation: no
 
 Package: AzureStor
