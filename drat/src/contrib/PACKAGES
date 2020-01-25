@@ -226,13 +226,13 @@ MD5sum: 2ade36a643cd666ea594c198bce60632
 NeedsCompilation: no
 
 Package: AzureRMR
-Version: 2.3.0.9000
+Version: 2.3.1
 Depends: R (>= 3.3)
 Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
         httr (>= 1.3), jsonlite, R6, uuid
 Suggests: knitr, testthat, httpuv, AzureStor
 License: MIT + file LICENSE
-MD5sum: 79deb614db268f8ee8f7af9c5d69647c
+MD5sum: a6231d8f9ff781145ae05e10534c8679
 NeedsCompilation: no
 
 Package: AzureStor
