@@ -37,7 +37,7 @@ Version: 0.1.2.9000
 Imports: httr, jsonlite, aws.signature (>= 0.3.4)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 696cef760afe37ab8357490ae070bb58
+MD5sum: 98b40c3def864e23381407e434cb31bd
 NeedsCompilation: no
 
 Package: aws.ec2
