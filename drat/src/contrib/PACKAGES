@@ -151,10 +151,10 @@ MD5sum: 983982d7dfeb62d303ad67e8be5a9202
 NeedsCompilation: no
 
 Package: aws.translate
-Version: 0.1.4
+Version: 0.1.4.9000
 Imports: httr, jsonlite, aws.signature (>= 0.3.4)
 License: GPL (>= 2)
-MD5sum: 0331f3e02c0c29f3057e51821989c352
+MD5sum: 6b84874420acde23a57f16b2c735dc3a
 NeedsCompilation: no
 
 Package: awspack
