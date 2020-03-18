@@ -143,11 +143,11 @@ MD5sum: 9dd2985db10ffb6c5386a424fececd2f
 NeedsCompilation: no
 
 Package: aws.transcribe
-Version: 0.1.2.9000
+Version: 0.1.3
 Imports: tools, httr, jsonlite, aws.signature (>= 0.3.4)
 Suggests: testthat
 License: GPL (>= 2)
-MD5sum: 983982d7dfeb62d303ad67e8be5a9202
+MD5sum: faafa7846f9a8163a6e2101607fd7e5d
 NeedsCompilation: no
 
 Package: aws.translate
