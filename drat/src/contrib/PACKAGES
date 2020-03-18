@@ -38,7 +38,7 @@ Depends: R (>= 3.5.0)
 Imports: httr, jsonlite, aws.signature (>= 0.3.4)
 Suggests: testthat (>= 2.1.0)
 License: GPL (>= 2)
-MD5sum: 212789dfbd6bc36ea28ed1ba1242a4d4
+MD5sum: cb5ecac731ac3deb40001392ae082c55
 NeedsCompilation: no
 
 Package: aws.ec2
