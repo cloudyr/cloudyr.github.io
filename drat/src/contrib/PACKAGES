@@ -226,6 +226,16 @@ License: MIT + file LICENSE
 MD5sum: e90a341ab5abca0fe6f4ca6caf8bbffb
 NeedsCompilation: no
 
+Package: AzureQstor
+Version: 0.0.1
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), openssl,
+        xml2, httr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 6f22c4ad3dbd19a6156d30ab6b4e2160
+NeedsCompilation: no
+
 Package: AzureRMR
 Version: 2.3.1
 Depends: R (>= 3.3)
