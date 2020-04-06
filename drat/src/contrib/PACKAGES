@@ -231,9 +231,9 @@ Version: 0.0.1
 Depends: R (>= 3.3)
 Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), openssl,
         xml2, httr
-Suggests: testthat
+Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 6f22c4ad3dbd19a6156d30ab6b4e2160
+MD5sum: 296e972e50d6bf09b32002900f9e838d
 NeedsCompilation: no
 
 Package: AzureRMR
