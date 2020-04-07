@@ -76,7 +76,7 @@ Package: aws.iam
 Version: 0.1.8
 Imports: utils, httr, xml2, jsonlite, aws.signature (>= 0.3.4)
 License: GPL (>= 2)
-MD5sum: 59e9e840af43542f41abb79c0ad557c9
+MD5sum: 3a29d2966d34f7c5e29111f9ac516e95
 NeedsCompilation: no
 
 Package: aws.kms
