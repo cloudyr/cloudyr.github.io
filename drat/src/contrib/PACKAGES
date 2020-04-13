@@ -83,7 +83,7 @@ Package: aws.kms
 Version: 0.1.4
 Imports: httr, jsonlite, base64enc, aws.signature (>= 0.4.0)
 License: GPL (>= 2)
-MD5sum: 14bc70c5ffc5633349f18b1f53500ad9
+MD5sum: 7b12351f6727f7cc423d1dd2f0c327ae
 NeedsCompilation: no
 
 Package: aws.lambda
