@@ -233,7 +233,7 @@ Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), openssl,
         xml2, httr
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: e5b24ecfba2fafd688d173788e4d9d4d
+MD5sum: 69eadd5bc191c9a6b97a0d06195f9808
 NeedsCompilation: no
 
 Package: AzureRMR
