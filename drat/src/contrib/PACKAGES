@@ -92,7 +92,7 @@ Depends: R (>= 3.4)
 Imports: utils, httr, jsonlite, aws.signature (>= 0.3.4), base64enc
 Suggests: testthat, aws.s3, aws.iam
 License: GPL-3
-MD5sum: 29f83972f3bfadad7122467887e039fe
+MD5sum: 8c47ccb5dad74579945b373d13b21fda
 NeedsCompilation: no
 
 Package: aws.polly
