@@ -215,7 +215,7 @@ MD5sum: 5143ea7335168401cbabf28aefbef6fd
 NeedsCompilation: no
 
 Package: AzureKusto
-Version: 1.0.5
+Version: 1.0.6
 Depends: R (>= 3.3)
 Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
         AzureAuth, AzureRMR (>= 2.0.0), tibble, dplyr, tidyselect (>=
@@ -223,7 +223,7 @@ Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
 Suggests: bit64, knitr, testthat, tidyr, AzureGraph, AzureStor (>=
         2.0.0), rmarkdown
 License: MIT + file LICENSE
-MD5sum: cdd7c1430e41d47faecf641b0f7b2646
+MD5sum: d234130ecf477d8ae165f62f902ddedc
 NeedsCompilation: no
 
 Package: AzureQstor
