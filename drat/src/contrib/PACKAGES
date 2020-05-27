@@ -231,10 +231,10 @@ Package: AzureQstor
 Version: 1.0.0
 Depends: R (>= 3.3)
 Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), openssl,
-        xml2, httr
+        httr
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 69eadd5bc191c9a6b97a0d06195f9808
+MD5sum: 08297c498d699ab8bb4d0480b5aad87a
 NeedsCompilation: no
 
 Package: AzureRMR
