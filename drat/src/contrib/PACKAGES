@@ -8,12 +8,51 @@ MD5sum: 5ac2cd3a40ae23ecbec79b39db5768b0
 NeedsCompilation: no
 
 Package: aws.cloudtrail
+Version: 0.1.1
+Imports: httr, jsonlite, aws.signature
+License: GPL (>= 2)
+MD5sum: d042a0cb46104afa66457c4dc23d0fb2
+NeedsCompilation: no
+
+Package: aws.cloudtrail
+Version: 0.1.3
+Imports: httr, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 6f1b38a80a2d153abdcda24cd01b978f
+NeedsCompilation: no
+
+Package: aws.cloudtrail
+Version: 0.1.4
+Imports: httr, jsonlite, aws.s3 (>= 0.1.34), aws.signature (>= 0.2.6)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 55be66bb7624c29b077fb5da4d8f2d6f
+NeedsCompilation: no
+
+Package: aws.cloudtrail
+Version: 0.1.5
+Imports: utils, httr, jsonlite, aws.s3 (>= 0.1.34), aws.signature (>=
+        0.3.4)
+Suggests: testthat, aws.sns
+License: GPL (>= 2)
+MD5sum: a1f01164bb3bec80aa519e3c77cb319c
+NeedsCompilation: no
+
+Package: aws.cloudtrail
 Version: 0.1.6
 Imports: utils, httr, jsonlite, aws.s3 (>= 0.1.34), aws.signature (>=
         0.3.4)
 Suggests: testthat, aws.sns
 License: GPL (>= 2)
 MD5sum: 6a73bfb875b69f879db95b32e8f19ccf
+NeedsCompilation: no
+
+Package: aws.cloudwatch
+Version: 0.1.1
+Imports: httr, jsonlite, XML, aws.signature
+License: GPL (>= 2)
+MD5sum: 994efc2ca4d46dc388dbf9baf6b2f560
 NeedsCompilation: no
 
 Package: aws.cloudwatch
@@ -33,12 +72,77 @@ MD5sum: c074527d7e1d6bfe2f0a81ff9497fd96
 NeedsCompilation: no
 
 Package: aws.comprehend
+Version: 0.1.2.9000
+Imports: httr, jsonlite, aws.signature (>= 0.3.4)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 98b40c3def864e23381407e434cb31bd
+NeedsCompilation: no
+
+Package: aws.comprehend
+Version: 0.1.2
+Imports: httr, jsonlite, aws.signature (>= 0.3.4)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: ceaa377e593a249fdc60f95f26e7cec2
+NeedsCompilation: no
+
+Package: aws.comprehend
+Version: 0.2.0
+Imports: httr, jsonlite, aws.signature (>= 0.3.4)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 4173ad0d8231bbc6bcd20b427abc85e9
+NeedsCompilation: no
+
+Package: aws.comprehend
 Version: 0.2.1.9000
 Depends: R (>= 3.5.0)
 Imports: httr, jsonlite, aws.signature (>= 0.3.4)
 Suggests: testthat (>= 2.1.0)
 License: GPL (>= 2)
 MD5sum: fcf6e7665f3afa52254be367deea2031
+NeedsCompilation: no
+
+Package: aws.comprehend
+Version: 0.2.1
+Depends: R (>= 3.5.0)
+Imports: httr, jsonlite, aws.signature (>= 0.3.4)
+Suggests: testthat (>= 2.1.0)
+License: GPL (>= 2)
+MD5sum: cb5ecac731ac3deb40001392ae082c55
+NeedsCompilation: no
+
+Package: aws.ec2
+Version: 0.1.1
+Imports: httr, XML, base64enc, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 95334baf0b5db6af799be55f5786444f
+NeedsCompilation: no
+
+Package: aws.ec2
+Version: 0.1.10
+Imports: aws.signature, httr, xml2, base64enc, utils
+Suggests: testthat, aws.ec2metadata, aws.efs
+License: GPL (>= 2)
+MD5sum: 58750e4becda577b49edd09e69d2a2b6
+NeedsCompilation: no
+
+Package: aws.ec2
+Version: 0.1.11
+Imports: utils, aws.signature (>= 0.3.4), httr, xml2, base64enc
+Suggests: testthat, aws.ec2metadata, aws.efs
+License: GPL (>= 2)
+MD5sum: 3e34331557f5cf838c3ec3c5a024bfc4
+NeedsCompilation: no
+
+Package: aws.ec2
+Version: 0.1.14
+Imports: utils, aws.signature (>= 0.4.0), httr, xml2, base64enc
+Suggests: testthat, aws.ec2metadata
+License: GPL (>= 2)
+MD5sum: 74ba226f84545965a9f92d49d87378a4
 NeedsCompilation: no
 
 Package: aws.ec2
@@ -49,11 +153,85 @@ License: GPL (>= 2)
 MD5sum: c9a248624b40124634e0f5580549b146
 NeedsCompilation: no
 
+Package: aws.ec2
+Version: 0.1.6
+Imports: aws.signature, httr, xml2, base64enc
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: e350fa43a8fc1a5f6e7c291bc33095b4
+NeedsCompilation: no
+
+Package: aws.ec2
+Version: 0.1.8
+Imports: aws.signature, httr, xml2, base64enc
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 88906a58688cf811d026106a14dc7d2d
+NeedsCompilation: no
+
+Package: aws.ec2
+Version: 0.1.9
+Imports: aws.signature, httr, xml2, base64enc, utils
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: e30f49f50eb297ed6d8a247eb5f9dfc4
+NeedsCompilation: no
+
+Package: aws.ec2metadata
+Version: 0.1.1
+Imports: curl, jsonlite
+License: GPL (>= 2)
+MD5sum: e12d05661e81f4997d9cf1e197f4b01b
+NeedsCompilation: no
+
+Package: aws.ec2metadata
+Version: 0.1.2
+Imports: curl, jsonlite
+License: GPL (>= 2)
+MD5sum: f06b0b4cc7ec5c4075969dbbaac24703
+NeedsCompilation: no
+
+Package: aws.ec2metadata
+Version: 0.1.3
+Imports: curl, jsonlite
+License: GPL (>= 2)
+MD5sum: e4f851fb5e9ee10e1a6a50d7b119f345
+NeedsCompilation: no
+
+Package: aws.ec2metadata
+Version: 0.1.4
+Imports: curl, jsonlite
+License: GPL (>= 2)
+MD5sum: d92e2220b72d079a1642909c94f1e9dd
+NeedsCompilation: no
+
+Package: aws.ec2metadata
+Version: 0.1.5
+Imports: curl, jsonlite
+License: GPL (>= 2)
+MD5sum: 2f568ed0bdedc5ff43ecba80114916a4
+NeedsCompilation: no
+
+Package: aws.ec2metadata
+Version: 0.1.6
+Imports: curl, jsonlite
+License: GPL (>= 2)
+MD5sum: b0524c356a4f6cfd660ea0020ad8a0a9
+NeedsCompilation: no
+
 Package: aws.ec2metadata
 Version: 0.2.0
 Imports: curl, jsonlite
 License: GPL (>= 2)
 MD5sum: 9da4ea22adbad2ae8cd01fc22c8b3ecd
+NeedsCompilation: no
+
+Package: aws.efs
+Version: 0.1.1
+Imports: utils, httr, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 2dc5f7e9148476b5a0e086cae8d7032f
 NeedsCompilation: no
 
 Package: aws.efs
@@ -65,11 +243,47 @@ MD5sum: fd4f4b2aade908718a685f38ba605a25
 NeedsCompilation: no
 
 Package: aws.glacier
+Version: 0.1.1
+Imports: httr, XML, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: b9f2b27fd1ca5db584ae0d63fb7cc875
+NeedsCompilation: no
+
+Package: aws.glacier
 Version: 0.1.5
 Imports: httr, XML, jsonlite, aws.signature
 Suggests: testthat, aws.sns
 License: GPL (>= 2)
 MD5sum: 112c16abc386dfdc40033bf40230ccf6
+NeedsCompilation: no
+
+Package: aws.iam
+Version: 0.1.1
+Imports: httr, XML, jsonlite, aws.signature
+License: GPL (>= 2)
+MD5sum: bdd42b3310e8d4417200878279ec4067
+NeedsCompilation: no
+
+Package: aws.iam
+Version: 0.1.2
+Imports: httr, XML, jsonlite, aws.signature
+License: GPL (>= 2)
+MD5sum: 38a96e9c9a06d23e27150314daddd243
+NeedsCompilation: no
+
+Package: aws.iam
+Version: 0.1.5
+Imports: utils, httr, xml2, jsonlite, aws.signature (>= 0.2.6)
+License: GPL (>= 2)
+MD5sum: 19c8090841d0bb05ca47b805f2fc378b
+NeedsCompilation: no
+
+Package: aws.iam
+Version: 0.1.7
+Imports: utils, httr, xml2, jsonlite, aws.signature (>= 0.3.4)
+License: GPL (>= 2)
+MD5sum: 96a922cc86072912aa3926b0617b5a77
 NeedsCompilation: no
 
 Package: aws.iam
@@ -80,10 +294,66 @@ MD5sum: 3a29d2966d34f7c5e29111f9ac516e95
 NeedsCompilation: no
 
 Package: aws.kms
+Version: 0.1.1
+Imports: httr, jsonlite, base64enc, aws.signature (>= 0.3.4)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: fec7ca83d446fb36a19e89e8f0d5cef8
+NeedsCompilation: no
+
+Package: aws.kms
+Version: 0.1.2
+Imports: httr, jsonlite, base64enc, aws.signature (>= 0.4.0)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: c3c03b4ba084c43bd40356b0940edb14
+NeedsCompilation: no
+
+Package: aws.kms
+Version: 0.1.3
+Imports: httr, jsonlite, base64enc, aws.signature (>= 0.4.0)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 943153c7f74fb4509e35f5809b0fc38b
+NeedsCompilation: no
+
+Package: aws.kms
 Version: 0.1.4
 Imports: httr, jsonlite, base64enc, aws.signature (>= 0.4.0)
 License: GPL (>= 2)
 MD5sum: 7b12351f6727f7cc423d1dd2f0c327ae
+NeedsCompilation: no
+
+Package: aws.lambda
+Version: 0.1.2
+Imports: utils, httr, jsonlite, aws.signature (>= 0.2.6), base64enc
+Suggests: testthat, aws.s3, aws.iam
+License: GPL (>= 2)
+MD5sum: 707706ef2044fbfc7146ed8a608e1a16
+NeedsCompilation: no
+
+Package: aws.lambda
+Version: 0.1.3
+Imports: utils, httr, jsonlite, aws.signature (>= 0.2.6), base64enc
+Suggests: testthat, aws.s3, aws.iam
+License: GPL (>= 2)
+MD5sum: f30d096644cc41187bed3b5528281973
+NeedsCompilation: no
+
+Package: aws.lambda
+Version: 0.1.5
+Imports: utils, httr, jsonlite, aws.signature (>= 0.3.4), base64enc
+Suggests: testthat, aws.s3, aws.iam
+License: GPL (>= 2)
+MD5sum: 2719f8221ab1a273a85186f1438a5886
+NeedsCompilation: no
+
+Package: aws.lambda
+Version: 0.1.6
+Imports: utils, httr, jsonlite, aws.signature (>= 0.3.4), base64enc
+Suggests: testthat, aws.s3, aws.iam
+License: GPL (>= 2)
+MD5sum: dbf65981274368978ae86c24cbacc6a6
 NeedsCompilation: no
 
 Package: aws.lambda
@@ -95,11 +365,435 @@ License: GPL-3
 MD5sum: 950fa945b6d233aba0125b3093513829
 NeedsCompilation: no
 
+Package: aws.lambda
+Version: 0.2.0
+Depends: R (>= 3.4)
+Imports: utils, httr, jsonlite, aws.signature (>= 0.3.4), base64enc
+Suggests: testthat, aws.s3, aws.iam
+License: GPL-3
+MD5sum: 8c47ccb5dad74579945b373d13b21fda
+NeedsCompilation: no
+
+Package: aws.polly
+Version: 0.1.2
+Imports: httr, jsonlite, aws.signature (>= 0.2.6), tuneR
+License: GPL (>= 2)
+MD5sum: f888f52c2055c1fbcc7c1545616a14b5
+NeedsCompilation: no
+
+Package: aws.polly
+Version: 0.1.3
+Imports: httr, jsonlite, aws.signature (>= 0.3.4), tuneR
+License: GPL (>= 2)
+MD5sum: 5a11ddc7d269565d3a76a8bb12ea3a86
+NeedsCompilation: no
+
+Package: aws.polly
+Version: 0.1.4
+Imports: httr, jsonlite, aws.signature (>= 0.3.4), tuneR
+License: GPL (>= 2)
+MD5sum: 45a620fe30cf1292af235f49ff58017f
+NeedsCompilation: no
+
 Package: aws.polly
 Version: 0.1.5.9000
 Imports: httr, jsonlite, aws.signature (>= 0.3.4), tuneR
 License: GPL (>= 2)
 MD5sum: 9024dacb4166a930723a4871f744e27f
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.10
+Imports: httr, XML, base64enc, digest, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 6b1e35c2738ba205def0ff3ca7a826e4
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.11
+Imports: httr, XML, base64enc, digest, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 6308a894947103f3f5e42880ec7b5a70
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.12
+Imports: httr, XML, base64enc, digest, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 0ca66f90e1c9fef0ec421eca5e789d40
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.19
+Imports: httr, xml2, base64enc, digest, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 8129337388d54d11b568f4b20ac1834a
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.21
+Imports: httr, xml2, base64enc, digest, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: b42ac7fb90cafb045ca8cd2cd35a8cb9
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.22
+Imports: httr, xml2, base64enc, digest, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 381379300f16380390753be5b3e542a5
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.24
+Imports: httr, xml2, base64enc, digest, curl, aws.signature
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 36e7b1da88341de13de66d5747bd868d
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.25
+Imports: httr, xml2, base64enc, digest, curl, aws.signature
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 91f2d367de5ba1c236392215717a77fd
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.26
+Imports: httr, xml2, base64enc, digest, curl, aws.signature
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 1bc6e9f1183045031d021fd05ee0dadb
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.27
+Imports: tools, httr, xml2 (>= 1.0.0), base64enc, digest, curl,
+        aws.signature
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 058652bdb1e039744182ee6d839a8f4f
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.28
+Imports: tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 43a4f640bc9e0f73fb8e1e6ff88ff405
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.29
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 2f11305aba32859b6cb3d839c512c39d
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.30
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 73d121bb923e56433774e350c5a87542
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.32
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 0413c2f06ddfb658f5acab69aa01d1e4
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.33
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 69f95e02e2a084889b43d5c1a342283f
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.34
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: ed2ad01d6c8b3a677dabe2c20ae098b7
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.35
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 8e843e4a6a5020ab4cd9147b5fa2c9b3
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.36
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 3fe46dd2c3ac569e7d4258c8fa8c71aa
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.37
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: f25feda6a855106d84b4baa2e563ce10
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.38
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: f026b713db2cf3a496506da6d1cd07a1
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.39
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: dcb7cb1be25b150ab887c79ff22b6cde
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.4
+Imports: httr, XML, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: f1fa458cc85f75dcd722498ab1e51e70
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.1.5
+Imports: httr, XML, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 9d7ec5ed8fe18028efe5ac1d164c2f75
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.2.0
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 5f0b724cb162c4903825a18f4befc962
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.2.1
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 581ba158c10d56b7bfbb151cba2444fb
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.2.2
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 3ce6b729b8d8adb0bbc669041e170a2a
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.2.3
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest, curl,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 62eec1c3ff5dbdede7f9af927dc30deb
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.2.4
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 7072e0bf8745f47ce8ed57869dd7df60
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.2.5
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: c8f59040831145e9a0f0b2884922e83f
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.2.6
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 23322bc23862c84de6a6a1e6da181e3e
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.2.7
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 482b6dcade8ef2d37db409bdb11764bd
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.2.8
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 20292eccfee258a3f36a0ecee807aab5
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.0
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 54fed3c14138f0034cb50b7e130f30d8
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.1
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 90145fcc5af5ab8df9a227e227a00756
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.11
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 8144096430a01428d39b128c31200e14
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.12
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: f3454bc0bfc7a639d55e2fd3521248ea
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.13
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 8788a267c2d56abe84f6d5ee0b3b96e0
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.14
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 22cc9187414bfcaa85d59fb613046f97
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.15
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 44d6c055c42bc84c892afce7a0ca70cd
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.17
+Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 847e095fa3be94c46c14617a7739ceb6
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.18
+Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 7f7c1e8b10db27ca48e9a9cfb43a5235
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.19
+Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 630d7dade77cb703cc0cb8388fe1ba63
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.2
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: c58b2c682bd6594d602c9ff5b3dd4458
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.20
+Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 463513ee96e0a8701e1f1f07cbd7f346
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.21
+Imports: utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.7)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 6a597c98d91ed0c870af0a65aca979f9
 NeedsCompilation: no
 
 Package: aws.s3
@@ -111,12 +805,321 @@ License: GPL (>= 2)
 MD5sum: a9eae2df31ae2b281e8785cb4101fe0a
 NeedsCompilation: no
 
+Package: aws.s3
+Version: 0.3.3
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.2.6)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: b5a9212ceb2dae292e5c3e62b4c16cda
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.4
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.2)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 2a9d4d9d05069078660fd9e7cf7bb141
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.5
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.2)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 32ee3de0790a41fe0c25df88e335ab98
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.6
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.4)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 08d584e78e57209034be8e1503b571bb
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.7
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.4)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: 214b7c6cf8b6626633c4c9d81bffcf0b
+NeedsCompilation: no
+
+Package: aws.s3
+Version: 0.3.8
+Imports: utils, tools, httr, xml2 (> 1.0.0), base64enc, digest,
+        aws.signature (>= 0.3.4)
+Suggests: testthat, datasets
+License: GPL (>= 2)
+MD5sum: dba1e01273c532e0cfb5c12b773d145e
+NeedsCompilation: no
+
+Package: aws.ses
+Version: 0.1.3
+Imports: httr, xml2, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 3b35eb8f43ab26d3971efffff0850db0
+NeedsCompilation: no
+
+Package: aws.ses
+Version: 0.1.4
+Imports: httr, jsonlite, aws.signature (>= 0.2.6)
+Suggests: aws.sns
+License: GPL (>= 2)
+MD5sum: fd3e5d5603482669188bd4217ae72f75
+NeedsCompilation: no
+
 Package: aws.ses
 Version: 0.1.5
 Imports: httr, jsonlite, aws.signature (>= 0.3.4)
 Suggests: aws.sns
 License: GPL (>= 2)
 MD5sum: aac18ea4762ef46896018ecfb102daab
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.1.1
+Imports: digest
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 12d8c1deb8b8293ced6ef38912efb425
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.1.2
+Imports: digest
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 0889c5150c2625357673ef024a10cd9d
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.1.3
+Imports: digest
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 30f15d08879b8adda13a4619fb85558a
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.1.4
+Imports: digest
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 5f9222e616972ee988b64830ff63fce7
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.1
+Imports: digest, utils
+License: GPL (>= 2)
+MD5sum: aa96d4af67063f1e6a85f2bdb9df9b2d
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.2.0
+Imports: digest
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 22a9005bdb810a6d75a9d884ca344567
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.2.1
+Imports: digest
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 6932548b8ad3e29e8fa3b561aa729022
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.2.2
+Imports: digest, base64enc
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 5cc333196cd3233e1abf0773a8e618ff
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.2.3
+Imports: digest, base64enc
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 2a845602b1004be09ce77e84be9f8a30
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.2.4
+Imports: digest, base64enc
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 0807d912d5eb50176a858a52b453e0e1
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.2.5
+Imports: digest, base64enc
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 4b2c4f46abba1c9024a1003bb91057cc
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.2.6
+Imports: digest, base64enc
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 3af67876e1bedfd5cc59710f7ea3d4cd
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.2.7
+Imports: digest, base64enc
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: af7ea5b92169f05cff531c13cbba9b39
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.2.8
+Imports: digest, base64enc
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 93fe6275a996e2e08e1bd5e5c28b56ac
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.2.9
+Imports: digest, base64enc
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 73d54bea512eefb05068dee05e622a6f
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.3.0
+Imports: digest, base64enc, aws.ec2metadata
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 489f58cebc82a4712b521f861a20d2e5
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.3.1
+Imports: digest, base64enc
+Suggests: testthat, aws.ec2metadata
+License: GPL (>= 2)
+MD5sum: 6cdc59cb8c4a3fc0707603f218141482
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.3.2
+Imports: digest, base64enc
+Suggests: testthat, aws.ec2metadata
+License: GPL (>= 2)
+MD5sum: a1ceac2de9333e0e89a08556c6a745d8
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.3.5
+Imports: digest, base64enc
+Suggests: testthat, aws.ec2metadata (>= 0.1.2)
+License: GPL (>= 2)
+MD5sum: 79d5b51a0e58a451ccabc0fa036676c1
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.3.6
+Imports: digest, base64enc
+Suggests: testthat, aws.ec2metadata (>= 0.1.3)
+License: GPL (>= 2)
+MD5sum: f8f71eb332ce248cd0a7adb80c06715a
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.4.0
+Imports: digest, base64enc
+Suggests: testthat, aws.ec2metadata (>= 0.1.3)
+License: GPL (>= 2)
+MD5sum: d950d547157795c8614b214adcf29dc0
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.4.1
+Imports: digest, base64enc
+Suggests: testthat, aws.ec2metadata (>= 0.1.3)
+License: GPL (>= 2)
+MD5sum: 07eefa96132f8dbe882be7d0ed75887f
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.4.2
+Imports: digest, base64enc
+Suggests: testthat, aws.ec2metadata (>= 0.1.3)
+License: GPL (>= 2)
+MD5sum: c3466c3ebf7055584c9fd8864116a058
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.4.3
+Imports: digest, base64enc
+Suggests: testthat, aws.ec2metadata (>= 0.1.3)
+License: GPL (>= 2)
+MD5sum: 8e78ec9341b63b021d746d084370a5cf
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.4.4
+Imports: digest, base64enc
+Suggests: testthat, aws.ec2metadata (>= 0.1.5)
+License: GPL (>= 2)
+MD5sum: 9af10860e67c67b1dbcb98609cbf9c3f
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.4.5
+Imports: digest, base64enc
+Suggests: testthat, aws.ec2metadata (>= 0.1.5)
+License: GPL (>= 2)
+MD5sum: f9592198b178f11787d2c41a61b4a4cc
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.5.0
+Imports: digest, base64enc
+Suggests: testthat (>= 2.1.0), aws.ec2metadata (>= 0.1.6)
+License: GPL (>= 2)
+MD5sum: 0886bb3026dea69d6f1e4e9b6f69ad57
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.5.1
+Imports: digest, base64enc
+Suggests: testthat (>= 2.1.0), aws.ec2metadata (>= 0.1.6)
+License: GPL (>= 2)
+MD5sum: 8ed62ebce13f7574fb91a0641f462713
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.5.2.9000
+Imports: digest, base64enc
+Suggests: testthat (>= 2.1.0), aws.ec2metadata (>= 0.1.6)
+License: GPL (>= 2)
+MD5sum: 1959c787d88d3a812e9576be2f5595f3
+NeedsCompilation: no
+
+Package: aws.signature
+Version: 0.5.2
+Imports: digest, base64enc
+Suggests: testthat (>= 2.1.0), aws.ec2metadata (>= 0.1.6)
+License: GPL (>= 2)
+MD5sum: 9f71cf431ada086eb6fa7644c85db423
 NeedsCompilation: no
 
 Package: aws.signature
@@ -128,10 +1131,40 @@ MD5sum: ec64e6b3498cec31fec449fb35d07196
 NeedsCompilation: no
 
 Package: aws.sns
+Version: 0.1.3
+Imports: httr, XML, jsonlite, aws.signature
+License: GPL (>= 2)
+MD5sum: 4e947763d3ab32a055281358184d25dc
+NeedsCompilation: no
+
+Package: aws.sns
+Version: 0.1.5
+Imports: stats, httr, xml2, jsonlite, aws.signature (>= 0.2.6)
+License: GPL (>= 2)
+MD5sum: ffdb10f25beefa379e7be21c4cb788d9
+NeedsCompilation: no
+
+Package: aws.sns
 Version: 0.1.7
 Imports: stats, httr, xml2, jsonlite, aws.signature (>= 0.3.4)
 License: GPL (>= 2)
 MD5sum: f24180139f6cde49b497850d46b55eb5
+NeedsCompilation: no
+
+Package: aws.sqs
+Version: 0.1.1
+Imports: httr, XML, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 2260f5989876a1d8f9fa6f0eaa9ae416
+NeedsCompilation: no
+
+Package: aws.sqs
+Version: 0.1.10
+Imports: httr, xml2, jsonlite, aws.signature (>= 0.3.4)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 0efb179df8c298e8a86eb4f01fb74645
 NeedsCompilation: no
 
 Package: aws.sqs
@@ -142,6 +1175,78 @@ License: GPL (>= 2)
 MD5sum: 9dd2985db10ffb6c5386a424fececd2f
 NeedsCompilation: no
 
+Package: aws.sqs
+Version: 0.1.2
+Imports: httr, XML, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 6a4016bee645f149a70ceb45678ad694
+NeedsCompilation: no
+
+Package: aws.sqs
+Version: 0.1.4
+Imports: httr, XML, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 179245b137a022b070e01ecfa9a6fd60
+NeedsCompilation: no
+
+Package: aws.sqs
+Version: 0.1.5
+Imports: httr, XML, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 16bed517aed53b9057f297b644d60d54
+NeedsCompilation: no
+
+Package: aws.sqs
+Version: 0.1.6
+Imports: httr, XML, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 159fb333a2d28c4cf14d2715fc7ec3ff
+NeedsCompilation: no
+
+Package: aws.sqs
+Version: 0.1.7
+Imports: httr, XML, jsonlite, aws.signature
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: c3010fbb80b771e72610c246dbc2cbf1
+NeedsCompilation: no
+
+Package: aws.sqs
+Version: 0.1.8
+Imports: httr, xml2, jsonlite, aws.signature (>= 0.2.6)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 1e657e46be0710b7b327ed0fd3e3fdeb
+NeedsCompilation: no
+
+Package: aws.sqs
+Version: 0.1.9
+Imports: httr, xml2, jsonlite, aws.signature (>= 0.3.4)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 2ee3f7b74eff013bc6a7bfb06163f6a0
+NeedsCompilation: no
+
+Package: aws.transcribe
+Version: 0.1.2.9000
+Imports: tools, httr, jsonlite, aws.signature (>= 0.3.4)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 983982d7dfeb62d303ad67e8be5a9202
+NeedsCompilation: no
+
+Package: aws.transcribe
+Version: 0.1.2
+Imports: tools, httr, jsonlite, aws.signature (>= 0.3.4)
+Suggests: testthat, aws.s3
+License: GPL (>= 2)
+MD5sum: 1f16945d5e10573521ce4edecfed3764
+NeedsCompilation: no
+
 Package: aws.transcribe
 Version: 0.1.3.9000
 Imports: tools, httr, jsonlite, aws.signature (>= 0.3.4)
@@ -150,11 +1255,89 @@ License: GPL (>= 2)
 MD5sum: 260d886a103827fa9035a038e1076464
 NeedsCompilation: no
 
+Package: aws.transcribe
+Version: 0.1.3
+Imports: tools, httr, jsonlite, aws.signature (>= 0.3.4)
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: faafa7846f9a8163a6e2101607fd7e5d
+NeedsCompilation: no
+
+Package: aws.translate
+Version: 0.1.3.9000
+Imports: httr, jsonlite, aws.signature (>= 0.3.4)
+License: GPL (>= 2)
+MD5sum: 723c53ca2d3a586ab0041984b9a420a6
+NeedsCompilation: no
+
+Package: aws.translate
+Version: 0.1.3
+Imports: httr, jsonlite, aws.signature (>= 0.3.4)
+License: GPL (>= 2)
+MD5sum: 3df4c22dfcf50fab8abe0c056e0e059c
+NeedsCompilation: no
+
 Package: aws.translate
 Version: 0.1.4.9000
 Imports: httr, jsonlite, aws.signature (>= 0.3.4)
 License: GPL (>= 2)
 MD5sum: 6b84874420acde23a57f16b2c735dc3a
+NeedsCompilation: no
+
+Package: aws.translate
+Version: 0.1.4
+Imports: httr, jsonlite, aws.signature (>= 0.3.4)
+License: GPL (>= 2)
+MD5sum: 0331f3e02c0c29f3057e51821989c352
+NeedsCompilation: no
+
+Package: awspack
+Version: 0.1.1
+Imports: aws.signature, aws.ec2metadata, aws.s3, aws.sns, aws.sqs,
+        aws.ses, aws.polly, aws.alexa
+License: GPL (>= 2)
+MD5sum: 0de426b89cfd9ce29e06ad79dfb7220e
+NeedsCompilation: no
+
+Package: awspack
+Version: 0.1.2
+Imports: aws.signature, aws.ec2metadata, aws.s3, aws.sns, aws.sqs,
+        aws.ses, aws.polly, aws.alexa
+License: GPL (>= 2)
+MD5sum: 5836142031887db066ae6df4f35bd9ac
+NeedsCompilation: no
+
+Package: awspack
+Version: 0.1.3
+Imports: aws.signature, aws.ec2metadata, aws.alexa, aws.iam, aws.polly,
+        aws.s3, aws.ses, aws.sns, aws.sqs
+License: GPL (>= 2)
+MD5sum: 6efd729580ec22eccb5980ffe0a8f294
+NeedsCompilation: no
+
+Package: awspack
+Version: 0.1.4
+Imports: aws.signature, aws.ec2metadata, aws.alexa, aws.iam,
+        aws.lambda, aws.polly, aws.s3, aws.ses, aws.sns, aws.sqs
+License: GPL (>= 2)
+MD5sum: 15b53c5448cd62b0332feac83b6bfd97
+NeedsCompilation: no
+
+Package: awspack
+Version: 0.1.5
+Imports: aws.signature, aws.ec2metadata, aws.alexa, aws.iam,
+        aws.lambda, aws.polly, aws.s3, aws.ses, aws.sns, aws.sqs
+License: GPL (>= 2)
+MD5sum: deb62c85a16a038dc8f395fdcf1324eb
+NeedsCompilation: no
+
+Package: awspack
+Version: 0.1.6
+Imports: aws.signature, aws.ec2metadata, aws.alexa, aws.cloudtrail,
+        aws.iam, aws.lambda, aws.polly, aws.s3, aws.ses, aws.sns,
+        aws.sqs
+License: GPL (>= 2)
+MD5sum: 47ad467df57bd8c368f6b120efea9403
 NeedsCompilation: no
 
 Package: awspack
@@ -167,6 +1350,123 @@ MD5sum: 5abb58c617b4769aaa1e44ca6f09ca82
 NeedsCompilation: no
 
 Package: AzureAuth
+Version: 1.0.0
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, R6, rappdirs
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: d2b525be269ba2f5256a1cf5950ca486
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.0.1.9000
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, R6, rappdirs
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: fa1d4c1fea784fe3532e3de8b449ed05
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.0.2.9000
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: af790e16d03b0c903c0c60e2e9c3bc83
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.1.0.9000
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 82285df5b71608c3c197ab57b26882ea
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.1.0
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 09af6ae778b80af4ede9ee1d94ac3b55
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.1.1
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 149e3acb3c762767827e75aec8faae55
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.2.0.9000
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv, shiny, AzureRMR, AzureGraph
+License: MIT + file LICENSE
+MD5sum: 41e428349834183c1d49f9e4b5958c57
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.2.0
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv, shiny, AzureRMR, AzureGraph
+License: MIT + file LICENSE
+MD5sum: 6f8e94f9151bada0551ecf8f8c51a8c3
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.2.1
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv, shiny, AzureRMR, AzureGraph
+License: MIT + file LICENSE
+MD5sum: a72900606b8b877d6963f5feb1925516
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.2.2.9000
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv, shiny, AzureRMR, AzureGraph
+License: MIT + file LICENSE
+MD5sum: e6a0998164ac261649ce72e629f4bb95
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.2.2
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv, shiny, AzureRMR, AzureGraph
+License: MIT + file LICENSE
+MD5sum: a2f87dce2ceb812945af6021cbecc9c5
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.2.3.9000
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv, shiny, AzureRMR, AzureGraph
+License: MIT + file LICENSE
+MD5sum: 79ecbabdf8f54d4a958de1e07d27dbd6
+NeedsCompilation: no
+
+Package: AzureAuth
+Version: 1.2.3
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
+Suggests: knitr, testthat, httpuv, shiny, AzureRMR, AzureGraph
+License: MIT + file LICENSE
+MD5sum: f41dca2e5a836bd593c5151adefef8b6
+NeedsCompilation: no
+
+Package: AzureAuth
 Version: 1.2.4
 Depends: R (>= 3.3)
 Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
@@ -176,12 +1476,175 @@ MD5sum: 6da8cca8d81af36fd1c0dcfc2d64fe27
 NeedsCompilation: no
 
 Package: AzureCognitive
+Version: 0.0.1
+Depends: R (>= 3.3)
+Imports: AzureAuth, AzureRMR, jsonlite, httr (>= 1.3)
+License: MIT + file LICENSE
+MD5sum: 669f8caa693f07d0d8436854cf122971
+NeedsCompilation: no
+
+Package: AzureCognitive
+Version: 0.1.0
+Depends: R (>= 3.3)
+Imports: AzureAuth (>= 1.2.0), AzureRMR, jsonlite, httr (>= 1.3),
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: b7c5ebbb00e8214e3cb511aba70c4601
+NeedsCompilation: no
+
+Package: AzureCognitive
+Version: 0.1
+Depends: R (>= 3.3)
+Imports: AzureAuth, AzureRMR, jsonlite, httr (>= 1.3),
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: a1c7653fc56f0ad5dba8ef07a14dad52
+NeedsCompilation: no
+
+Package: AzureCognitive
 Version: 1.0.0
 Depends: R (>= 3.3)
 Imports: AzureAuth (>= 1.2.0), AzureRMR, jsonlite, httr (>= 1.3),
 Suggests: knitr, testthat
 License: MIT + file LICENSE
 MD5sum: 0fdef974326012276b6f958d7d9b0a93
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.0.0
+Depends: R (>= 3.3)
+Imports: AzureRMR, openssl, httr, R6
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: c0623971be8673d5ec1ce2f633ff605d
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.0.1.9000
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureGraph, openssl, httr, R6
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 9ecf76076bb8f3f6455dbd2d28679859
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.0.1
+Depends: R (>= 3.3)
+Imports: AzureRMR, openssl, httr, R6
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 4bd9f72f48a65d135618e55c1de95fb0
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.0.2.9000
+Depends: R (>= 3.3)
+Imports: utils, AzureAuth, AzureRMR (>= 2.0.0), AzureGraph, openssl,
+        httr, R6
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 403f91739420e524974b30cd398141eb
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.0.2
+Depends: R (>= 3.3)
+Imports: utils, AzureAuth, AzureRMR (>= 2.0.0), AzureGraph, openssl,
+        httr, R6
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: c56b3f6a406a44d266bbad3954400387
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.0.3
+Depends: R (>= 3.3)
+Imports: utils, AzureAuth, AzureRMR (>= 2.0.0), AzureGraph, openssl,
+        httr, R6
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 005ce85c148386ce6e2b966452f32252
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.1.0
+Depends: R (>= 3.3)
+Imports: utils, AzureAuth, AzureRMR (>= 2.0.0), AzureGraph, openssl,
+        httr, R6
+Suggests: knitr, testthat, uuid
+License: MIT + file LICENSE
+MD5sum: dacbb25b6e436e490520848f620d20da
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.1.1
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureGraph, openssl, httr, R6
+Suggests: knitr, testthat, uuid
+License: MIT + file LICENSE
+MD5sum: c4e1fd86784afa576c179e7b40cf881d
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.1.2.9000
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
+        httr, R6, processx
+Suggests: knitr, testthat, uuid
+License: MIT + file LICENSE
+MD5sum: 7a2a231b8061fdb7117f4dc140372b99
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.1.2
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
+        httr, R6
+Suggests: knitr, testthat, uuid
+License: MIT + file LICENSE
+MD5sum: b0b69614cff67ea8ce2fc6bb4e1db5be
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.2.0.9000
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
+        httr, R6, processx
+Suggests: knitr, testthat, uuid
+License: MIT + file LICENSE
+MD5sum: 050623a06338a4b2ea57801c0d0bb062
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.2.0
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
+        httr, R6, processx
+Suggests: knitr, testthat, uuid
+License: MIT + file LICENSE
+MD5sum: 107aade4ddd33c0fa811306060ad049e
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.2.1.9000
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
+        httr, R6, processx
+Suggests: knitr, testthat, uuid, MASS, bcrypt, randomForest, plumber,
+        RestRserve, AzureKeyVault
+License: MIT + file LICENSE
+MD5sum: a0505cd0b5715e7a7657bdba875df071
+NeedsCompilation: no
+
+Package: AzureContainers
+Version: 1.2.1
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
+        httr, R6, processx
+Suggests: knitr, testthat, uuid
+License: MIT + file LICENSE
+MD5sum: 4af249ead7f11ea55160a0361aae7db7
 NeedsCompilation: no
 
 Package: AzureContainers
@@ -195,6 +1658,121 @@ License: MIT + file LICENSE
 MD5sum: 4e89fd07baf1f5619f42cae2fea3d56a
 NeedsCompilation: no
 
+Package: AzureContainers
+Version: 1.3.0
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
+        httr, R6, processx
+Suggests: knitr, testthat, uuid, MASS, bcrypt, randomForest, plumber,
+        RestRserve, AzureKeyVault
+License: MIT + file LICENSE
+MD5sum: 7197a0bac6debfadc19ee141f77c7b2c
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 0.1.0
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, openssl, R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: e77811bfbde318545e03abaf77327fa0
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 1.0.0
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, openssl, R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: e4b5697dadb30bf73e408f75677361d1
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 1.0.1.9000
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, openssl, R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 906f822a274c0d20a4502fc1a129da74
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 1.0.1
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, openssl, R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 26ab4c83b58f896d8593220c6e149d28
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 1.0.2
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, openssl, R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 0de000bca6ba79527832f94b144d6669
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 1.0.3.9000
+Depends: R (>= 3.3)
+Imports: AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, openssl,
+        R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 2841f8dc76fee2cdbd293dcaa6c8b4cb
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 1.0.3
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, openssl, R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 23bb8e20a22a46b4fc6a6c5ae51a4950
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 1.0.4
+Depends: R (>= 3.3)
+Imports: AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, openssl,
+        R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 7b5d38bf70ade8467a9d0bf8f3f7b421
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 1.0.5.9000
+Depends: R (>= 3.3)
+Imports: AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, openssl,
+        R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 5ddad413130afcc0b8f833724fb3dfc7
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 1.0.5
+Depends: R (>= 3.3)
+Imports: AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, openssl,
+        R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 7b5a5499f69c35bedfaef0999ccf554b
+NeedsCompilation: no
+
+Package: AzureGraph
+Version: 1.1.0
+Depends: R (>= 3.3)
+Imports: AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, openssl,
+        R6
+Suggests: AzureRMR, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 2461e2b938567c12750e5599d58fcd9e
+NeedsCompilation: no
+
 Package: AzureGraph
 Version: 1.1.1
 Depends: R (>= 3.3)
@@ -206,6 +1784,56 @@ MD5sum: 87835d1c272dafeafe0f01e4c9aa0d84
 NeedsCompilation: no
 
 Package: AzureKeyVault
+Version: 1.0.0.9000
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
+        AzureGraph, AzureAuth (>= 1.0.1)
+Suggests: AzureStor, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 1f7eaef480a20142815ce4b52fc3c42e
+NeedsCompilation: no
+
+Package: AzureKeyVault
+Version: 1.0.0
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
+        AzureGraph, AzureAuth (>= 1.0.1)
+Suggests: AzureStor, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: abab2495e6b881334d71334e75f82dc7
+NeedsCompilation: no
+
+Package: AzureKeyVault
+Version: 1.0.1
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
+        AzureGraph, AzureAuth (>= 1.0.1)
+Suggests: AzureStor, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: ffaed78ec378bf4aa7339e3ec224ace2
+NeedsCompilation: no
+
+Package: AzureKeyVault
+Version: 1.0.2.9000
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
+        AzureGraph, AzureAuth (>= 1.0.1)
+Suggests: AzureStor, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: c09bfcdd7df0d9f7d17178b4c454f39d
+NeedsCompilation: no
+
+Package: AzureKeyVault
+Version: 1.0.2
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
+        AzureGraph, AzureAuth (>= 1.0.1)
+Suggests: AzureStor, knitr, testthat
+License: MIT + file LICENSE
+MD5sum: f7c0a60ff051b02104326a8e51a71c12
+NeedsCompilation: no
+
+Package: AzureKeyVault
 Version: 1.0.3
 Depends: R (>= 3.3),
 Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
@@ -213,6 +1841,77 @@ Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
 Suggests: AzureStor, knitr, testthat
 License: MIT + file LICENSE
 MD5sum: 5143ea7335168401cbabf28aefbef6fd
+NeedsCompilation: no
+
+Package: AzureKusto
+Version: 0.0.1
+Depends: R (>= 3.3)
+Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
+        AzureAuth, AzureRMR (>= 2.0.0), dplyr, tidyselect (>= 0.2.4),
+        DBI (>= 1.0.0)
+Suggests: bit64, knitr, testthat, AzureStor (>= 2.0.0)
+License: MIT + file LICENSE
+MD5sum: 51ce85abc19abb9c36a53aa87246597b
+NeedsCompilation: no
+
+Package: AzureKusto
+Version: 1.0.1
+Depends: R (>= 3.3)
+Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
+        AzureAuth, AzureRMR (>= 2.0.0), tibble, dplyr, tidyselect (>=
+        0.2.4), DBI (>= 1.0.0)
+Suggests: bit64, knitr, testthat, AzureGraph, AzureStor (>= 2.0.0),
+        rmarkdown
+License: MIT + file LICENSE
+MD5sum: c8ecd8fe2a999768bb2e1a6837358307
+NeedsCompilation: no
+
+Package: AzureKusto
+Version: 1.0.2
+Depends: R (>= 3.3)
+Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
+        AzureAuth, AzureRMR (>= 2.0.0), tibble, dplyr, tidyselect (>=
+        0.2.4), DBI (>= 1.0.0)
+Suggests: bit64, knitr, testthat, tidyr, AzureGraph, AzureStor (>=
+        2.0.0), rmarkdown
+License: MIT + file LICENSE
+MD5sum: 93e7fbead4898581c1b1a149e70286b2
+NeedsCompilation: no
+
+Package: AzureKusto
+Version: 1.0.3
+Depends: R (>= 3.3)
+Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
+        AzureAuth, AzureRMR (>= 2.0.0), tibble, dplyr, tidyselect (>=
+        0.2.4), DBI (>= 1.0.0)
+Suggests: bit64, knitr, testthat, tidyr, AzureGraph, AzureStor (>=
+        2.0.0), rmarkdown
+License: MIT + file LICENSE
+MD5sum: b0409d945c6e970242ff546b4cf584e5
+NeedsCompilation: no
+
+Package: AzureKusto
+Version: 1.0.4
+Depends: R (>= 3.3)
+Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
+        AzureAuth, AzureRMR (>= 2.0.0), tibble, dplyr, tidyselect (>=
+        0.2.4), DBI (>= 1.0.0)
+Suggests: bit64, knitr, testthat, tidyr, AzureGraph, AzureStor (>=
+        2.0.0), rmarkdown
+License: MIT + file LICENSE
+MD5sum: 2ade36a643cd666ea594c198bce60632
+NeedsCompilation: no
+
+Package: AzureKusto
+Version: 1.0.5
+Depends: R (>= 3.3)
+Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
+        AzureAuth, AzureRMR (>= 2.0.0), tibble, dplyr, tidyselect (>=
+        0.2.4), DBI (>= 1.0.0)
+Suggests: bit64, knitr, testthat, tidyr, AzureGraph, AzureStor (>=
+        2.0.0), rmarkdown
+License: MIT + file LICENSE
+MD5sum: cdd7c1430e41d47faecf641b0f7b2646
 NeedsCompilation: no
 
 Package: AzureKusto
@@ -228,6 +1927,26 @@ MD5sum: 1b08748ba441240d1acc218eb3879afc
 NeedsCompilation: no
 
 Package: AzureQstor
+Version: 0.0.1
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), openssl,
+        xml2, httr
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 296e972e50d6bf09b32002900f9e838d
+NeedsCompilation: no
+
+Package: AzureQstor
+Version: 0.9.9.9000
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), openssl,
+        xml2, httr
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: 585d2cec856bc7659b0bc79daa67169c
+NeedsCompilation: no
+
+Package: AzureQstor
 Version: 1.0.0
 Depends: R (>= 3.3)
 Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), openssl,
@@ -235,6 +1954,194 @@ Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), openssl,
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
 MD5sum: 08297c498d699ab8bb4d0480b5aad87a
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 1.0.0.9000
+Depends: R (>= 3.3)
+Imports: utils, httr (>= 1.3), jsonlite, R6, rappdirs
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: f0e919601af87bee7b7ee3700b84d432
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.0.0
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), openssl, jsonlite, R6
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: f047b759a1ac0f6ea9b85e056fae789a
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.0.9000
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, R6, uuid
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 59b6eaa753c0278609e31b108e12bb5d
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.1.0
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, R6, uuid
+Suggests: knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 23818453c59b7de2a5bfee4fd5754b6f
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.1.1.9000
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, R6, uuid
+Suggests: AzureGraph, knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 2de3ac8c6543234506f9b69f7cf15447
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.1.1
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, R6, uuid
+Suggests: AzureGraph, knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 41c84a92477586d9a4a882b9a5e0a329
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.1.2.9000
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, R6, uuid
+Suggests: AzureGraph, knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 8c31437c3ca2a3347575478f95f9fd0b
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.1.2
+Depends: R (>= 3.3)
+Imports: AzureAuth, utils, httr (>= 1.3), jsonlite, R6, uuid
+Suggests: AzureGraph, knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 14dc8b3bbe2c29ffa7c8d7dbb67e9212
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.1.3.9000
+Depends: R (>= 3.3)
+Imports: AzureAuth (>= 1.2.1), utils, httr (>= 1.3), jsonlite, R6, uuid
+Suggests: AzureGraph, knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 24ba97d9673b516d59a73be0fde5fcea
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.1.3
+Depends: R (>= 3.3)
+Imports: AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, R6, uuid
+Suggests: AzureGraph, knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 6048beae79f22597328da1953abe5f55
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.2.0
+Depends: R (>= 3.3)
+Imports: AzureAuth (>= 1.2.1), utils, httr (>= 1.3), jsonlite, R6, uuid
+Suggests: AzureGraph, knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: 90be7bcdee52d02ff1be5c152b6fe8ee
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.2.1.9000
+Depends: R (>= 3.3)
+Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
+        httr (>= 1.3), jsonlite, R6, uuid
+Suggests: knitr, testthat, httpuv, AzureStor
+License: MIT + file LICENSE
+MD5sum: dbe68eb31b1d948ba8ed3ed1fbcb134d
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.2.1
+Depends: R (>= 3.3)
+Imports: AzureAuth (>= 1.2.1), utils, httr (>= 1.3), jsonlite, R6, uuid
+Suggests: AzureGraph, knitr, testthat, httpuv
+License: MIT + file LICENSE
+MD5sum: ad670cf74e409fceed88eb3e23de732f
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.3.0.9000
+Depends: R (>= 3.3)
+Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
+        httr (>= 1.3), jsonlite, R6, uuid
+Suggests: knitr, testthat, httpuv, AzureStor
+License: MIT + file LICENSE
+MD5sum: 79deb614db268f8ee8f7af9c5d69647c
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.3.0
+Depends: R (>= 3.3)
+Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
+        httr (>= 1.3), jsonlite, R6, uuid
+Suggests: knitr, testthat, httpuv, AzureStor
+License: MIT + file LICENSE
+MD5sum: d6d1a614a276e0021847c3ba5aa3f723
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.3.1
+Depends: R (>= 3.3)
+Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
+        httr (>= 1.3), jsonlite, R6, uuid
+Suggests: knitr, testthat, httpuv, AzureStor
+License: MIT + file LICENSE
+MD5sum: 6321cdb4d82892a4ef96e36c16848945
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.3.2.9000
+Depends: R (>= 3.3)
+Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
+        httr (>= 1.3), jsonlite, R6, uuid
+Suggests: knitr, testthat, httpuv, AzureStor
+License: MIT + file LICENSE
+MD5sum: ef6c30304f06db261d9dc16a6513898b
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.3.2
+Depends: R (>= 3.3)
+Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
+        httr (>= 1.3), jsonlite, R6, uuid
+Suggests: knitr, testthat, httpuv, AzureStor
+License: MIT + file LICENSE
+MD5sum: 045d7ad8f99b02c1e4140c7f67d44cc9
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.3.3.9000
+Depends: R (>= 3.3)
+Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
+        httr (>= 1.3), jsonlite, R6, uuid
+Suggests: knitr, testthat, httpuv, AzureStor
+License: MIT + file LICENSE
+MD5sum: 38c67d1452a6198558ed3a63c408d319
+NeedsCompilation: no
+
+Package: AzureRMR
+Version: 2.3.3
+Depends: R (>= 3.3)
+Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
+        httr (>= 1.3), jsonlite, R6, uuid
+Suggests: knitr, testthat, httpuv, AzureStor
+License: MIT + file LICENSE
+MD5sum: 8b0d240ea6593a96e08698fb2ab0839e
 NeedsCompilation: no
 
 Package: AzureRMR
@@ -248,12 +2155,210 @@ MD5sum: 7eeb66073daad0ea73d305463e332589
 NeedsCompilation: no
 
 Package: AzureStor
+Version: 1.0.0.9000
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 1a0d5cd69da5a1f6e3489efcb1fe0e01
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 2.0.0.9000
+Depends: R (>= 3.3),
+Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR
+Suggests: knitr, jsonlite, testthat
+License: MIT + file LICENSE
+MD5sum: e950e876e28911e8fd16848478e0f843
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 2.0.0
+Depends: R (>= 3.3),
+Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 119a8139b4fbe6aa1447bee9ac65bd54
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 2.0.1
+Depends: R (>= 3.3),
+Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR
+Suggests: knitr, jsonlite, testthat
+License: MIT + file LICENSE
+MD5sum: 7781517497a3e96436fc3c99ba1add20
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 2.0.2.9000
+Depends: R (>= 3.3),
+Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR
+Suggests: knitr, jsonlite, testthat
+License: MIT + file LICENSE
+MD5sum: 3b472da9ba823865a0ea7d3b76da331a
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 2.0.2
+Depends: R (>= 3.3),
+Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR
+Suggests: knitr, jsonlite, testthat
+License: MIT + file LICENSE
+MD5sum: 94aea901b30e29c81de405f1fc36ca46
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 2.1.0
+Depends: R (>= 3.3),
+Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR
+Suggests: knitr, jsonlite, testthat
+License: MIT + file LICENSE
+MD5sum: 8718752396bf203a6fdd32cdc52c08bc
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 2.1.1.9000
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.2.1)
+Suggests: knitr, jsonlite, testthat
+License: MIT + file LICENSE
+MD5sum: 9c04b4c7483eb05eb3576d444b780e85
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 2.1.1
+Depends: R (>= 3.3),
+Imports: utils, parallel, R6, httr, mime, openssl, xml2, AzureRMR
+Suggests: knitr, jsonlite, testthat
+License: MIT + file LICENSE
+MD5sum: 496d977dcfe4ce60cd291b66d22535e2
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.0.0.9000
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, jsonlite, testthat
+License: MIT + file LICENSE
+MD5sum: 7a7216d24167f4e6f9919ed77cb6a022
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.0.0
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, jsonlite, testthat
+License: MIT + file LICENSE
+MD5sum: de5b460acd881b6a4ab1cd09b8896c6c
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.0.1.9000
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, jsonlite, testthat, processx
+License: MIT + file LICENSE
+MD5sum: f4b255f6f747d32151d6895e82ae5399
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.0.1
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, jsonlite, testthat
+License: MIT + file LICENSE
+MD5sum: 7d3d69b84ce64f11091600c383817c1c
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.1.0.9000
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, jsonlite, testthat, processx
+License: MIT + file LICENSE
+MD5sum: 891499e506d2df5ef5d8d9276c0e1152
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.1.0
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, jsonlite, testthat, processx
+License: MIT + file LICENSE
+MD5sum: 11aeafc434056bf588241111d1087790
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.1.1.9000
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, rmarkdown, jsonlite, testthat, processx
+License: MIT + file LICENSE
+MD5sum: 0df02c9628e0f6a970a86b6173a4f7e0
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.1.1
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, jsonlite, testthat, processx
+License: MIT + file LICENSE
+MD5sum: f8a46330c13c3849298cdfc57e986881
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.2.0
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, rmarkdown, jsonlite, testthat, processx
+License: MIT + file LICENSE
+MD5sum: 906b6fd2558c3b7eb0c1e1bd8379221d
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.2.1.9000
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, rmarkdown, jsonlite, testthat, processx
+License: MIT + file LICENSE
+MD5sum: 2a104bd5bf0a56cac3c2e80f482dad54
+NeedsCompilation: no
+
+Package: AzureStor
+Version: 3.2.1
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
+Suggests: knitr, rmarkdown, jsonlite, testthat, processx
+License: MIT + file LICENSE
+MD5sum: dc38f65f4df848b50f89dbdf9870da96
+NeedsCompilation: no
+
+Package: AzureStor
 Version: 3.2.2
 Depends: R (>= 3.3),
 Imports: utils, R6, httr, mime, openssl, xml2, AzureRMR (>= 2.3.0)
 Suggests: knitr, rmarkdown, jsonlite, testthat, processx
 License: MIT + file LICENSE
 MD5sum: 70e5d38ff1acdf25785199e5f987af59
+NeedsCompilation: no
+
+Package: AzureVision
+Version: 0.0.1
+Depends: R (>= 3.3)
+Imports: AzureRMR, httr (>= 1.3)
+Suggests: AzureAuth, jpeg, png, svglite
+License: MIT + file LICENSE
+MD5sum: e3d8e097d2f49417f76b7b601a908597
+NeedsCompilation: no
+
+Package: AzureVision
+Version: 1.0.0
+Depends: R (>= 3.3)
+Imports: AzureRMR, AzureCognitive, httr, utils
+Suggests: knitr, AzureAuth, testthat
+License: MIT + file LICENSE
+MD5sum: ef6d53fdea2194c30a5c7f86c3eedaae
 NeedsCompilation: no
 
 Package: AzureVision
@@ -266,6 +2371,87 @@ MD5sum: ebfb454d5e94eb17688db3dba868f97f
 NeedsCompilation: no
 
 Package: AzureVM
+Version: 1.0.0
+Depends: R (>= 3.3),
+Imports: R6, AzureRMR
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 2cafc804f8d0efb19a0637cb0313d7ab
+NeedsCompilation: no
+
+Package: AzureVM
+Version: 1.0.1
+Depends: R (>= 3.3),
+Imports: R6, AzureRMR
+Suggests: knitr, testthat
+License: MIT + file LICENSE
+MD5sum: 65b73de25cd9aa5f7205e50220e72c0e
+NeedsCompilation: no
+
+Package: AzureVM
+Version: 2.0.0.9000
+Depends: R (>= 3.3)
+Imports: R6, AzureRMR (>= 2.1.2), jsonlite, parallel
+Suggests: knitr, testthat, AzureKeyVault, AzureVMmetadata
+License: MIT + file LICENSE
+MD5sum: e8e258ac98fb125524e0744f96490c6e
+NeedsCompilation: no
+
+Package: AzureVM
+Version: 2.0.0
+Depends: R (>= 3.3)
+Imports: R6, AzureRMR (>= 2.1.2), jsonlite, parallel
+Suggests: knitr, testthat, AzureKeyVault
+License: MIT + file LICENSE
+MD5sum: 6eb14407e4e88ab6ceb935fcc73c903e
+NeedsCompilation: no
+
+Package: AzureVM
+Version: 2.0.1.9000
+Depends: R (>= 3.3)
+Imports: R6, AzureRMR (>= 2.2.1), jsonlite
+Suggests: knitr, testthat, AzureKeyVault, AzureVMmetadata
+License: MIT + file LICENSE
+MD5sum: 5289659c05c491dadf62aea311c1743a
+NeedsCompilation: no
+
+Package: AzureVM
+Version: 2.0.1
+Depends: R (>= 3.3)
+Imports: R6, AzureRMR (>= 2.1.2), jsonlite, parallel
+Suggests: knitr, testthat, AzureKeyVault, AzureVMmetadata
+License: MIT + file LICENSE
+MD5sum: fca7f624097ded06344649a89a12a72e
+NeedsCompilation: no
+
+Package: AzureVM
+Version: 2.1.0.9000
+Depends: R (>= 3.3)
+Imports: R6 (>= 2.4.1), AzureRMR (>= 2.3.0), jsonlite
+Suggests: knitr, testthat, AzureKeyVault, AzureVMmetadata
+License: MIT + file LICENSE
+MD5sum: a982fe9e606ca522ba4eb1cbe6547220
+NeedsCompilation: no
+
+Package: AzureVM
+Version: 2.1.0
+Depends: R (>= 3.3)
+Imports: R6, AzureRMR (>= 2.3.0), jsonlite
+Suggests: knitr, testthat, AzureKeyVault, AzureVMmetadata
+License: MIT + file LICENSE
+MD5sum: 78eeb0b8bedfe31fc6e37de7b3122635
+NeedsCompilation: no
+
+Package: AzureVM
+Version: 2.1.1.9000
+Depends: R (>= 3.3)
+Imports: R6 (>= 2.4.1), AzureRMR (>= 2.3.0), jsonlite
+Suggests: knitr, testthat, AzureKeyVault, AzureVMmetadata
+License: MIT + file LICENSE
+MD5sum: 79fd3277f9b905cc93e4f7371836bf94
+NeedsCompilation: no
+
+Package: AzureVM
 Version: 2.1.1
 Depends: R (>= 3.3)
 Imports: R6 (>= 2.4.1), AzureRMR (>= 2.3.0), jsonlite
@@ -275,12 +2461,53 @@ MD5sum: 52806ccb66d7b575b2b3d5ff5a956c5e
 NeedsCompilation: no
 
 Package: AzureVMmetadata
+Version: 0.0.1
+Depends: R (>= 3.3)
+Imports: openssl, httr (>= 1.3)
+Suggests: knitr, testthat, AzureAuth, AzureVM
+License: MIT + file LICENSE
+MD5sum: de07d3528618dd075b525930d02b0360
+NeedsCompilation: no
+
+Package: AzureVMmetadata
 Version: 1.0.0
 Depends: R (>= 3.3)
 Imports: openssl, httr (>= 1.3)
 Suggests: AzureAuth, AzureVM
 License: MIT + file LICENSE
 MD5sum: 1bd2d8e1146d48f18b7d2300f3645362
+NeedsCompilation: no
+
+Package: bigQueryR
+Version: 0.3.0.9000
+Depends: R (>= 3.2.0)
+Imports: googleAuthR (>= 0.5.1), googleCloudStorageR (>= 0.2.0),
+        jsonlite (>= 1.0), httr (>= 1.2.1), assertthat
+Suggests: shiny (>= 0.12.1), knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 0616cae2401b629877bc6b896a7edf19
+NeedsCompilation: no
+
+Package: bigQueryR
+Version: 0.4.0.9000
+Depends: R (>= 3.3)
+Imports: googleAuthR (>= 1.1.1), googleCloudStorageR (>= 0.2.0),
+        jsonlite (>= 1.0), httr (>= 1.2.1), assertthat
+Suggests: shiny (>= 0.12.1), knitr, rmarkdown, testthat, data.table,
+        purrr
+License: MIT + file LICENSE
+MD5sum: de230b34bcac930358c14510bbf053dd
+NeedsCompilation: no
+
+Package: bigQueryR
+Version: 0.4.0
+Depends: R (>= 3.2)
+Imports: googleAuthR (>= 0.6.2), googleCloudStorageR (>= 0.2.0),
+        jsonlite (>= 1.0), httr (>= 1.2.1), assertthat
+Suggests: shiny (>= 0.12.1), knitr, rmarkdown, testthat, data.table,
+        purrr
+License: MIT + file LICENSE
+MD5sum: 567a825f5c541afa4d62adaad247bf3b
 NeedsCompilation: no
 
 Package: bigQueryR
@@ -294,6 +2521,33 @@ License: MIT + file LICENSE
 MD5sum: fbe609eeda8f52f83a3440e5cdb286bd
 NeedsCompilation: no
 
+Package: bigQueryR
+Version: 0.5.0
+Depends: R (>= 3.3)
+Imports: googleAuthR (>= 1.1.1), googleCloudStorageR (>= 0.2.0),
+        jsonlite (>= 1.0), httr (>= 1.2.1), assertthat
+Suggests: shiny (>= 0.12.1), knitr, rmarkdown, testthat, data.table,
+        purrr
+License: MIT + file LICENSE
+MD5sum: ade99983352bc3f72f349c9b8c0b218a
+NeedsCompilation: no
+
+Package: circleci
+Version: 0.1.1
+Imports: httr
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 516958c44d14b78ac2aa3ae7d866d72e
+NeedsCompilation: no
+
+Package: circleci
+Version: 0.1.2
+Imports: httr
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: a3189fcb84de088e208b5f2e8233a2f6
+NeedsCompilation: no
+
 Package: circleci
 Version: 0.1.3
 Imports: httr, jsonlite
@@ -301,6 +2555,62 @@ Suggests: testthat
 Enhances: devtools
 License: GPL (>= 2)
 MD5sum: 3f670b619ce470171546e767374010dd
+NeedsCompilation: no
+
+Package: ghit
+Version: 0.2.10
+Imports: utils, tools, git2r
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 2d2b5ad9ad1c52a4141adf86b8fd38fa
+NeedsCompilation: no
+
+Package: ghit
+Version: 0.2.11
+Imports: utils, tools, git2r
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 2a58df0645e569238948c1e15075b167
+NeedsCompilation: no
+
+Package: ghit
+Version: 0.2.12
+Imports: utils, tools, git2r (>= 0.12.1)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: c30e799ad34491a4c400d17b5160288f
+NeedsCompilation: no
+
+Package: ghit
+Version: 0.2.13
+Imports: utils, tools, git2r (>= 0.12.1)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 2a731d3a7a5ae0b8825a3fb769f27eb1
+NeedsCompilation: no
+
+Package: ghit
+Version: 0.2.15
+Imports: utils, tools, git2r (>= 0.12.1)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: bfa3c11b3b97d23d4e64abe7888a83c1
+NeedsCompilation: no
+
+Package: ghit
+Version: 0.2.16
+Imports: utils, tools, git2r (>= 0.12.1)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 27e690285ed131994c3aa8195071a69d
+NeedsCompilation: no
+
+Package: ghit
+Version: 0.2.17
+Imports: utils, tools, git2r (>= 0.12.1)
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 30bd1960297445b19ad6209c4056a5a8
 NeedsCompilation: no
 
 Package: ghit
@@ -312,6 +2622,98 @@ MD5sum: c667c3d446f749ad1536850e46f41599
 NeedsCompilation: no
 
 Package: googleCloudStorageR
+Version: 0.1.0.9000
+Depends: R (>= 3.2.0)
+Imports: googleAuthR (>= 0.4.0), testthat(>= 1.0.2), httr (>= 1.2.1),
+        jsonlite (>= 1.0), readr (>= 0.2.2)
+Suggests: knitr, covr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: ffb9134637d6f287ba2dacb3898ce949
+NeedsCompilation: no
+
+Package: googleCloudStorageR
+Version: 0.2.0.9000
+Depends: R (>= 3.2.0)
+Imports: googleAuthR (>= 0.5.1), testthat(>= 1.0.2), httr (>= 1.2.1),
+        jsonlite (>= 1.0), readr (>= 0.2.2)
+Suggests: knitr, covr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: f1e99c72f4af2c563706735f1aaaab54
+NeedsCompilation: no
+
+Package: googleCloudStorageR
+Version: 0.2.0
+Depends: R (>= 3.2.0)
+Imports: googleAuthR (>= 0.4.0), testthat(>= 1.0.2), httr (>= 1.2.1),
+        jsonlite (>= 1.0), readr (>= 0.2.2)
+Suggests: knitr, covr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: a5abf5ebd710a8eeca61311b49d7291c
+NeedsCompilation: no
+
+Package: googleCloudStorageR
+Version: 0.3.0.9000
+Depends: R (>= 3.2.0)
+Imports: assertthat (>= 0.2.0), googleAuthR (>= 0.5.1), httr (>=
+        1.2.1), jsonlite (>= 1.0)
+Suggests: covr, readr, curl, knitr, rmarkdown, testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 42a4ca7a0600b1a58e0869665f947db7
+NeedsCompilation: no
+
+Package: googleCloudStorageR
+Version: 0.4.0.9000
+Depends: R (>= 3.2.0)
+Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 0.8.1), httr (>=
+        1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip
+Suggests: covr, googleComputeEngineR, knitr, readr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 7da4082a88e6cdab3933371f4b1d0a97
+NeedsCompilation: no
+
+Package: googleCloudStorageR
+Version: 0.4.0
+Depends: R (>= 3.2.0)
+Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 0.6.2), httr (>=
+        1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip
+Suggests: covr, googleComputeEngineR, knitr, readr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 27f20c0af9465ec6ee1cecc3585351e8
+NeedsCompilation: no
+
+Package: googleCloudStorageR
+Version: 0.5.0.9000
+Depends: R (>= 3.2.0)
+Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 1.0.0), httr (>=
+        1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip (>= 2.0.3)
+Suggests: covr, fs, gargle, googleComputeEngineR, knitr, readr, rlang,
+        rmarkdown, sodium, testthat
+License: MIT + file LICENSE
+MD5sum: 59f915e9152a3eb68f6e7a3deb4be151
+NeedsCompilation: no
+
+Package: googleCloudStorageR
+Version: 0.5.0
+Depends: R (>= 3.2.0)
+Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 0.8.1), httr (>=
+        1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip
+Suggests: covr, googleComputeEngineR, knitr, readr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 811c2ce7fdcfd39f2b153c72cc526f1f
+NeedsCompilation: no
+
+Package: googleCloudStorageR
+Version: 0.5.1.9000
+Depends: R (>= 3.2.0)
+Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 1.0.0), httr (>=
+        1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip (>= 2.0.3)
+Suggests: covr, fs, gargle, googleComputeEngineR, knitr, readr, rlang,
+        rmarkdown, sodium, testthat
+License: MIT + file LICENSE
+MD5sum: 322e95655ade99b728904ce19a7653ac
+NeedsCompilation: no
+
+Package: googleCloudStorageR
 Version: 0.5.1.9001
 Depends: R (>= 3.2.0)
 Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 1.0.0), httr (>=
@@ -320,6 +2722,17 @@ Suggests: covr, fs, gargle, googleComputeEngineR, knitr, readr, rlang,
         rmarkdown, sodium, testthat
 License: MIT + file LICENSE
 MD5sum: 65d1380a1c95d5c68e38554b050a5225
+NeedsCompilation: no
+
+Package: googleCloudStorageR
+Version: 0.5.1
+Depends: R (>= 3.2.0)
+Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 1.0.0), httr (>=
+        1.2.1), jsonlite (>= 1.0), openssl, utils, yaml, zip (>= 2.0.3)
+Suggests: covr, fs, gargle, googleComputeEngineR, knitr, readr, rlang,
+        rmarkdown, sodium, testthat
+License: MIT + file LICENSE
+MD5sum: 2288b2a23cb4da2216f9fc6d29cf7ebf
 NeedsCompilation: no
 
 Package: imguR
@@ -346,6 +2759,214 @@ MD5sum: 0929e1dad52f1421a264390143230489
 NeedsCompilation: no
 
 Package: MTurkR
+Version: 0.6.10
+Imports: utils, stats, curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: f33fec03e89bf0ec1a3ed071e138ca8d
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.11
+Imports: utils, stats, curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: 46448f2db6ee2b562dd3e3a9052ce40a
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.12
+Imports: utils, stats, curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: dea06db12c1e18c56e718e796dcb1731
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.13
+Imports: utils, stats, curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: ac95be59ddd068a0e7e393bd309bec5e
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.14
+Imports: utils, stats, curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: a95492e866ea15e0f5a6b3efa018ea08
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.15
+Imports: utils, stats, curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: 179a4fb7dfbdab395f322f444c35dfc0
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.17
+Imports: utils, stats, curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: 111cefa595e0a143328d070c7cefa2f7
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.18
+Imports: utils, stats, curl, digest, base64enc, XML
+License: GPL-2
+MD5sum: a60474442e8a2fdff9017cdd6f0bcbc7
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.20
+Imports: utils, stats, curl, digest, base64enc, XML
+License: GPL-2
+MD5sum: d67c90c7e1df74d45016c4ad021a6e8f
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.21
+Imports: utils, stats, curl, digest, base64enc, XML
+License: GPL-2
+MD5sum: f6e27559656fc9529184886a3b1b4fb9
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.22
+Imports: utils, stats, curl, digest, base64enc, XML
+License: GPL-2
+MD5sum: b8740754cb9e3d8ac0bacc54ff572f45
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.23
+Imports: utils, stats, curl, digest, base64enc, XML
+License: GPL-2
+MD5sum: fd21dec2bb16741c7918db647a5a5f52
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.24
+Imports: utils, stats, curl, digest, base64enc, XML
+License: GPL-2
+MD5sum: eb880675470ef20b6f446755ded2747f
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.27
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: d94d1ba788e6e7db257f06f91b9a02cf
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.7
+Imports: curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: f82edc7b14c244f87d976a0cc676e850
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.8
+Imports: utils, stats, curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: f7fc2ff120579ef90e9677e3f8116fc3
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.6.9
+Imports: utils, stats, curl, digest, base64enc, XML, tcltk
+License: GPL-2
+MD5sum: b26469fc4ae79d2984f5e98f429d4483
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.7.0
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: 15b76172fc728da553fcf50d0809ae56
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.7.1
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: 7e513e4d54be7058b1117bbb4302ff82
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.7.10
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: 5963d25d9a632a181a9b8363538346df
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.7.11
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: 7449aa161e591fd892b9da6aba349e57
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.7.2
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: 8d6e5876142031ca63d38ea46106062f
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.7.4
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: 4340d785c9326cd2286d8ee0f2c7f70a
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.7.7
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: 2f4f61376f9302ce41cf990e399182dc
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.7.8
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: a68dca6d05cfb91209afc75e90d2fc92
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.7.9
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: 76d50607dcf8d571da80141c54c4fa46
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.8.0
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: 0c72ef2d10dacbff61d0bf354ca0890e
+NeedsCompilation: no
+
+Package: MTurkR
+Version: 0.8.1
+Imports: utils, stats, curl, digest, base64enc, XML
+Suggests: testthat
+License: GPL-2
+MD5sum: a26998f0d0c5d007bfd06e14e336ef32
+NeedsCompilation: no
+
+Package: MTurkR
 Version: 0.8.2
 Imports: utils, stats, curl, digest, base64enc, XML
 Suggests: testthat
@@ -354,10 +2975,73 @@ MD5sum: 1b606e794f267500de26531790c03337
 NeedsCompilation: no
 
 Package: MTurkRGUI
+Version: 0.1.1
+Imports: MTurkR, tcltk, grDevices, utils, XML, curl
+License: GPL-2
+MD5sum: 9e4879736788188dd0b0bffd6656af81
+NeedsCompilation: no
+
+Package: MTurkRGUI
+Version: 0.1.2
+Imports: MTurkR, tcltk, grDevices, utils, XML, curl
+License: GPL-2
+MD5sum: fb925548bf17b8c29bdea42d7924a93b
+NeedsCompilation: no
+
+Package: MTurkRGUI
+Version: 0.1.3
+Imports: MTurkR, tcltk, grDevices, utils, XML, curl
+License: GPL-2
+MD5sum: 79eb15cd56424dba9e74926c08b60c99
+NeedsCompilation: no
+
+Package: MTurkRGUI
+Version: 0.1.4
+Imports: MTurkR, tcltk, grDevices, utils, XML, curl
+License: GPL-2
+MD5sum: 0ae133b2603d927e2c1260addc7aaac4
+NeedsCompilation: no
+
+Package: MTurkRGUI
 Version: 0.1.5
 Imports: MTurkR, tcltk, grDevices, utils, XML, curl
 License: GPL-2
 MD5sum: 7e7d990ca1f95689fc3cfd5a4b1055c3
+NeedsCompilation: no
+
+Package: Rmonkey
+Version: 0.2.15
+Imports: httr, jsonlite, curl, plyr
+License: GPL-2
+MD5sum: 48af309c1aa5ba78b21261267a106b5b
+NeedsCompilation: no
+
+Package: Rmonkey
+Version: 0.2.16
+Imports: httr, jsonlite, curl, plyr
+License: GPL-2
+MD5sum: 696710fe40769a2215a527d2e2e5515b
+NeedsCompilation: no
+
+Package: Rmonkey
+Version: 0.3.0
+Imports: stats, utils, httr, jsonlite, curl, plyr
+License: GPL-2
+MD5sum: fc73b79eec8bd7f38eed9d4a066ccfc7
+NeedsCompilation: no
+
+Package: Rmonkey
+Version: 0.3.1
+Imports: stats, utils, httr, jsonlite, curl, plyr
+License: GPL-2
+MD5sum: bf5599dddecec901dffd019f4830dca2
+NeedsCompilation: no
+
+Package: Rmonkey
+Version: 0.3.2
+Imports: stats, utils, httr, jsonlite, curl, plyr
+License: GPL-2
+MD5sum: 25815903d56a6a6cf9bae77a7a159f97
 NeedsCompilation: no
 
 Package: Rmonkey
@@ -382,6 +3066,22 @@ Version: 0.1.2
 Imports: tools, utils, httr, XML, digest
 License: MIT + file LICENSE
 MD5sum: 732469685c03fc437c3a263dae11e717
+NeedsCompilation: no
+
+Package: travisci
+Version: 0.1.1
+Imports: httr, jsonlite
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: ecafe39bc380f0e0a41b9a9f0e384f29
+NeedsCompilation: no
+
+Package: travisci
+Version: 0.1.2
+Imports: httr, jsonlite
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 72e1853c8bad8dcface5175dedc2d16c
 NeedsCompilation: no
 
 Package: travisci
