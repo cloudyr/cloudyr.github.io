@@ -2151,7 +2151,7 @@ Imports: AzureGraph (>= 1.0.4), AzureAuth (>= 1.2.1), utils, parallel,
         httr (>= 1.3), jsonlite, R6, uuid
 Suggests: knitr, testthat, httpuv, AzureStor
 License: MIT + file LICENSE
-MD5sum: 35485f9e4375eeaf7b951fe8da535d94
+MD5sum: 6239e9bc59ee042831ab32852cf1b6f2
 NeedsCompilation: no
 
 Package: AzureRMR
