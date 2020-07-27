@@ -2475,9 +2475,10 @@ Package: AzureVM
 Version: 2.1.1.9000
 Depends: R (>= 3.3)
 Imports: R6 (>= 2.4.1), AzureRMR (>= 2.3.0), jsonlite
-Suggests: knitr, testthat, AzureKeyVault, AzureVMmetadata
+Suggests: knitr, rmarkdown, testthat, parallel, AzureKeyVault,
+        AzureVMmetadata
 License: MIT + file LICENSE
-MD5sum: 0518cb2cfc6b4015dc8e265110465d66
+MD5sum: af72e09a4f2dae4bee1a9b15b6855c6e
 NeedsCompilation: no
 
 Package: AzureVM
