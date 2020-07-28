@@ -2500,6 +2500,16 @@ License: MIT + file LICENSE
 MD5sum: 1034bea5518dc53c54c7e16416692280
 NeedsCompilation: no
 
+Package: AzureVM
+Version: 2.2.1
+Depends: R (>= 3.3)
+Imports: R6 (>= 2.4.1), AzureRMR (>= 2.3.0), jsonlite
+Suggests: knitr, rmarkdown, testthat, parallel, AzureKeyVault,
+        AzureVMmetadata
+License: MIT + file LICENSE
+MD5sum: ff21175e745fca7932963234a8d3673b
+NeedsCompilation: no
+
 Package: AzureVMmetadata
 Version: 0.0.1
 Depends: R (>= 3.3)
