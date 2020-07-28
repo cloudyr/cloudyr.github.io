@@ -2478,7 +2478,7 @@ Imports: R6 (>= 2.4.1), AzureRMR (>= 2.3.0), jsonlite
 Suggests: knitr, rmarkdown, testthat, parallel, AzureKeyVault,
         AzureVMmetadata
 License: MIT + file LICENSE
-MD5sum: 4e2e2cc4e2b21c3519f40998954696fe
+MD5sum: bf67e6b2d28f12c70c2596447a930e14
 NeedsCompilation: no
 
 Package: AzureVM
