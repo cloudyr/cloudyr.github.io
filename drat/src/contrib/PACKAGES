@@ -2568,7 +2568,7 @@ Imports: googleAuthR (>= 1.1.1), googleCloudStorageR (>= 0.2.0),
 Suggests: shiny (>= 0.12.1), knitr, rmarkdown, testthat, data.table,
         purrr
 License: MIT + file LICENSE
-MD5sum: fbe609eeda8f52f83a3440e5cdb286bd
+MD5sum: 1a3a00ea5e3e789a183c6db70ade6e5d
 NeedsCompilation: no
 
 Package: bigQueryR
