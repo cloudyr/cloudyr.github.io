@@ -2792,7 +2792,7 @@ Imports: assertthat (>= 0.2.0), curl, googleAuthR (>= 1.0.0), httr (>=
 Suggests: covr, fs, gargle, googleComputeEngineR, knitr, readr, rlang,
         rmarkdown, sodium, testthat
 License: MIT + file LICENSE
-MD5sum: 8ff27d941e4a17812ce7ba0d8fdab8dc
+MD5sum: 4ec9875ec955d45d96f25f47da18a234
 NeedsCompilation: no
 
 Package: googleCloudStorageR
