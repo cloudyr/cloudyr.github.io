@@ -1472,7 +1472,7 @@ Depends: R (>= 3.3)
 Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
 Suggests: knitr, testthat, httpuv, shiny, AzureRMR, AzureGraph
 License: MIT + file LICENSE
-MD5sum: 8280d17c8f49f734f7ac42a54a5d9647
+MD5sum: 611863c58e720c197268fafb5d42d8e6
 NeedsCompilation: no
 
 Package: AzureAuth
