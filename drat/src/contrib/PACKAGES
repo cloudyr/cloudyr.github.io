@@ -1798,7 +1798,7 @@ Imports: AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, openssl,
         R6
 Suggests: AzureRMR, knitr, testthat
 License: MIT + file LICENSE
-MD5sum: 87835d1c272dafeafe0f01e4c9aa0d84
+MD5sum: 177459df41c7d085eec767980106c2d5
 NeedsCompilation: no
 
 Package: AzureKeyVault
