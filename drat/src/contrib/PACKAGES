@@ -1877,9 +1877,9 @@ Version: 1.0.4
 Depends: R (>= 3.3),
 Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
         AzureGraph, AzureAuth (>= 1.0.1)
-Suggests: AzureStor, knitr, testthat
+Suggests: AzureStor, knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 46601ab085b5ddd4ca5513bc0b503096
+MD5sum: b763b902870ea3da7eea0862ba642b81
 NeedsCompilation: no
 
 Package: AzureKusto
