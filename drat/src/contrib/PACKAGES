@@ -1693,10 +1693,10 @@ Version: 1.3.1
 Depends: R (>= 3.3)
 Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
         httr, R6, processx
-Suggests: knitr, testthat, uuid, MASS, bcrypt, randomForest, plumber,
-        RestRserve, AzureKeyVault
+Suggests: knitr, rmarkdown, testthat, uuid, MASS, bcrypt, randomForest,
+        plumber, RestRserve, AzureKeyVault
 License: MIT + file LICENSE
-MD5sum: 64ed52f2eb6704a12baf53a0a88f8adf
+MD5sum: 9213734c72c6e0a6d25f7e2b7bbceec9
 NeedsCompilation: no
 
 Package: AzureGraph
