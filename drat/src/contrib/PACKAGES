@@ -1542,9 +1542,9 @@ Package: AzureCognitive
 Version: 1.0.1
 Depends: R (>= 3.3)
 Imports: AzureAuth (>= 1.2.0), AzureRMR, jsonlite, httr (>= 1.3),
-Suggests: knitr, testthat
+Suggests: knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 846f83b98d4e7d8f4f6afed7d90a1260
+MD5sum: afd8e31fc4c88156ae251827df4b8746
 NeedsCompilation: no
 
 Package: AzureContainers
