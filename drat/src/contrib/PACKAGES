@@ -2649,6 +2649,15 @@ License: MIT + file LICENSE
 MD5sum: 1bd2d8e1146d48f18b7d2300f3645362
 NeedsCompilation: no
 
+Package: AzureVMmetadata
+Version: 1.0.1
+Depends: R (>= 3.3)
+Imports: openssl, httr (>= 1.3)
+Suggests: AzureAuth, AzureVM
+License: MIT + file LICENSE
+MD5sum: 30a4c1a4a438f00e579de97b243ccfb1
+NeedsCompilation: no
+
 Package: bigQueryR
 Version: 0.3.0.9000
 Depends: R (>= 3.2.0)
