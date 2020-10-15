@@ -2525,7 +2525,7 @@ Depends: R (>= 3.3)
 Imports: AzureRMR, AzureCognitive, httr, utils
 Suggests: knitr, AzureAuth, testthat
 License: MIT + file LICENSE
-MD5sum: ebfb454d5e94eb17688db3dba868f97f
+MD5sum: 68be3b16aa876cbc68baa5ecfa0d7ed8
 NeedsCompilation: no
 
 Package: AzureVM
