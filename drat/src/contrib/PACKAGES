@@ -2514,11 +2514,11 @@ NeedsCompilation: no
 Package: AzureTableStor
 Version: 0.0.1
 Depends: R (>= 3.3)
-Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), openssl,
-        jsonlite, httr, uuid, vctrs (>= 0.3.0)
-Suggests: AzureKeyVault, testthat, knitr, rmarkdown, tibble
+Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), jsonlite,
+        openssl, httr, uuid, vctrs (>= 0.3.0)
+Suggests: AzureKeyVault, testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 36f316111d549f78b5d5c7cc39d1dcc8
+MD5sum: c1fb2052fadd90c37738080c49272474
 NeedsCompilation: no
 
 Package: AzureVision
