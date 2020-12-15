@@ -2778,6 +2778,15 @@ MD5sum: 1bd2d8e1146d48f18b7d2300f3645362
 NeedsCompilation: no
 
 Package: AzureVMmetadata
+Version: 1.0.1.9000
+Depends: R (>= 3.3)
+Imports: openssl, httr (>= 1.3)
+Suggests: AzureAuth, AzureVM
+License: MIT + file LICENSE
+MD5sum: 6ff2be7cc6d4a24c7e9743e827fdc2a6
+NeedsCompilation: no
+
+Package: AzureVMmetadata
 Version: 1.0.1
 Depends: R (>= 3.3)
 Imports: openssl, httr (>= 1.3)
