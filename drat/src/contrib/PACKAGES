@@ -2629,6 +2629,15 @@ MD5sum: 68be3b16aa876cbc68baa5ecfa0d7ed8
 NeedsCompilation: no
 
 Package: AzureVision
+Version: 1.0.2.9000
+Depends: R (>= 3.3)
+Imports: AzureRMR, AzureCognitive, httr, utils
+Suggests: knitr, rmarkdown, AzureAuth, testthat
+License: MIT + file LICENSE
+MD5sum: d55f22d952b561a7bada31b8ec480170
+NeedsCompilation: no
+
+Package: AzureVision
 Version: 1.0.2
 Depends: R (>= 3.3)
 Imports: AzureRMR, AzureCognitive, httr, utils
