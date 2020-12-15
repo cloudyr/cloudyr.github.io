@@ -2608,7 +2608,7 @@ Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), jsonlite,
         openssl, httr, uuid, vctrs (>= 0.3.0)
 Suggests: testthat, knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: 5628453635a82d35917bd6e2472f8ab1
+MD5sum: 0e03096c20c9e709ef5f21acc22c407c
 NeedsCompilation: no
 
 Package: AzureVision
