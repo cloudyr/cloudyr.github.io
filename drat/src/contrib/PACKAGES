@@ -1747,6 +1747,17 @@ License: MIT + file LICENSE
 MD5sum: ce023e248d13215de9d750313bd3bdd2
 NeedsCompilation: no
 
+Package: AzureCosmosR
+Version: 0.0.1
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.3.3), curl, openssl, jsonlite, httr,
+        uuid, vctrs (>= 0.3.0)
+Suggests: AzureTableStor, mongolite, DBI, odbc, dplyr, testthat, knitr,
+        rmarkdown
+License: MIT + file LICENSE
+MD5sum: 61ac3a9fbfe6d81a272bd90229115598
+NeedsCompilation: no
+
 Package: AzureGraph
 Version: 0.1.0
 Depends: R (>= 3.3)
