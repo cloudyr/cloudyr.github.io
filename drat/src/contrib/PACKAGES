@@ -1989,7 +1989,7 @@ Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
         AzureGraph, AzureAuth (>= 1.0.1)
 Suggests: AzureStor, knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: ad366cbde74a7b8b7f9bcc0658e80ea4
+MD5sum: 6a51d7b0e3d0df9fe8d9232208f8a25a
 NeedsCompilation: no
 
 Package: AzureKeyVault
