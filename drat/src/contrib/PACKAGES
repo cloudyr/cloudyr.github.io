@@ -2633,6 +2633,16 @@ MD5sum: 815cbd6e1a6e6619856cd218fe84487c
 NeedsCompilation: no
 
 Package: AzureTableStor
+Version: 1.0.0.9000
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), jsonlite,
+        openssl, httr, uuid, vctrs (>= 0.3.0)
+Suggests: testthat, knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: ea5c6813a27961caa3b6e658f5b0c71a
+NeedsCompilation: no
+
+Package: AzureTableStor
 Version: 1.0.0
 Depends: R (>= 3.3)
 Imports: utils, AzureRMR (>= 2.0.0), AzureStor (>= 3.0.0), jsonlite,
