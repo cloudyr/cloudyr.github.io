@@ -3154,7 +3154,7 @@ Imports: AzureGraph (>= 1.1.2.9000), utils, curl, httr, jsonlite, R6,
         vctrs
 Suggests: openssl, knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 6619a400b86952c5b76fecf552e4ec25
+MD5sum: ec274df1bed012b5d6f0905a04058310
 NeedsCompilation: no
 
 Package: microworkers
