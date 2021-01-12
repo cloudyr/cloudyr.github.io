@@ -1564,7 +1564,7 @@ Depends: R (>= 3.3)
 Imports: AzureAuth (>= 1.2.0), AzureRMR, jsonlite, httr (>= 1.3),
 Suggests: knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 62ec1ee868aea372209525fe78489ade
+MD5sum: 8e826f7e01baf9ce616ee30f82f31be7
 NeedsCompilation: no
 
 Package: AzureCognitive
