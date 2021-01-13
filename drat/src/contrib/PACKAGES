@@ -3188,6 +3188,15 @@ License: MIT + file LICENSE
 MD5sum: ec274df1bed012b5d6f0905a04058310
 NeedsCompilation: no
 
+Package: Microsoft365R
+Version: 1.0.0
+Depends: R (>= 3.3)
+Imports: AzureGraph (>= 1.2.0), utils, curl, httr, jsonlite, R6, vctrs
+Suggests: openssl, knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 980776f9c44cb4ed450303d89f6f03e9
+NeedsCompilation: no
+
 Package: microworkers
 Version: 0.1.1
 Imports: httr, jsonlite
