@@ -1776,7 +1776,7 @@ Imports: utils, AzureRMR (>= 2.3.3), curl, openssl, jsonlite, httr,
 Suggests: AzureTableStor, mongolite, DBI, odbc, dplyr, testthat, knitr,
         rmarkdown
 License: MIT + file LICENSE
-MD5sum: abc4088276c6ebfd93440caccb07a619
+MD5sum: 7ee0b574886c49093cd5760f5ae4ca61
 NeedsCompilation: no
 
 Package: AzureGraph
