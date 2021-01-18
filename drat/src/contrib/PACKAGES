@@ -3204,7 +3204,7 @@ Depends: R (>= 3.3)
 Imports: AzureGraph (>= 1.2.0), utils, curl, httr, jsonlite, R6, vctrs
 Suggests: openssl, knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 9b9d695be26ecac027da36b9525d5808
+MD5sum: 14e9b75712a8e296d05b4a0d99a3b8e5
 NeedsCompilation: no
 
 Package: microworkers
