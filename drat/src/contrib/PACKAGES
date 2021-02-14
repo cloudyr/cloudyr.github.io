@@ -2688,9 +2688,9 @@ Version: 3.4.0
 Depends: R (>= 3.3),
 Imports: utils, R6, httr (>= 1.4.0), mime, openssl, xml2, AzureRMR (>=
         2.3.0)
-Suggests: readr, knitr, rmarkdown, jsonlite, testthat, processx
+Suggests: readr, knitr, rmarkdown, jsonlite, testthat, processx, uuid
 License: MIT + file LICENSE
-MD5sum: 5b262aaea3e58cfe88d49ae82153847c
+MD5sum: 1b368c463483ced4d2af0f41fc3851ad
 NeedsCompilation: no
 
 Package: AzureTableStor
