@@ -3272,10 +3272,10 @@ Package: Microsoft365R
 Version: 2.0.0
 Depends: R (>= 3.3)
 Imports: AzureAuth, AzureGraph (>= 1.2.1), utils, curl, httr, jsonlite,
-        R6, vctrs, uuid
+        R6, vctrs, mime
 Suggests: openssl, knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 48d33817b3ccec78d15de5eb11b21716
+MD5sum: 2374e977eb506c23fa8d1450ec054d9a
 NeedsCompilation: no
 
 Package: microworkers
