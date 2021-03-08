@@ -2708,9 +2708,10 @@ Version: 3.4.0.9000
 Depends: R (>= 3.3),
 Imports: utils, R6, httr (>= 1.4.0), mime, openssl, xml2, AzureRMR (>=
         2.3.0)
-Suggests: readr, knitr, rmarkdown, jsonlite, testthat, processx, uuid
+Suggests: AzureAuth, readr, knitr, rmarkdown, jsonlite, testthat,
+        processx, uuid
 License: MIT + file LICENSE
-MD5sum: 6b5719d590ba0b8295ec2f4fa3f3b38e
+MD5sum: 53864ad1b93b817b63b7c617b5cfb1cb
 NeedsCompilation: no
 
 Package: AzureStor
