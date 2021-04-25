@@ -2000,7 +2000,7 @@ Imports: AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, openssl,
         curl, R6
 Suggests: AzureRMR, vctrs, knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 6e63e76747fa341c3cbf14dcc282007a
+MD5sum: 15f16a335c27ce8f2f1b95d8c633f72c
 NeedsCompilation: no
 
 Package: AzureGraph
