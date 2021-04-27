@@ -2020,7 +2020,7 @@ Imports: AzureAuth (>= 1.0.1), utils, httr (>= 1.3), jsonlite, openssl,
         curl, R6
 Suggests: AzureRMR, vctrs, knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 907530834dab6fec6737e71102861a2a
+MD5sum: fe2e10fb2deb239a5196100873920e6c
 NeedsCompilation: no
 
 Package: AzureKeyVault
