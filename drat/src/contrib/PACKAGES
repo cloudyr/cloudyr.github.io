@@ -1531,7 +1531,7 @@ Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
 Suggests: knitr, rmarkdown, testthat, httpuv, shiny, shinyjs, AzureRMR,
         AzureGraph
 License: MIT + file LICENSE
-MD5sum: a067d7cdfd206787179cf494917a50c7
+MD5sum: 998439d9fe1be44063664c16873f8555
 NeedsCompilation: no
 
 Package: AzureAuth
