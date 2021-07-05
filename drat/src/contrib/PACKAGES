@@ -1783,7 +1783,7 @@ Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
 Suggests: knitr, rmarkdown, testthat, uuid, MASS, bcrypt, randomForest,
         plumber, RestRserve, AzureKeyVault
 License: MIT + file LICENSE
-MD5sum: 86f2ba565232fe4bb961d93f924c0066
+MD5sum: 28fa52e51d8961b54b8e095d8a242b69
 NeedsCompilation: no
 
 Package: AzureContainers
