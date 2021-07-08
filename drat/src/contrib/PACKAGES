@@ -1797,6 +1797,17 @@ License: MIT + file LICENSE
 MD5sum: ce023e248d13215de9d750313bd3bdd2
 NeedsCompilation: no
 
+Package: AzureContainers
+Version: 1.3.2
+Depends: R (>= 3.3)
+Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
+        httr, R6, processx
+Suggests: knitr, rmarkdown, testthat, uuid, MASS, bcrypt, randomForest,
+        plumber, RestRserve, AzureKeyVault
+License: MIT + file LICENSE
+MD5sum: 1bd8477b20544d9469d546c51896a517
+NeedsCompilation: no
+
 Package: AzureCosmosR
 Version: 0.0.1
 Depends: R (>= 3.3)
