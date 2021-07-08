@@ -1805,7 +1805,7 @@ Imports: utils, AzureRMR (>= 2.0.0), AzureGraph (>= 1.1.0), openssl,
 Suggests: knitr, rmarkdown, testthat, uuid, MASS, bcrypt, randomForest,
         plumber, RestRserve, AzureKeyVault
 License: MIT + file LICENSE
-MD5sum: 1bd8477b20544d9469d546c51896a517
+MD5sum: dc184f5a1207c6c3fb3aaa49802fbd44
 NeedsCompilation: no
 
 Package: AzureCosmosR
