@@ -2865,7 +2865,7 @@ Imports: utils, R6, httr (>= 1.4.0), mime, openssl, xml2, AzureRMR (>=
 Suggests: AzureAuth, readr, knitr, rmarkdown, jsonlite, testthat,
         processx, uuid
 License: MIT + file LICENSE
-MD5sum: 96537b94afb1cdc83c7aa297f590cdd0
+MD5sum: b68ae4be7b5c18e4e31cfbf1cf2e4d63
 NeedsCompilation: no
 
 Package: AzureStor
