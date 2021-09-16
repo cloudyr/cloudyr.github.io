@@ -2164,6 +2164,16 @@ License: MIT + file LICENSE
 MD5sum: b763b902870ea3da7eea0862ba642b81
 NeedsCompilation: no
 
+Package: AzureKeyVault
+Version: 1.0.5
+Depends: R (>= 3.3),
+Imports: utils, R6, httr, jsonlite, openssl, jose, AzureRMR,
+        AzureGraph, AzureAuth (>= 1.0.1)
+Suggests: AzureStor, knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: a803714aadf6366b273d2a7cb541fa6f
+NeedsCompilation: no
+
 Package: AzureKusto
 Version: 0.0.1
 Depends: R (>= 3.3)
