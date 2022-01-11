@@ -3688,7 +3688,7 @@ Imports: AzureAuth, AzureGraph (>= 1.3.1), utils, curl, httr, jsonlite,
         R6, vctrs, mime
 Suggests: openssl, knitr, rmarkdown, testthat, blastula, emayili
 License: MIT + file LICENSE
-MD5sum: c5a01fa506ccf3aee14188a53c77682a
+MD5sum: bd066eb9d563f37390af9112690138fd
 NeedsCompilation: no
 
 Package: Microsoft365R
