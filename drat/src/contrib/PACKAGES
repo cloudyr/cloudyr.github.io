@@ -3013,7 +3013,7 @@ Imports: utils, R6, httr (>= 1.4.0), mime, openssl, xml2, vctrs,
 Suggests: AzureAuth, readr, knitr, rmarkdown, jsonlite, testthat,
         processx, uuid
 License: MIT + file LICENSE
-MD5sum: ab900913af5649546a2e1807f0129314
+MD5sum: 25d062d57bc3b7505ce7001b82425ae1
 NeedsCompilation: no
 
 Package: AzureStor
