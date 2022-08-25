@@ -2286,7 +2286,7 @@ Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
 Suggests: bit64, knitr, testthat, tidyr, AzureGraph, AzureStor (>=
         2.0.0), rmarkdown
 License: MIT + file LICENSE
-MD5sum: c6e231a5e86065e671c772ed6c5ffc50
+MD5sum: 767015cc077c5478a2543c33954130b6
 NeedsCompilation: no
 
 Package: AzureKusto
