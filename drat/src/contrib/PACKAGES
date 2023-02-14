@@ -2341,12 +2341,12 @@ Package: AzureKusto
 Version: 1.1.1.9000
 Depends: R (>= 3.3)
 Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
-        AzureAuth, AzureRMR (>= 2.0.0), tibble, dplyr, tidyselect (>=
-        0.2.4), DBI (>= 1.0.0)
-Suggests: bit64, knitr, testthat, tidyr, AzureGraph, AzureStor (>=
-        2.0.0), rmarkdown
+        AzureAuth, AzureRMR (>= 2.0.0), tibble, dplyr, tidyr,
+        tidyselect (>= 0.2.4), DBI (>= 1.0.0)
+Suggests: bit64, knitr, testthat, AzureGraph, AzureStor (>= 2.0.0),
+        rmarkdown
 License: MIT + file LICENSE
-MD5sum: 2d71374cc55123404d890865a1a4a179
+MD5sum: 384318bf24f0b35c016513082f04432f
 NeedsCompilation: no
 
 Package: AzureKusto
