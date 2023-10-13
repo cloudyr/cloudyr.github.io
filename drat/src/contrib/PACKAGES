@@ -2414,7 +2414,7 @@ Imports: rlang, methods, utils, httr (>= 1.3), jsonlite, R6, openssl,
 Suggests: bit64, knitr, testthat, AzureGraph, AzureStor (>= 2.0.0),
         rmarkdown
 License: MIT + file LICENSE
-MD5sum: 5816e7b5ac207286c76caa15a043818e
+MD5sum: fb5b22fe04496e8f2ac2a5dd488a5428
 NeedsCompilation: no
 
 Package: AzureQstor
