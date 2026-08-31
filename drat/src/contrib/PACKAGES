@@ -3251,6 +3251,17 @@ License: MIT + file LICENSE
 MD5sum: bb6e5656e05eeccd08bb2e087828d591
 NeedsCompilation: no
 
+Package: AzureStor
+Version: 3.7.1
+Depends: R (>= 3.3),
+Imports: utils, R6, httr (>= 1.4.0), mime, openssl, xml2, vctrs,
+        AzureRMR (>= 2.3.0)
+Suggests: AzureAuth, readr, knitr, rmarkdown, jsonlite, testthat,
+        processx, uuid
+License: MIT + file LICENSE
+MD5sum: f9bc8ff76eb6af853d7a68c18222cd01
+NeedsCompilation: no
+
 Package: AzureTableStor
 Version: 0.0.1
 Depends: R (>= 3.3)
