@@ -1591,7 +1591,7 @@ Imports: utils, httr (>= 1.3), openssl, jsonlite, jose, R6, rappdirs
 Suggests: knitr, rmarkdown, testthat, httpuv, shiny, shinyjs, AzureRMR,
         AzureGraph
 License: MIT + file LICENSE
-MD5sum: d28a87cde8c334e78484d0e523e4d807
+MD5sum: 04252020cabaf14be5932117826341a8
 NeedsCompilation: no
 
 Package: AzureCognitive
