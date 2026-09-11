@@ -4026,7 +4026,7 @@ Imports: AzureAuth, AzureGraph (>= 1.3.1), utils, parallel, tools,
 Suggests: openssl, knitr, rmarkdown, testthat, blastula, emayili,
         readr, readxl, haven
 License: MIT + file LICENSE
-MD5sum: 3dc55003ca4197cc8d3e29ec8b5a3266
+MD5sum: 93d076634631d41c5efdbe352980de55
 NeedsCompilation: no
 
 Package: Microsoft365R
