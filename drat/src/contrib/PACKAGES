@@ -3300,7 +3300,7 @@ Imports: utils, R6, httr (>= 1.4.0), mime, openssl, xml2, vctrs,
 Suggests: AzureAuth, readr, knitr, rmarkdown, jsonlite, testthat,
         processx, uuid
 License: MIT + file LICENSE
-MD5sum: 962e5b2241e24b77c867a270ae5df94e
+MD5sum: 617c39d571aec943c4c4e8e5c4c24f82
 NeedsCompilation: no
 
 Package: AzureTableStor
